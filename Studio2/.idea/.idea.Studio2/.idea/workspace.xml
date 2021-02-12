@@ -10,9 +10,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/HoverUIDialogueButton.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/ClickToMove.cs" />
+      <option value="$PROJECT_DIR$/Assets/HoverUIDialogueButton.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oGpszqs8gJwgBYnJ0hRq5O7emK" />
@@ -58,7 +62,7 @@
       <updated>1612922995520</updated>
       <workItem from="1612922997535" duration="3000" />
       <workItem from="1612933496419" duration="61000" />
-      <workItem from="1612933573534" duration="1889000" />
+      <workItem from="1612933573534" duration="3977000" />
     </task>
     <servers />
   </component>

@@ -31,10 +31,10 @@ public class ClickToMove : MonoBehaviour
         }
 
         player.transform.position =
-            Vector2.Lerp(
+            Vector2.MoveTowards(
                 player.transform.position, 
                 hitcheck.transform.position, 
-                0.5f * Time.deltaTime);
+                1f * Time.deltaTime);
 
     }
 }
