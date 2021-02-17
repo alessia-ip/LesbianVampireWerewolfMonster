@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b247ed-6865-4c34-8129-e67a317df8cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ClickToMoveSample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ClickToMoveSample.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pathfinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pathfinding.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,8 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/ClickToMove.cs" />
       <option value="$PROJECT_DIR$/Assets/HoverUIDialogueButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/testing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Pathfinding.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oGpszqs8gJwgBYnJ0hRq5O7emK" />
@@ -70,7 +70,7 @@
       <workItem from="1612933496419" duration="61000" />
       <workItem from="1612933573534" duration="3977000" />
       <workItem from="1613140749395" duration="731000" />
-      <workItem from="1613534781745" duration="635000" />
+      <workItem from="1613534781745" duration="3100000" />
     </task>
     <servers />
   </component>
