@@ -15,6 +15,7 @@
           <e p="HideTilemapColliderOnPlay.cs" t="Include" />
           <e p="IsometricCharacterRenderer.cs" t="Include" />
           <e p="IsometricPlayerMovementController.cs" t="Include" />
+          <e p="NodeCollision.cs" t="Include" />
           <e p="Pathfinding.cs" t="Include" />
           <e p="PathNode.cs" t="Include" />
           <e p="testing.cs" t="Include" />
