@@ -11,39 +11,45 @@ public class testing : MonoBehaviour
     public GameObject player;
     private List<PathNode> path;
     private int pathNum;
+    public LayerMask layerMask;
     
     
 
 
-    private void Start()
+    public void MapWalk()
     {
         pathfinding = new Pathfinding(80, 60);
         mouse = GetComponent<GetMouseWorld>();
         var grid = pathfinding.GetGrid();
-        for (var h = 0; h < grid.GetHeight(); h++)
+        for (var y = 0; y < grid.GetHeight(); y++)
         {
-            Debug.Log(grid.GetHeight());
-            for (var w = 0; w < grid.GetWidth(); w ++)
+            //Debug.Log(grid.GetHeight());
+            for (var x = 0; x < grid.GetWidth(); x ++)
             {
                 //var grid = pathfinding.GetGrid();
-                int x = 0;
-                int y = 0;
-                grid.GetXY(new Vector3(w/3f, h/3f), out x, out y);
-                var nodeCheck = pathfinding.GetNode(x, y);
-                Vector3 positionCheck = grid.GetWorldPosition(nodeCheck.x, nodeCheck.y);
-                GameObject trigger = new GameObject("check" + w + h);
-                trigger.transform.localScale = new Vector3(.33f, .33f, .33f);
-                trigger.transform.position = positionCheck;
-                trigger.AddComponent<CircleCollider2D>();
-                trigger.AddComponent<Rigidbody2D>();
-                trigger.AddComponent<NodeCollision>();
+                Vector2 worldPosition = grid.GetWorldPosition(x, y);
+                if (Physics2D.OverlapPoint(worldPosition, layerMask))
+                {
+                    //GameObject trigger = new GameObject("check" + worldPosition.x + worldPosition.y);
+                    //trigger.transform.localScale = new Vector3(.33f, .33f, .33f);
+                    pathfinding.GetNode(x, y).SetIsWalkable(false);
+                    //trigger.AddComponent<CircleCollider2D>();
+                    //trigger.AddComponent<Rigidbody2D>();
+                    //trigger.AddComponent<NodeCollision>();
+                }
+                
                 //Destroy(trigger);
                 //pathfinding.GetNode(x, y).SetIsWalkable(!pathfinding.GetNode(x, y).isWalkable);
             }
         }
         
     }
-    
+
+    private void Start()
+    {
+        MapWalk();
+    }
+
     private void Update()
     {
         var grid = pathfinding.GetGrid();
@@ -93,6 +99,9 @@ public class testing : MonoBehaviour
         int x;
         int y;
         pathfinding.GetGrid().GetXY(nodeObj, out x, out y);
+        if(x< 0 || x >= pathfinding.GetGrid().GetWidth()){return;}
+        if(y < 0 || y >= pathfinding.GetGrid().GetHeight()){return;}
+        //Debug.Log(x + "," + y);
         pathfinding.GetNode(x, y).SetIsWalkable(false);
         //!pathfinding.Getnode(x,y).IsWalkable
         //Destroy(nodeObj);
