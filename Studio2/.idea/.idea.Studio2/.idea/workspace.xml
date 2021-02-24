@@ -4,8 +4,7 @@
     <list default="true" id="82b247ed-6865-4c34-8129-e67a317df8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ContextCursorScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ContextCursorScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/testing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/testing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ClickToMoveSample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ClickToMoveSample.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +15,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/EndDialogue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoverUIDialogueButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TalkToMe.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickupItem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -33,6 +35,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ClickToMove.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/testing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameObjectContextSelector.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PickupItem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TalkToMe.cs" />
+      <option value="$PROJECT_DIR$/Assets/EndDialogue.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oGpszqs8gJwgBYnJ0hRq5O7emK" />
@@ -94,7 +99,7 @@
       <workItem from="1613745709292" duration="2278000" />
       <workItem from="1613753313521" duration="1549000" />
       <workItem from="1613885684581" duration="5303000" />
-      <workItem from="1614136964482" duration="1318000" />
+      <workItem from="1614136964482" duration="3570000" />
     </task>
     <servers />
   </component>

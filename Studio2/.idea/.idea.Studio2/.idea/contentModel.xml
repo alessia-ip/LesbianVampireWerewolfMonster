@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="ContextCursorScript.cs" t="Include" />
+        <e p="EndDialogue.cs" t="Include" />
         <e p="HoverUIDialogueButton.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="BasicCameraFollow.cs" t="Include" />
@@ -25,6 +26,8 @@
           <e p="NodeCollision.cs" t="Include" />
           <e p="Pathfinding.cs" t="Include" />
           <e p="PathNode.cs" t="Include" />
+          <e p="PickupItem.cs" t="Include" />
+          <e p="TalkToMe.cs" t="Include" />
           <e p="testing.cs" t="Include" />
         </e>
         <e p="Shaders" t="Include">
