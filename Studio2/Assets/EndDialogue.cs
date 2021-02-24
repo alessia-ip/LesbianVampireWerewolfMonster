@@ -10,7 +10,7 @@ public class EndDialogue : MonoBehaviour
 
     public void CloseTheUI()
     {
-        movementScript.SetActive(false);
+        movementScript.SetActive(true);
         ContextCursorScript.instance.Walk();
         this.gameObject.SetActive(false);
     }

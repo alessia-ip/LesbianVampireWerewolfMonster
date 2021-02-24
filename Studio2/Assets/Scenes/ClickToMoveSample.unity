@@ -7346,7 +7346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 270c7862a7ddf844eb3b00d0a1c155ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementScript: {fileID: 443091402}
+  movementScript: {fileID: 433488342}
 --- !u!1 &626628959
 GameObject:
   m_ObjectHideFlags: 0
