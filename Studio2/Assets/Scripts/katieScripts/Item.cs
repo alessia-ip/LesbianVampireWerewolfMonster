@@ -5,16 +5,15 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    public Inventory inventory;
     public enum ItemType
     {
-        Cigar, Book, Paper, Random
+        Cigar, Book, Paper, Nothing
     }
 
-    public ItemType itemType = ItemType.Random;
+    public ItemType itemType = ItemType.Nothing;
     public void SendToInv()
     {
-        inventory.AddItem(gameObject.GetComponent<Item>());
+        Inventory.instance.AddItem(gameObject.GetComponent<Item>());
     }
 
     private void OnMouseDown()
