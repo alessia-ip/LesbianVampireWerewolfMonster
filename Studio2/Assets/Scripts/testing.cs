@@ -13,7 +13,7 @@ public class testing : MonoBehaviour
     private int pathNum;
     public LayerMask layerMask;
     
-    
+    //TODO if the player clicks on a not walkable space, select the closest walkable node instead
 
 
     public void MapWalk()

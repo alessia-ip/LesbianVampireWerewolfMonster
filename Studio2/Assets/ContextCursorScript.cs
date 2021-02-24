@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class ContextCursorScript : MonoBehaviour
 {
+    public static ContextCursorScript instance;
     
     public Texture2D walkCursor;
     public Texture2D talkCursor;
@@ -14,6 +15,20 @@ public class ContextCursorScript : MonoBehaviour
 
     public CursorMode cursorMode = CursorMode.Auto;
     public Vector2 hotSpot = Vector2.zero;
+
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+    }
 
     private void Start()
     {
