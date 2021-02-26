@@ -6,6 +6,7 @@
     <e p="C:\Users\Alessia\Desktop\IsometricVamps\LesbianVampireWerewolfMonster\Studio2" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CanvasDialogueHandler.cs" t="Include" />
         <e p="ContextCursorScript.cs" t="Include" />
         <e p="EndDialogue.cs" t="Include" />
         <e p="HoverUIDialogueButton.cs" t="Include" />

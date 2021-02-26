@@ -4,6 +4,11 @@
     <list default="true" id="82b247ed-6865-4c34-8129-e67a317df8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/HVD_Bodedo SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/HVD_Bodedo SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/RomanAntique SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/RomanAntique SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AlessiaScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AlessiaScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +46,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvButton.cs" />
       <option value="$PROJECT_DIR$/Assets/EndDialogue.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" />
+      <option value="$PROJECT_DIR$/Assets/CanvasDialogueHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Test.txt" />
     </changedPaths>
   </component>
