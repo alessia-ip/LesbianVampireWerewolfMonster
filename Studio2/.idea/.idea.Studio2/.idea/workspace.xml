@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b247ed-6865-4c34-8129-e67a317df8cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/EndDialogue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EndDialogue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/HoverUIDialogueButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TalkToMe.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickupItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -38,6 +40,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/Inventory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvButton.cs" />
       <option value="$PROJECT_DIR$/Assets/EndDialogue.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" />
+      <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Test.txt" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oGpszqs8gJwgBYnJ0hRq5O7emK" />

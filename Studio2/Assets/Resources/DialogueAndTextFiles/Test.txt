@@ -1,0 +1,5 @@
+***DIALOGUE TEST***
+1:MC:I am a piece of dialogue.:Happy:Reply one|Reply two|Reply three
+2:Mx Paws:Other character.:Happy
+3:MC:More Text:Happy:Reply one|Reply two
+4:Mx Paws:Meow.:Happy

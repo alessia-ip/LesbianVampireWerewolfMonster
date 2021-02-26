@@ -9,9 +9,15 @@
         <e p="ContextCursorScript.cs" t="Include" />
         <e p="EndDialogue.cs" t="Include" />
         <e p="HoverUIDialogueButton.cs" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="DialogueAndTextFiles" t="Include">
+            <e p="Test.txt" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="BasicCameraFollow.cs" t="Include" />
           <e p="ClickToMove.cs" t="Include" />
+          <e p="DialogueParser.cs" t="Include" />
           <e p="GameObjectContextSelector.cs" t="Include" />
           <e p="GetMouseWorld.cs" t="Include" />
           <e p="Grid.cs" t="Include" />
