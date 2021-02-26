@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PointAndClickSmall.unity
+    guid: a9f4f3c175506a646a66ad5a1b804405
+  - enabled: 1
+    path: Assets/Scenes/ClickToMoveSample.unity
+    guid: 777c329db75edf443b6762e45921c1ff
   m_configObjects: {}

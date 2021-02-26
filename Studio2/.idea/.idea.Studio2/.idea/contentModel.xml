@@ -15,6 +15,7 @@
             <e p="Test.txt" t="Include" />
           </e>
         </e>
+        <e p="SceneChanger.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="BasicCameraFollow.cs" t="Include" />
           <e p="ClickToMove.cs" t="Include" />
