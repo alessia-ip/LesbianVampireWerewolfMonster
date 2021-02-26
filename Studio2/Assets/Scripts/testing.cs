@@ -82,7 +82,7 @@ public class testing : MonoBehaviour
                     Vector3.MoveTowards(
                         player.transform.position,
                         nextNodepos,
-                        1f * Time.deltaTime);
+                        1f * Time.deltaTime * 2.5f);
                 if (player.transform.position == nextNodepos && pathNum != path.Count - 1)
                 {
                     pathNum++;
