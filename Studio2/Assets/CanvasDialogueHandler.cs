@@ -31,6 +31,11 @@ public class CanvasDialogueHandler : MonoBehaviour
     
     public int startLine;
     public int endLine;
+
+    public GameObject MC;
+    public GameObject thisChar;
+
+    private bool playerCloseEnough = false;
     
     // Start is called before the first frame update
     void Start()
@@ -48,13 +53,18 @@ public class CanvasDialogueHandler : MonoBehaviour
             ContextCursorScript.instance.Talk();
 
         }*/
-        
-        dialogueCanvas.SetActive(true);
-        nextLine();
+
+        if (playerCloseEnough == true)
+        {
+            dialogueCanvas.SetActive(true);
+            nextLine();
+        }
+
     }
 
+    //TODO MAKE THIS WORK WITH THE PLAYER BEING CLOSE BEFORE TALKING
 
-    /*private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         var player = other.gameObject.tag;
         if (player == playerTag)
@@ -71,7 +81,7 @@ public class CanvasDialogueHandler : MonoBehaviour
         {
             playerCloseEnough = false;
         }
-    }*/
+    }
 
     void nextLine()
     {
@@ -79,9 +89,6 @@ public class CanvasDialogueHandler : MonoBehaviour
         {
             currentLine = startLine;
             dialogueCanvas.SetActive(false);
-
-
-
         }
         else
         {
@@ -136,6 +143,17 @@ public class CanvasDialogueHandler : MonoBehaviour
                 buttonTwo.gameObject.SetActive(false);
                 buttonThree.gameObject.SetActive(false);
                 
+            }
+
+            if (_dialogueParser._dialogueInstances[currentLine].character == "MC")
+            {
+                MC.SetActive(true);
+                thisChar.SetActive(false);
+            }
+            else
+            {
+                MC.SetActive(false);
+                thisChar.SetActive(true);
             }
             
             //REPLIES
