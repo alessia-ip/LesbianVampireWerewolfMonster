@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="82b247ed-6865-4c34-8129-e67a317df8cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/testing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/testing.cs" afterDir="false" />
-    </list>
-=======
     <list default="true" id="82b247ed-6865-4c34-8129-e67a317df8cf" name="Default Changelist" comment="" />
->>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,16 +10,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
-<<<<<<< Updated upstream
     <setting file="file://$PROJECT_DIR$/Assets/EndDialogue.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SceneChanger.cs" root0="FORCE_HIGHLIGHTING" />
-=======
->>>>>>> Stashed changes
-    <setting file="file://$PROJECT_DIR$/Assets/HoverUIDialogueButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TalkToMe.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EndDialogue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickupItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HoverUIDialogueButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -44,16 +42,15 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/Item.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvOpenClose.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/Inventory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvButton.cs" />
       <option value="$PROJECT_DIR$/Assets/EndDialogue.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" />
       <option value="$PROJECT_DIR$/Assets/CanvasDialogueHandler.cs" />
-      <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Test.txt" />
-<<<<<<< Updated upstream
       <option value="$PROJECT_DIR$/Assets/SceneChanger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/testing.cs" />
-=======
-      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvButton.cs" />
->>>>>>> Stashed changes
+      <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Test.txt" />
+      <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/CigarLounge.txt" />
+      <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Library.txt" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oGpszqs8gJwgBYnJ0hRq5O7emK" />
@@ -118,8 +115,11 @@
       <workItem from="1614136964482" duration="3570000" />
       <workItem from="1614144457166" duration="3371000" />
       <workItem from="1614148393646" duration="1803000" />
-      <workItem from="1614183644489" duration="821000" />
-      <workItem from="1614357739838" duration="1253000" />
+      <workItem from="1614542656465" duration="873000" />
+      <workItem from="1614628818048" duration="2182000" />
+      <workItem from="1614631019525" duration="257000" />
+      <workItem from="1614734179292" duration="2848000" />
+      <workItem from="1614737736854" duration="79000" />
     </task>
     <servers />
   </component>

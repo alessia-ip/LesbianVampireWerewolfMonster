@@ -1,0 +1,49 @@
+***LineNum:CharacterName:Dialogue.:SpriteFace:Replies|Replies2***
+***DIALOGUE TEST:CIGAR LOUNGE***
+0:MC:May I?:Serious
+1:Guard:Passphrase.:Serious
+2:MC:...what?:Confused
+3:Guard:The passphrase.:Serious
+4:MC:I don't know it.:Serious
+5:Guard:Sounds like a personal problem, bounty hunter.:Serious
+6:MC:How charming.:Irritated
+***
+0:MC:"God Save The Queen.":Silly
+1:Guard:Not even close.:Irritated
+2:MC:Yeah, but it was worth a shot.:Silly
+***
+0:GUARD:Passphrase.:Serious
+1:MC:"Me. You. Steak Dinner.":Flirty
+2:GUARD:Cute.:Flirty
+3:MC:Was that a yes?:Flirty
+4:GUARD:Sure, let me just check with my wife.:Serious
+5:MC:Ah, pity.:Silly
+***
+0:MC:Ready.:Serious
+1:Guard:Passphrase.:Serious
+2:MC:"Open Sesame.":Silly
+3:Guard:...:Blank
+4:MC:...:Blank
+5:Guard:...:Blank
+6:MC:...I'll be back.:Silly
+***
+0:MC:I've got it this time.:Tired
+1:Guard:Passphrase.:Serious
+2:MC:"You're an ass.":Serious
+3:Guard:Looking for a fight, are we?:Irritated
+4:MC:You'd do me the honor?!:Shocked
+5:Guard:...no.:Serious
+6:MC:Figures.:Flirty
+***
+0:Guard: Passphrase.:Serious
+1:MC:I'm working on it.:Irritated
+***
+0:Guard:Passphrase.:Serious
+1:MC:"Passphrase.":Tired
+2:Guard:...:Shocked
+3:MC:...:Blank
+4:Guard:...:Blank
+5:MC:...please.:Tired
+6:Guard:You may pass, bounty hunter.:Serious
+7:MC:Music to my fucking ears.:Irritated
+***END***

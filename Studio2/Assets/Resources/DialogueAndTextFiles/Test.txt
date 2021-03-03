@@ -1,8 +1,0 @@
-***LineNum:CharacterName:Dialogue.:SpriteFace:Replies|Replies2***
-***DIALOGUE TEST***
-0:MC:I am a piece of dialogue.:Happy:Reply one|Reply two|Reply three
-1:Mx Paws:Other character.:Happy
-2:MC:More Text:Happy:Reply one|Reply two
-3:Mx Paws:Meow.:Happy
-***END***
-4:beep-beep:Hello. I am beep boop.:sleepy

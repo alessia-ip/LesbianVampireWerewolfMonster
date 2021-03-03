@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Kaitlin Walker\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Kaitlin Walker\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Studio2.-1623822897.00" t="ExcludeRecursive" />
-    <e p="E:\spring2021\Studio2\Studio02Game\Studio2" t="IncludeRecursive">
+    <e p="C:\Users\guisa\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\guisa\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Studio2.1319873526.00" t="ExcludeRecursive" />
+    <e p="C:\Users\guisa\Documents\LesbianVampireGame\Studio2" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="CanvasDialogueHandler.cs" t="Include" />
@@ -12,7 +12,8 @@
         <e p="HoverUIDialogueButton.cs" t="Include" />
         <e p="Resources" t="Include">
           <e p="DialogueAndTextFiles" t="Include">
-            <e p="Test.txt" t="Include" />
+            <e p="CigarLounge.txt" t="Include" />
+            <e p="Library.txt" t="Include" />
           </e>
         </e>
         <e p="SceneChanger.cs" t="Include" />
@@ -31,7 +32,6 @@
             <e p="Inventory.cs" t="Include" />
             <e p="InvOpenClose.cs" t="Include" />
             <e p="Item.cs" t="Include" />
-            <e p="testStuff.cs" t="Include" />
           </e>
           <e p="NodeCollision.cs" t="Include" />
           <e p="Pathfinding.cs" t="Include" />
