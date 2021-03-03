@@ -11,48 +11,25 @@ public class InvButton : MonoBehaviour
         Cigar, Book, Paper, Nothing
     }
     public ItemType itemType = ItemType.Nothing;
-
-    public bool holdButton = false;
-    public Text buttonText;
-
-    private void Start()
-    {
-        if (holdButton)
-        {
-            buttonText.text = "HOLD";
-        }
-        else
-        {
-            buttonText.text = "Nothing";
-        }
-
-    }
-
+    
     public void SlotClick()
     {
         switch (itemType)
         {
             case ItemType.Cigar:
-                Inventory.instance.tempHold = "Cigar";
-                Debug.Log("cigar");
+                Inventory.instance.HeldItem = "Cigar";
                 break;
             case ItemType.Book:
-                Inventory.instance.tempHold = "Book";
-                Debug.Log("book");
+                Inventory.instance.HeldItem = "Book";
                 break;
             case ItemType.Paper:
-                Inventory.instance.tempHold = "Paper";
-                Debug.Log("paper");
+                Inventory.instance.HeldItem = "Paper";
                 break;
             case ItemType.Nothing:
-                Inventory.instance.tempHold = "Nothing";
-                Debug.Log("nothing");
+                Inventory.instance.HeldItem = "Nothing";
                 break;
         }
-    }
 
-    public void HoldButton()
-    {
-        Inventory.instance.HeldItem = Inventory.instance.tempHold;
+        Inventory.instance.heldImage.sprite = this.GetComponentInParent<Image>().sprite;
     }
 }

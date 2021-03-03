@@ -8,15 +8,14 @@ public class Inventory : MonoBehaviour
 {
     public static Inventory instance;
     public  List<Item> invList;
-    public List<InvButton> invSlotList;
+    public List<GameObject> invSlotList;
 
     [Header("Item Sprites")]
     public Sprite cigarSprite;
     public Sprite bookSprite;
     public Sprite paperSprite;
-    //public Sprite randomSprite;
 
-    public string tempHold;
+    public Image heldImage;
     private string heldItem;
     public string HeldItem
     {
@@ -24,7 +23,7 @@ public class Inventory : MonoBehaviour
         set
         {
             heldItem = value; 
-            Debug.Log("Holding: " + heldItem);
+            
         }
     }
 
@@ -34,18 +33,9 @@ public class Inventory : MonoBehaviour
         invList = new List<Item>();
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            Debug.Log(invList.Count);
-        }
-    }
-
     public void AddItem(Item item)
     {
         invList.Add(item);
-        Debug.Log(item.itemType);
         SetInvImage();
     }
 
@@ -55,24 +45,20 @@ public class Inventory : MonoBehaviour
         switch (invList[i].itemType)
         {
             case Item.ItemType.Book:
-                invSlotList[i].itemType = InvButton.ItemType.Book;
-                invSlotList[i].buttonText.text = "Book";
-                Debug.Log("book");
+                invSlotList[i].GetComponent<InvButton>().itemType = InvButton.ItemType.Book;
+                invSlotList[i].GetComponent<Image>().sprite = bookSprite;
                 break;
             case Item.ItemType.Cigar:
-                invSlotList[i].itemType = InvButton.ItemType.Cigar;
-                invSlotList[i].buttonText.text = "Cigar";
-                Debug.Log("cigar");
+                invSlotList[i].GetComponent<InvButton>().itemType = InvButton.ItemType.Cigar;
+                invSlotList[i].GetComponent<Image>().sprite = cigarSprite;
                 break;
             case Item.ItemType.Paper:
-                invSlotList[i].itemType = InvButton.ItemType.Paper;
-                invSlotList[i].buttonText.text = "Paper";
-                Debug.Log("paper");
+                invSlotList[i].GetComponent<InvButton>().itemType = InvButton.ItemType.Paper;
+                invSlotList[i].GetComponent<Image>().sprite = paperSprite;
                 break;
             case Item.ItemType.Nothing:
-                invSlotList[i].itemType = InvButton.ItemType.Nothing;
-                invSlotList[i].buttonText.text = "Nothing";
-                Debug.Log("random");
+                invSlotList[i].GetComponent<InvButton>().itemType = InvButton.ItemType.Nothing;
+                invSlotList[i].GetComponent<Image>().sprite = null;
                 break;
         }
     }

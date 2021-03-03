@@ -59,10 +59,15 @@ public class CanvasDialogueHandler : MonoBehaviour
             dialogueCanvas.SetActive(true);
             nextLine();
         }
+        else //reset it!
+        {
+            dialogueCanvas.SetActive(false);
+            currentLine = startLine;
+        }
+        
 
     }
 
-    //TODO MAKE THIS WORK WITH THE PLAYER BEING CLOSE BEFORE TALKING
 
     private void OnTriggerEnter2D(Collider2D other)
     {
