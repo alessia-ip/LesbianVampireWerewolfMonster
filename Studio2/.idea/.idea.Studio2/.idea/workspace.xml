@@ -19,13 +19,12 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/EndDialogue.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SceneChanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HoverUIDialogueButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TalkToMe.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EndDialogue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickupItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SceneChanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/katieScripts/testStuff.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -41,7 +40,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/PickupItem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TalkToMe.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/GameManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/Item.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvOpenClose.cs" />
       <option value="$PROJECT_DIR$/Assets/EndDialogue.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" />
@@ -51,9 +49,11 @@
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Library.txt" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/CigarLounge.txt" />
       <option value="$PROJECT_DIR$/Assets/CanvasDialogueHandler.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/testStuff.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/Inventory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/Item.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/testStuff.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvHover.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oGpszqs8gJwgBYnJ0hRq5O7emK" />
@@ -123,6 +123,8 @@
       <workItem from="1614631019525" duration="257000" />
       <workItem from="1614734179292" duration="2848000" />
       <workItem from="1614737736854" duration="79000" />
+      <workItem from="1614786093333" duration="202000" />
+      <workItem from="1614786345625" duration="138000" />
     </task>
     <servers />
   </component>

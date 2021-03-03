@@ -732,7 +732,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 205065505}
-          m_MethodName: TestEnter
+          m_MethodName: HoverEnter
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -747,7 +747,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 205065505}
-          m_MethodName: TestExit
+          m_MethodName: HoverExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -892,7 +892,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 208676271}
-          m_MethodName: TestEnter
+          m_MethodName: HoverEnter
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -907,7 +907,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 208676271}
-          m_MethodName: TestExit
+          m_MethodName: HoverExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1277,7 +1277,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 433277311}
-          m_MethodName: TestEnter
+          m_MethodName: HoverEnter
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1292,7 +1292,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 433277311}
-          m_MethodName: TestExit
+          m_MethodName: HoverExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1940,7 +1940,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 630205244}
-          m_MethodName: TestEnter
+          m_MethodName: HoverEnter
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1955,7 +1955,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 630205244}
-          m_MethodName: TestExit
+          m_MethodName: HoverExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3545,7 +3545,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1094332058}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.53, y: 2.18, z: 0}
+  m_LocalPosition: {x: 6.72, y: 0.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3689,7 +3689,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1157389542}
-          m_MethodName: TestEnter
+          m_MethodName: HoverEnter
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3704,7 +3704,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1157389542}
-          m_MethodName: TestExit
+          m_MethodName: HoverExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3836,15 +3836,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   invList: []
   invSlotList:
-  - {fileID: 609041822}
-  - {fileID: 71912687}
-  - {fileID: 1094332058}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 205065502}
+  - {fileID: 1157389539}
+  - {fileID: 1684450665}
+  - {fileID: 2024107453}
+  - {fileID: 1641910425}
   cigarSprite: {fileID: 21300000, guid: 90754439e2f729a409650f7af54100b7, type: 3}
   bookSprite: {fileID: 21300000, guid: fd6a93c7d841222429494ea5d36c6efc, type: 3}
   paperSprite: {fileID: 21300000, guid: 0de670f3c47af4b409d260653a903ed2, type: 3}
-  heldImage: {fileID: 0}
+  heldImage: {fileID: 1072276374}
 --- !u!1 &1220061452
 GameObject:
   m_ObjectHideFlags: 0
@@ -4048,7 +4048,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1251688634}
-          m_MethodName: TestEnter
+          m_MethodName: HoverEnter
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -4063,7 +4063,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1251688634}
-          m_MethodName: TestExit
+          m_MethodName: HoverExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -5101,7 +5101,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1641910428}
-          m_MethodName: TestEnter
+          m_MethodName: HoverEnter
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -5116,7 +5116,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1641910428}
-          m_MethodName: TestExit
+          m_MethodName: HoverExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -5334,7 +5334,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1684450668}
-          m_MethodName: TestEnter
+          m_MethodName: HoverEnter
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -5349,7 +5349,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1684450668}
-          m_MethodName: TestExit
+          m_MethodName: HoverExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -6337,7 +6337,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 2024107456}
-          m_MethodName: TestEnter
+          m_MethodName: HoverEnter
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -6352,7 +6352,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 2024107456}
-          m_MethodName: TestExit
+          m_MethodName: HoverExit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

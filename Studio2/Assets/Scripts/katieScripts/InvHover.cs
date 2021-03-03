@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class testStuff : MonoBehaviour
+public class InvHover : MonoBehaviour
 {
     Button holdButton;
     Button combineButton;
@@ -17,7 +17,7 @@ public class testStuff : MonoBehaviour
         combineButton = this.gameObject.transform.GetChild(1).GetComponent<Button>();
     }
 
-    public void TestEnter()
+    public void HoverEnter()
     {
         if (testInvType.itemType != InvButton.ItemType.Nothing)
         {
@@ -27,7 +27,7 @@ public class testStuff : MonoBehaviour
 
     }
 
-    public void TestExit()
+    public void HoverExit()
     {
         holdButton.gameObject.SetActive(false);
         combineButton.gameObject.SetActive(false);
