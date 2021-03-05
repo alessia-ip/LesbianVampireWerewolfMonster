@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -44,6 +45,16 @@ public class CanvasDialogueHandler : MonoBehaviour
         currentLine = startLine;
     }
 
+
+    private void Update()
+    {
+        if (!playerCloseEnough)
+        {
+            dialogueCanvas.SetActive(false);
+            currentLine = startLine;
+        }
+    }
+
     private void OnMouseDown()
     {
         /*if (playerCloseEnough == true)
@@ -59,11 +70,7 @@ public class CanvasDialogueHandler : MonoBehaviour
             dialogueCanvas.SetActive(true);
             nextLine();
         }
-        else //reset it!
-        {
-            dialogueCanvas.SetActive(false);
-            currentLine = startLine;
-        }
+ 
         
 
     }
@@ -81,10 +88,12 @@ public class CanvasDialogueHandler : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        Debug.Log(other.name);
         var player = other.gameObject.tag;
         if (player == playerTag)
         {
             playerCloseEnough = false;
+            Debug.Log("Player close:" + playerCloseEnough);
         }
     }
 

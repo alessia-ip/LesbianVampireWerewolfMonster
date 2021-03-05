@@ -6766,6 +6766,7 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 1
+  speed: 1
 --- !u!4 &433488345
 Transform:
   m_ObjectHideFlags: 0
@@ -8805,7 +8806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7d0d721368b8b94ea15a44cf0db7b0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectContextType: 0
+  objectContextType: 1
 --- !u!1 &1819897964
 GameObject:
   m_ObjectHideFlags: 0

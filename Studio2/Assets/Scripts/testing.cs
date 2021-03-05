@@ -16,6 +16,8 @@ public class testing : MonoBehaviour
     //TODO if the player clicks on a not walkable space, select the closest walkable node instead
 
 
+    public float speed = 2.5f;
+
     public void MapWalk()
     {
         pathfinding = new Pathfinding(80, 60);
@@ -82,7 +84,7 @@ public class testing : MonoBehaviour
                     Vector3.MoveTowards(
                         player.transform.position,
                         nextNodepos,
-                        1f * Time.deltaTime * 2.5f);
+                        1f * Time.deltaTime * speed);
                 if (player.transform.position == nextNodepos && pathNum != path.Count - 1)
                 {
                     pathNum++;
