@@ -26,6 +26,7 @@
           <e p="HoverUIDialogueButton.cs" t="Include" />
           <e p="IsometricCharacterRenderer.cs" t="Include" />
           <e p="IsometricPlayerMovementController.cs" t="Include" />
+          <e p="ItemAndWorldParser.cs" t="Include" />
           <e p="katieScripts" t="Include">
             <e p="InvButton.cs" t="Include" />
             <e p="Inventory.cs" t="Include" />

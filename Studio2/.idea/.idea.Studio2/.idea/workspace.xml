@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="82b247ed-6865-4c34-8129-e67a317df8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CanvasDialogueHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CanvasDialogueHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ContextCursorScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ContextCursorScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EndDialogue.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EndDialogue.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoverUIDialogueButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HoverUIDialogueButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Library.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Library.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SceneChanger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SceneChanger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ClickToMoveSample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ClickToMoveSample.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +23,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemAndWorldParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TalkToMe.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickupItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" root0="FORCE_HIGHLIGHTING" />
@@ -53,7 +44,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvOpenClose.cs" />
       <option value="$PROJECT_DIR$/Assets/EndDialogue.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" />
       <option value="$PROJECT_DIR$/Assets/SceneChanger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/testing.cs" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Test.txt" />
@@ -65,6 +55,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/testStuff.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvHover.cs" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Library.txt" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ItemAndWorldParser.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oGpszqs8gJwgBYnJ0hRq5O7emK" />
@@ -136,7 +128,7 @@
       <workItem from="1614737736854" duration="79000" />
       <workItem from="1614786093333" duration="202000" />
       <workItem from="1614786345625" duration="138000" />
-      <workItem from="1614956097657" duration="293000" />
+      <workItem from="1614956097657" duration="2150000" />
     </task>
     <servers />
   </component>

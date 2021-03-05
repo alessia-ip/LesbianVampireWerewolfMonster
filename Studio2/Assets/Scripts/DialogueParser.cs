@@ -47,7 +47,7 @@ public class DialogueParser : MonoBehaviour
         
         for(int i = 0; i < lines.Length; i++)
         {
-            if (!lines[i].Contains("***"))//lines with *** should just be headers/titles
+              if (!lines[i].Contains("***"))//lines with *** should just be headers/titles
             {
                 string[] parsedParts = lines[i].Split(':'); //split on the colon
 
