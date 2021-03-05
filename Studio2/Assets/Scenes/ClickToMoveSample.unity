@@ -7233,11 +7233,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 344932726}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63a2c805a9fe2f749adcea3da75c1e15, type: 3}
+  m_Script: {fileID: 11500000, guid: 282169e090813494db5b7c8c22fc2c31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueCanvas: {fileID: 568738226}
-  movementScript: {fileID: 433488342}
+  dialogueText: {fileID: 1479947957}
+  charaName: {fileID: 1049936394}
+  buttonOne: {fileID: 626628964}
+  buttonTwo: {fileID: 1099523357}
+  buttonThree: {fileID: 185119650}
+  currentLine: 0
+  startLine: 0
+  endLine: 7
+  MC: {fileID: 1258123209}
+  thisChar: {fileID: 1258123209}
 --- !u!1 &433488342
 GameObject:
   m_ObjectHideFlags: 0
@@ -7285,6 +7294,7 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 1
+  speed: 2.5
 --- !u!4 &433488345
 Transform:
   m_ObjectHideFlags: 0
@@ -7309,6 +7319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 443091404}
   - component: {fileID: 443091403}
+  - component: {fileID: 443091405}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -7349,6 +7360,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &443091405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443091402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39363dee3107ed439e33fc6dc099e72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FILE_DIALOGUE: Library.txt
+  _dialogueInstances: []
 --- !u!1 &568738226
 GameObject:
   m_ObjectHideFlags: 0

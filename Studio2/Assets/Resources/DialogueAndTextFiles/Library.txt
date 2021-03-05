@@ -4,39 +4,39 @@
 1:Librarian:Ah, right. That was today. Although, you're late, bounty hunter.:Tired
 2:MC:You can talk?:Shocked
 3:Librarian:All Jorōgumos can talk, child. We just don't fancy wasting our breath.:Tired 
-4.MC:...:Serious
+4:MC:...:Serious
 5:Librarian:Welcome to Her Royal Majesty's Private Atheneum. I am its protector...and its librarian.:Tired/Pleased 
 6:MC:I could've killed you.:Serious
 7:Librarian:I highly doubt that, child. Now, if you'll excuse me.:Tired/Confident
 ***
-0:MC:You said I was late?:Serious
-1:Librarian:I'm sorry?:Tired/Confused
-2:MC:Just a second ago, you said that I was late. Late for what?:Serious
-3:Librarian:Well, I've been waiting for your arrival. I've been tasked with delivering a message to you.:Tired
-4:MC:A message?:Confused
-5:Librarian:Yes, a message from The Lady of the Castle. Curious?:Tired
-6:MC:Very.:Serious
-7:Librarian:Do me a favor then: Bring me that erotic poetry book you were reading earlier.:Tired
-8:MC:Erotic poetry book? No idea what you're talking about.:Sarcastic
-9:Librarian:I...see. I must've mistaken you with someone else.:Incredulous
-10:MC:Surely.:Sarcastic
+8:MC:You said I was late?:Serious
+9:Librarian:I'm sorry?:Tired/Confused
+10:MC:Just a second ago, you said that I was late. Late for what?:Serious
+11:Librarian:Well, I've been waiting for your arrival. I've been tasked with delivering a message to you.:Tired
+12:MC:A message?:Confused
+13:Librarian:Yes, a message from The Lady of the Castle. Curious?:Tired
+14:MC:Very.:Serious
+15:Librarian:Do me a favor then: Bring me that erotic poetry book you were reading earlier.:Tired
+16:MC:Erotic poetry book? No idea what you're talking about.:Sarcastic
+17:Librarian:I...see. I must've mistaken you with someone else.:Incredulous
+18:MC:Surely.:Sarcastic
 ***
-0:MC:Here you go.:Serious
-1:Librarian:You have my thanks.:Tired/Pleased
-2:MC:It's incomplete. Just a bunch of blank pages after the first poems.:Serious
-3:Librarian:So you admit that you were reading erotica in the Royal Library?:Tired/Silly
-4:MC:...:Blank
-5:Librarian:Ha! I jest, child. All of these texts belong to Her Royal Majesty. Her favorites, like Sapphic Summer, are scribed with magic.:Tired/Pleased
-6:MC:You mean invisible ink? You're not serious.:Incredulous
-7:Librarian:Oh, but I am. She was in here a little while ago reading from that very book. The ink hasn't completely worn away yet.:Tired
-8:MC:Lucky me.:Sarcastic
-9:Librarian:Truly. It's not often that a stranger is invited into the Royal Palace at the behest of the High Lady. Feel free to cry tears of joy, child.:Tired/Pleased
-10:MC:M-Maybe later...and what of that message?:Irritated
-11:Librarian:Forgive my dawdling. I am to tell you this: "To PASS, you must play the game. Now, go and speak the PHRASE revealed in FLAME.":Tired 
-12:MC:I'll have you know: I'm not very good at riddles.:Serious
-13:Librarian:That seems like a serious detriment to your work.:Tired
-14:MC:Not when you have a scholar as an assistant. I shouldn't have left her at the inn.:Serious
+19:MC:Here you go.:Serious
+20:Librarian:You have my thanks.:Tired/Pleased
+21:MC:It's incomplete. Just a bunch of blank pages after the first poems.:Serious
+22:Librarian:So you admit that you were reading erotica in the Royal Library?:Tired/Silly
+23:MC:...:Blank
+24:Librarian:Ha! I jest, child. All of these texts belong to Her Royal Majesty. Her favorites, like Sapphic Summer, are scribed with magic.:Tired/Pleased
+25:MC:You mean invisible ink? You're not serious.:Incredulous
+26:Librarian:Oh, but I am. She was in here a little while ago reading from that very book. The ink hasn't completely worn away yet.:Tired
+27:MC:Lucky me.:Sarcastic
+28:Librarian:Truly. It's not often that a stranger is invited into the Royal Palace at the behest of the High Lady. Feel free to cry tears of joy, child.:Tired/Pleased
+29:MC:M-Maybe later...and what of that message?:Irritated
+30:Librarian:Forgive my dawdling. I am to tell you this: "To PASS, you must play the game. Now, go and speak the PHRASE revealed in FLAME.":Tired 
+31:MC:I'll have you know: I'm not very good at riddles.:Serious
+32:Librarian:That seems like a serious detriment to your work.:Tired
+33:MC:Not when you have a scholar as an assistant. I shouldn't have left her at the inn.:Serious
 ***
-0:MC:Could you tell me the message again?:Serious
-1:Librarian:Of course. "To PASS, you must play the game. Now, go and speak the PHRASE revealed in FLAME.":Tired
+34:MC:Could you tell me the message again?:Serious
+35:Librarian:Of course. "To PASS, you must play the game. Now, go and speak the PHRASE revealed in FLAME.":Tired
 ***END***

@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Kaitlin Walker\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Kaitlin Walker\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Studio2.-1623822897.00" t="ExcludeRecursive" />
-    <e p="E:\spring2021\Studio2\Studio02Game\Studio2" t="IncludeRecursive">
+    <e p="C:\Users\Alessia\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Alessia\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Studio2.-1444695406.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Alessia\Desktop\IsometricVamps\LesbianVampireWerewolfMonster\Studio2" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="CanvasDialogueHandler.cs" t="Include" />
-        <e p="ContextCursorScript.cs" t="Include" />
-        <e p="EndDialogue.cs" t="Include" />
-        <e p="HoverUIDialogueButton.cs" t="Include" />
         <e p="Resources" t="Include">
           <e p="DialogueAndTextFiles" t="Include">
             <e p="CigarLounge.txt" t="Include" />
             <e p="Library.txt" t="Include" />
           </e>
         </e>
-        <e p="SceneChanger.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="BasicCameraFollow.cs" t="Include" />
+          <e p="CanvasDialogueHandler.cs" t="Include" />
           <e p="ClickToMove.cs" t="Include" />
+          <e p="ContextCursorScript.cs" t="Include" />
           <e p="DialogueParser.cs" t="Include" />
+          <e p="EndDialogue.cs" t="Include" />
           <e p="GameObjectContextSelector.cs" t="Include" />
           <e p="GetMouseWorld.cs" t="Include" />
           <e p="Grid.cs" t="Include" />
           <e p="HideTilemapColliderOnPlay.cs" t="Include" />
+          <e p="HoverUIDialogueButton.cs" t="Include" />
           <e p="IsometricCharacterRenderer.cs" t="Include" />
           <e p="IsometricPlayerMovementController.cs" t="Include" />
           <e p="katieScripts" t="Include">
@@ -38,6 +37,7 @@
           <e p="Pathfinding.cs" t="Include" />
           <e p="PathNode.cs" t="Include" />
           <e p="PickupItem.cs" t="Include" />
+          <e p="SceneChanger.cs" t="Include" />
           <e p="TalkToMe.cs" t="Include" />
           <e p="testing.cs" t="Include" />
         </e>
