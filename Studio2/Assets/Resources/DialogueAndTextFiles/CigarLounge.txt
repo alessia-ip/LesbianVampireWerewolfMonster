@@ -7,18 +7,18 @@
 4:MC:I don't know it.:Serious
 5:Guard:Sounds like a personal problem, bounty hunter.:Serious
 6:MC:How charming.:Irritated
-***
+***CLICK AGAIN***
 7:MC:"God Save The Queen.":Silly
 8:Guard:Not even close.:Irritated
 9:MC:Yeah, but it was worth a shot.:Silly
-***
+***CLICK AGAIN***
 10:GUARD:Passphrase.:Serious
 11:MC:"Me. You. Steak Dinner.":Flirty
 12:GUARD:Cute.:Flirty
 13:MC:Was that a yes?:Flirty
 14:GUARD:Sure, let me just check with my wife.:Serious
 15:MC:Ah, pity.:Silly
-***
+***CLICK AGAIN***
 16:MC:Ready.:Serious
 17:Guard:Passphrase.:Serious
 18:MC:"Open Sesame.":Silly
@@ -26,7 +26,7 @@
 20:MC:...:Blank
 21:Guard:...:Blank
 22:MC:...I'll be back.:Silly
-***
+***CLICK AGAIN***
 23:MC:I've got it this time.:Tired
 24:Guard:Passphrase.:Serious
 25:MC:"You're an ass.":Serious
@@ -34,10 +34,10 @@
 27:MC:You'd do me the honor?!:Shocked
 28:Guard:...no.:Serious
 29:MC:Figures.:Flirty
-***
+***CLICK AGAIN***
 30:Guard: Passphrase.:Serious
 31:MC:I'm working on it.:Irritated
-***
+***CLICK AGAIN***
 32:Guard:Passphrase.:Serious
 33:MC:"Passphrase.":Tired
 34:Guard:...:Shocked

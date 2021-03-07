@@ -1,0 +1,18 @@
+***Number:dialogue:true or false(if it's an item you pick up, or not):Name of the thing you're interacting with***  
+***DIALOGUE TEST:CIGAR LOUNGE ITEMS***
+0:MC:Black Lotus. In a land-locked country. Gotta be imported...or the Royal Family's been secretly growing their own supply.:true:Black Lotus Cigars
+***CLICK AGAIN***
+1:MC:I wonder if these are complimentary. Wishful thinking?:true:Black Lotus Cigars
+***
+***
+2:MC:Were you smiling for your own sake or someone else's?:false:Sad Portrait
+***CLICK AGAIN***
+3:MC:How long did they force you to sit there and pretend?:false:Saf Portrait
+***
+***
+4:MC:Oak. Maple. Ash. How many fireplaces have I slept beside just to get to this one? Maybe Maeve was right...Maybe I do need a break.:false:Fireplace
+***CLICK AGAIN***
+5:MC:Know what? I'll finish this job, cash out, and retire early. Buy a little home up north. Fall in love with a woman who'd actually laugh at my jokes and...Yeah, let's not get carried away.:false:Fireplace
+***COMBINE W/ CIGAR AND PAPER***
+6:MC:...that's just cruel.:false:Fireplace
+***END***

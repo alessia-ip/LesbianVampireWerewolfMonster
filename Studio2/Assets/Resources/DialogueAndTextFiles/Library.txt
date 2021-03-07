@@ -20,7 +20,7 @@
 16:MC:Erotic poetry book? No idea what you're talking about.:Sarcastic
 17:Librarian:I...see. I must've mistaken you with someone else.:Incredulous
 18:MC:Surely.:Sarcastic
-***
+***BRING POETRY BOOK***
 19:MC:Here you go.:Serious
 20:Librarian:You have my thanks.:Tired/Pleased
 21:MC:It's incomplete. Just a bunch of blank pages after the first poems.:Serious
@@ -36,7 +36,7 @@
 31:MC:I'll have you know: I'm not very good at riddles.:Serious
 32:Librarian:That seems like a serious detriment to your work.:Tired
 33:MC:Not when you have a scholar as an assistant. I shouldn't have left her at the inn.:Serious
-***
+***CLICK AGAIN***
 34:MC:Could you tell me the message again?:Serious
 35:Librarian:Of course. "To PASS, you must play the game. Now, go and speak the PHRASE revealed in FLAME.":Tired
 ***END***
