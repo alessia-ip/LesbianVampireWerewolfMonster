@@ -22,6 +22,9 @@ public class ItemClick : MonoBehaviour
     private bool playerCloseEnough = true;
     private string playerTag = "Player";
 
+
+    public GameObject pButton;
+    
     void Start()
     {
         _itemAndWorldParser = GameObject.FindWithTag("Dialogue Manager").GetComponent<ItemAndWorldParser>();
@@ -83,11 +86,11 @@ public class ItemClick : MonoBehaviour
             itemText.text = _itemAndWorldParser._worldTextInstances[currentLine].text;
             if (_itemAndWorldParser._worldTextInstances[currentLine].isItem)
             {
-                //SHOW THE PICKUP BUTTON
+                pButton.SetActive(true);
             }
             else
             {
-                //Do not :) 
+                pButton.SetActive(false);
             }
 
             currentLine++;
