@@ -65,10 +65,10 @@ public class CanvasDialogueHandler : MonoBehaviour
 
         }*/
 
-        if (playerCloseEnough == true)
+        if (playerCloseEnough)
         {
             dialogueCanvas.SetActive(true);
-            nextLine();
+            NextLine();
         }
  
         
@@ -97,7 +97,7 @@ public class CanvasDialogueHandler : MonoBehaviour
         }
     }
 
-    void nextLine()
+    void NextLine()
     {
         if (currentLine > endLine)
         {

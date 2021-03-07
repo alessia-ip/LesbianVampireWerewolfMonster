@@ -70,7 +70,7 @@ public class testing : MonoBehaviour
                 for (int i = 0; i < path.Count - 1; i++)
                 {
                     
-                    Debug.DrawLine(new Vector3(path[i].x, path[i].y) * .33f + Vector3.one * .165f, new Vector3(path[i + 1].x, path[i + 1].y) * .33f + Vector3.one * .165f, Color.green);
+                    //Debug.DrawLine(new Vector3(path[i].x, path[i].y) * .33f + Vector3.one * .165f, new Vector3(path[i + 1].x, path[i + 1].y) * .33f + Vector3.one * .165f, Color.green);
                 }
             }
         }

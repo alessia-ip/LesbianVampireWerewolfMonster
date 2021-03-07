@@ -37,15 +37,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/PickupItem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/TalkToMe.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/GameManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvOpenClose.cs" />
       <option value="$PROJECT_DIR$/Assets/EndDialogue.cs" />
       <option value="$PROJECT_DIR$/Assets/SceneChanger.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/testing.cs" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Test.txt" />
       <option value="$PROJECT_DIR$/Assets/CanvasDialogueHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/Inventory.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/Item.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/testStuff.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvHover.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" />
@@ -54,6 +51,11 @@
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/CigarLounge.txt" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Library.txt" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/LibItems.txt" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CanvasDialogueHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/testing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvOpenClose.cs" />
+      <option value="$PROJECT_DIR$/Assets/testingBaby.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/Item.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oGpszqs8gJwgBYnJ0hRq5O7emK" />
@@ -127,6 +129,7 @@
       <workItem from="1614786345625" duration="138000" />
       <workItem from="1614956097657" duration="2150000" />
       <workItem from="1615077211721" duration="1765000" />
+      <workItem from="1615130391216" duration="6188000" />
     </task>
     <servers />
   </component>
