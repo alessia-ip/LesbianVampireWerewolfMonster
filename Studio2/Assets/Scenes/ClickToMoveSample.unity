@@ -462,7 +462,7 @@ GameObject:
   - component: {fileID: 72679775}
   - component: {fileID: 72679779}
   m_Layer: 0
-  m_Name: ItemPlaceholder
+  m_Name: Book
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -585,9 +585,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 72679774}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a1ddea794cc02041aa099520ee25b64, type: 3}
+  m_Script: {fileID: 11500000, guid: a3e9e1e4cfa29594fa8a359bec4b7f3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerCloseEnough: 0
+  itemType: 1
 --- !u!1 &101950090
 GameObject:
   m_ObjectHideFlags: 0
