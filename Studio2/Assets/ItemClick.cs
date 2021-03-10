@@ -81,6 +81,8 @@ public class ItemClick : MonoBehaviour
         {
             currentLine = startLine;
             itemCanvas.SetActive(false);
+            GameObject.FindWithTag("Dialogue Manager").GetComponent<PickupManager>().itemType =
+                (PickupManager.ItemType) Enum.Parse(typeof(PickupManager.ItemType), "Nothing");
         }
         else
         {
