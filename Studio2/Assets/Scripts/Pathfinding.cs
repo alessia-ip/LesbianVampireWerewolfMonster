@@ -29,15 +29,33 @@ public class Pathfinding
         
         openList = new List<PathNode>{ startNode };
         closedList = new List<PathNode>();
-
-        for (int x = 0; x < grid.GetWidth(); x++)
+        
+        for (int x = 0; x < grid.GetWidth(); x++) //get all nodes in the grid and calculate the cst
         {
             for (int y = 0; y < grid.GetHeight(); y++)
             {
                 PathNode pathNode = grid.GetGridObject(x, y);
                 pathNode.gCost = int.MaxValue;
                 pathNode.CalculateFCost();
-                pathNode.cameFromNode = null;
+                pathNode.cameFromNode = null; 
+            }
+        }
+
+        //we added this so it fuckin' works B) 
+        //TODO PRIORITIZE NODES CLOSER TO THE PLAYER?
+        if (!endNode.isWalkable)
+        {
+            for (int i = 0; !endNode.isWalkable; i++)
+            {
+                foreach (PathNode neighbourNode in GetNeighbourList(endNode, i))
+                {
+                    if (closedList.Contains(neighbourNode)) continue;
+                    if (neighbourNode.isWalkable)
+                    {
+                        endNode = neighbourNode;
+                        break;
+                    } 
+                }
             }
         }
 
@@ -47,6 +65,8 @@ public class Pathfinding
 
         while (openList.Count > 0)
         {
+
+            
             PathNode currentNode = GetLowestFCostNode(openList);
             if (currentNode == endNode)
             {
@@ -56,14 +76,15 @@ public class Pathfinding
             openList.Remove(currentNode);
             closedList.Add(currentNode);
 
-            foreach (PathNode neighbourNode in GetNeighbourList(currentNode))
+            foreach (PathNode neighbourNode in GetNeighbourList(currentNode, 1))
             {
+
                    if (closedList.Contains(neighbourNode)) continue;
                    if (!neighbourNode.isWalkable)
                    {
                        closedList.Add(neighbourNode);
                        continue;
-                   }
+                   } //this determines if the node is not walkable - ao you can't walk through colliders
 
                    int tentGCost = currentNode.gCost + CalculateDistanceCost(currentNode, neighbourNode);
                    if (tentGCost < neighbourNode.gCost)
@@ -80,39 +101,41 @@ public class Pathfinding
                    }
             }
         }
-        
+
+
+        // Debug.Log("Completed");
         //out of nodes on the open list
         return null;
     }
 
-    private List<PathNode> GetNeighbourList(PathNode currentNode)
+    private List<PathNode> GetNeighbourList(PathNode currentNode, int nodeOffset)
     {
         List<PathNode> neighbourList = new List<PathNode>();
         
-        if (currentNode.x - 1 >= 0)
+        if (currentNode.x - nodeOffset >= 0)
         {
             //Left
-            neighbourList.Add(GetNode(currentNode.x - 1, currentNode.y));
+            neighbourList.Add(GetNode(currentNode.x - nodeOffset, currentNode.y));
             //Left Down
-            if (currentNode.y - 1 >= 0) neighbourList.Add(GetNode(currentNode.x - 1, currentNode.y - 1));
+            if (currentNode.y - nodeOffset >= 0) neighbourList.Add(GetNode(currentNode.x - nodeOffset, currentNode.y - nodeOffset));
             //Left Up
-            if (currentNode.y + 1 < grid.GetHeight()) neighbourList.Add(GetNode(currentNode.x - 1, currentNode.y + 1));
+            if (currentNode.y + nodeOffset < grid.GetHeight()) neighbourList.Add(GetNode(currentNode.x - nodeOffset, currentNode.y + nodeOffset));
         }
 
-        if (currentNode.x + 1 < grid.GetWidth())
+        if (currentNode.x + nodeOffset < grid.GetWidth())
         {
             //Right
-            neighbourList.Add(GetNode(currentNode.x + 1, currentNode.y));
+            neighbourList.Add(GetNode(currentNode.x + nodeOffset, currentNode.y));
             //Right Down
-            if (currentNode.y - 1 >= 0) neighbourList.Add(GetNode(currentNode.x + 1, currentNode.y - 1));
+            if (currentNode.y - nodeOffset >= 0) neighbourList.Add(GetNode(currentNode.x + nodeOffset, currentNode.y - nodeOffset));
             //Right UP
-            if (currentNode.y + 1 < grid.GetHeight()) neighbourList.Add(GetNode(currentNode.x + 1, currentNode.y + 1));
+            if (currentNode.y + nodeOffset < grid.GetHeight()) neighbourList.Add(GetNode(currentNode.x + nodeOffset, currentNode.y + nodeOffset));
         }
 
         //Down
-        if (currentNode.y - 1 >= 0) neighbourList.Add(GetNode(currentNode.x, currentNode.y - 1));
+        if (currentNode.y - nodeOffset >= 0) neighbourList.Add(GetNode(currentNode.x, currentNode.y - nodeOffset));
         //Up
-        if (currentNode.y + 1 < grid.GetHeight()) neighbourList.Add(GetNode(currentNode.x, currentNode.y + 1));
+        if (currentNode.y + nodeOffset < grid.GetHeight()) neighbourList.Add(GetNode(currentNode.x, currentNode.y + nodeOffset));
 
         return neighbourList;
     }
