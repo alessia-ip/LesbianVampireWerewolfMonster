@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -86,6 +87,8 @@ public class ItemClick : MonoBehaviour
             itemText.text = _itemAndWorldParser._worldTextInstances[currentLine].text;
             if (_itemAndWorldParser._worldTextInstances[currentLine].isItem)
             {
+                GameObject.FindWithTag("Dialogue Manager").GetComponent<PickupManager>().itemType =
+                   (PickupManager.ItemType) Enum.Parse(typeof(PickupManager.ItemType), this.gameObject.name);
                 pButton.SetActive(true);
             }
             else
@@ -95,6 +98,6 @@ public class ItemClick : MonoBehaviour
 
             currentLine++;
         }
-
+ // gameobject has a name (string) -> take the name -> make name an enum -> set the enum in pickup
     }
 }

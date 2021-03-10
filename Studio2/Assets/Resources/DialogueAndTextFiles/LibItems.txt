@@ -15,4 +15,6 @@
 7:A lone piece of blank paper. Nope, not weird at all.:true:Blank Paper
 ***CLICK AGAIN***
 8:Yep. Still just a whole lotta nothing.:true:Blank Paper
+***
+***
 ***END***
