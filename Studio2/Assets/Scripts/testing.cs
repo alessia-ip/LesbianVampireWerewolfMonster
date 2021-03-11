@@ -20,9 +20,14 @@ public class testing : MonoBehaviour
 
     public void MapWalk()
     {
-        pathfinding = new Pathfinding(80, 60);
+        pathfinding = new Pathfinding(100, 100);
         mouse = GetComponent<GetMouseWorld>();
         var grid = pathfinding.GetGrid();
+        int testx;
+        int testy;
+        Debug.Log(grid.GetWorldPosition(7,11));
+        grid.GetXY(grid.GetWorldPosition(7,11),  out testx, out testy);
+        Debug.Log(testx +","+ testy);
         for (var y = 0; y < grid.GetHeight(); y++)
         {
             //Debug.Log(grid.GetHeight());
