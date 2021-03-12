@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b247ed-6865-4c34-8129-e67a317df8cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grid.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pathfinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pathfinding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/testing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/testing.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Library.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Library.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ClickToMoveSample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ClickToMoveSample.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CanvasDialogueHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasDialogueHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +26,10 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickupItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TalkToMe.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickupItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PickupManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -55,9 +55,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ItemAndWorldParser.cs" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/LoungeItems.txt" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/CigarLounge.txt" />
-      <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Library.txt" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/LibItems.txt" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/CanvasDialogueHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvOpenClose.cs" />
       <option value="$PROJECT_DIR$/Assets/testingBaby.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/Item.cs" />
@@ -65,6 +63,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Grid.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/testing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Pathfinding.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CanvasDialogueHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Library.txt" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oGpszqs8gJwgBYnJ0hRq5O7emK" />

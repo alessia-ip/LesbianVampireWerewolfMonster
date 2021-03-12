@@ -7,7 +7,17 @@ using UnityEngine.UI;
 
 public class CanvasDialogueHandler : MonoBehaviour
 {
+    [System.Serializable]
+    public class LineNum
+    {
+        public int beginning;
+        public int ending;
+    }
 
+    private int numSet = 0;
+    
+    public LineNum[] lineSet;
+    
     //need this since this SHOULD be connected to individual characters
     private DialogueParser _dialogueParser;
     
@@ -15,7 +25,6 @@ public class CanvasDialogueHandler : MonoBehaviour
 
     private string playerTag = "Player";
 
-    
     //TODO make these instances later. This was just easier for now lol
     public GameObject dialogueCanvas;
     public TextMeshProUGUI dialogueText;
@@ -70,8 +79,6 @@ public class CanvasDialogueHandler : MonoBehaviour
             dialogueCanvas.SetActive(true);
             NextLine();
         }
- 
-        
 
     }
 
@@ -101,8 +108,15 @@ public class CanvasDialogueHandler : MonoBehaviour
     {
         if (currentLine > endLine)
         {
-            currentLine = startLine;
+
             dialogueCanvas.SetActive(false);
+            numSet += 1;
+            if (numSet < lineSet.Length)
+            {
+                startLine = lineSet[numSet].beginning;
+                endLine = lineSet[numSet].ending;
+            }
+            currentLine = startLine;
         }
         else
         {

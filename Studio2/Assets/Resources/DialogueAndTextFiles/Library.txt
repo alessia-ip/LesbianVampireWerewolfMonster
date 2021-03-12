@@ -16,9 +16,9 @@
 12:MC:A message?:Confused
 13:Librarian:Yes, a message from The Lady of the Castle. Curious?:Tired
 14:MC:Very.:Serious
-15:Librarian:Do me a favor then: Bring me that erotic poetry book you were reading earlier.:Tired
+15:Librarian:Do me a favor then. Bring me that erotic poetry book you were reading earlier.:Tired
 16:MC:Erotic poetry book? No idea what you're talking about.:Sarcastic
-17:Librarian:I...see. I must've mistaken you with someone else.:Incredulous
+17:Librarian:I... see. I must've mistaken you with someone else.:Incredulous
 18:MC:Surely.:Sarcastic
 ***BRING POETRY BOOK***
 19:MC:Here you go.:Serious
