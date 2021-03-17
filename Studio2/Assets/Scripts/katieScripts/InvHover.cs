@@ -19,7 +19,7 @@ public class InvHover : MonoBehaviour
 
     public void HoverEnter()
     {
-        if (testInvType.itemType != InvButton.ItemType.Nothing)
+        if (testInvType.itemType != "Nothing")
         {
             holdButton.gameObject.SetActive(true);
             combineButton.gameObject.SetActive(true);

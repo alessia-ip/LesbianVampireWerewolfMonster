@@ -20,7 +20,7 @@ public class ItemClick : MonoBehaviour
     [FormerlySerializedAs("dialogueCanvas")] public GameObject itemCanvas;
     public TextMeshProUGUI itemText;
     
-    private bool playerCloseEnough = true;
+    private bool playerCloseEnough = false;
     private string playerTag = "Player";
 
 
@@ -81,8 +81,8 @@ public class ItemClick : MonoBehaviour
         {
             currentLine = startLine;
             itemCanvas.SetActive(false);
-            GameObject.FindWithTag("Dialogue Manager").GetComponent<PickupManager>().itemType =
-                (PickupManager.ItemType) Enum.Parse(typeof(PickupManager.ItemType), "Nothing");
+            GameObject.FindWithTag("Dialogue Manager").GetComponent<PickupManager>().itemType = "Nothing";
+            GameObject.FindWithTag("Dialogue Manager").GetComponent<PickupManager>().destroyThisItem = null;
         }
         else
         {
@@ -90,7 +90,9 @@ public class ItemClick : MonoBehaviour
             if (_itemAndWorldParser._worldTextInstances[currentLine].isItem)
             {
                 GameObject.FindWithTag("Dialogue Manager").GetComponent<PickupManager>().itemType =
-                   (PickupManager.ItemType) Enum.Parse(typeof(PickupManager.ItemType), this.gameObject.name);
+                    this.gameObject.name;
+                GameObject.FindWithTag("Dialogue Manager").GetComponent<PickupManager>().destroyThisItem =
+                    this.gameObject;
                 pButton.SetActive(true);
             }
             else

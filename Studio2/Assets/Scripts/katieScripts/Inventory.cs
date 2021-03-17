@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Inventory : MonoBehaviour
 {
     public static Inventory instance;
-    public  List<Item> invList;
+    public  List<string> invList;
     public List<GameObject> invSlotList;
 
     [Header("Item Sprites")]
@@ -30,35 +30,31 @@ public class Inventory : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        invList = new List<Item>();
+        invList = new List<string>();
     }
 
-    public void AddItem(Item item)
+    public void AddItem(string itemTypeForList)
     {
-        invList.Add(item);
+        invList.Add(itemTypeForList);
         SetInvImage();
     }
 
     public void SetInvImage()
     {
         int i = invList.Count - 1;
-        switch (invList[i].itemType)
+        switch (invList[i])
         {
-            case Item.ItemType.Book:
-                invSlotList[i].GetComponent<InvButton>().itemType = InvButton.ItemType.Book;
+            case "Book":
+                invSlotList[i].GetComponent<InvButton>().itemType = "Book";
                 invSlotList[i].GetComponent<Image>().sprite = bookSprite;
                 break;
-            case Item.ItemType.Cigar:
-                invSlotList[i].GetComponent<InvButton>().itemType = InvButton.ItemType.Cigar;
+            case "Cigar":
+                invSlotList[i].GetComponent<InvButton>().itemType = "Cigar";
                 invSlotList[i].GetComponent<Image>().sprite = cigarSprite;
                 break;
-            case Item.ItemType.Paper:
-                invSlotList[i].GetComponent<InvButton>().itemType = InvButton.ItemType.Paper;
+            case "Paper":
+                invSlotList[i].GetComponent<InvButton>().itemType = "Paper";
                 invSlotList[i].GetComponent<Image>().sprite = paperSprite;
-                break;
-            case Item.ItemType.Nothing:
-                invSlotList[i].GetComponent<InvButton>().itemType = InvButton.ItemType.Nothing;
-                invSlotList[i].GetComponent<Image>().sprite = null;
                 break;
         }
     }
