@@ -8547,8 +8547,8 @@ GameObject:
   - component: {fileID: 344932728}
   - component: {fileID: 344932727}
   - component: {fileID: 344932729}
-  - component: {fileID: 344932730}
   - component: {fileID: 344932731}
+  - component: {fileID: 344932730}
   m_Layer: 0
   m_Name: SpiderLady
   m_TagString: Untagged
@@ -8595,7 +8595,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: 5179478195037894855, guid: 4fa779550c556c64f97029fd59be8661,
+  m_Sprite: {fileID: -616541869618017182, guid: fe62fd62a773d8844ada0cf757c77ca4,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8615,8 +8615,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 344932726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.625539, y: 6.06, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 5.38, y: 5.78, z: 0}
+  m_LocalScale: {x: 0.36977798, y: 0.36977798, z: 0.36977798}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -8651,14 +8651,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.07, y: 2.21}
+    oldSize: {x: 5.01, y: 5.7}
     newSize: {x: 2.07, y: 2.21}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.07, y: 2.21}
+  m_Size: {x: 5.01, y: 5.7}
   m_EdgeRadius: 0
 --- !u!114 &344932731
 MonoBehaviour:
@@ -8842,6 +8842,7 @@ GameObject:
   - component: {fileID: 443091403}
   - component: {fileID: 443091407}
   - component: {fileID: 443091406}
+  - component: {fileID: 443091405}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -8882,6 +8883,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &443091405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443091402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04ec3b6d9327f34691c92743a3645d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemCanvas: {fileID: 0}
+  itemType: Nothing
+  destroyThisItem: {fileID: 0}
 --- !u!114 &443091406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9991,6 +10007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e571972cff56df44b890203c8edf43b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  comboList: []
   itemType: 3
 --- !u!114 &754293874
 MonoBehaviour:
@@ -10887,6 +10904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e571972cff56df44b890203c8edf43b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  comboList: []
   itemType: 3
 --- !u!114 &905115428
 MonoBehaviour:
@@ -11893,7 +11911,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
+  m_Sprite: {fileID: 4084190405005612947, guid: fe62fd62a773d8844ada0cf757c77ca4,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -12229,6 +12248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e571972cff56df44b890203c8edf43b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  comboList: []
   itemType: 3
 --- !u!114 &1355789898
 MonoBehaviour:
@@ -12506,7 +12526,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7809785511404226330, guid: 43be5d51e10b82a499bcf1fab32302b5,
+  m_Sprite: {fileID: -616541869618017182, guid: fe62fd62a773d8844ada0cf757c77ca4,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -12807,6 +12827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e571972cff56df44b890203c8edf43b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  comboList: []
   itemType: 3
 --- !u!114 &1417545239
 MonoBehaviour:
@@ -13340,6 +13361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e571972cff56df44b890203c8edf43b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  comboList: []
   itemType: 3
 --- !u!114 &1564415195
 MonoBehaviour:
@@ -13617,6 +13639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e571972cff56df44b890203c8edf43b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  comboList: []
   itemType: 3
 --- !u!114 &1690170417
 MonoBehaviour:
@@ -14690,6 +14713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e571972cff56df44b890203c8edf43b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  comboList: []
   itemType: 3
 --- !u!114 &1789616531
 MonoBehaviour:
@@ -14864,7 +14888,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1792375699}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 443091405}
+        m_MethodName: Pickup
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1792375699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15086,6 +15121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e571972cff56df44b890203c8edf43b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  comboList: []
   itemType: 3
 --- !u!114 &1825543386
 MonoBehaviour:
@@ -15233,6 +15269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e571972cff56df44b890203c8edf43b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  comboList: []
   itemType: 3
 --- !u!114 &1837937621
 MonoBehaviour:
