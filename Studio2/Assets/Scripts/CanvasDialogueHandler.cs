@@ -46,6 +46,7 @@ public class CanvasDialogueHandler : MonoBehaviour
     public GameObject thisChar;
 
     private bool playerCloseEnough = false;
+    public GameObject playerMove;
     
     // Start is called before the first frame update
     void Start()
@@ -117,9 +118,12 @@ public class CanvasDialogueHandler : MonoBehaviour
                 endLine = lineSet[numSet].ending;
             }
             currentLine = startLine;
+            playerMove.SetActive(true);
         }
         else
         {
+            playerMove.SetActive(false);
+
             dialogueText.text = _dialogueParser._dialogueInstances[currentLine].dialogue;
             charaName.text = _dialogueParser._dialogueInstances[currentLine].character;
 
