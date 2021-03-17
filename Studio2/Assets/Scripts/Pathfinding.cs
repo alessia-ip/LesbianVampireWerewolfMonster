@@ -14,8 +14,8 @@ public class Pathfinding
     
     public Pathfinding(int width, int height)
     {
-        screenOffset = new Vector3(10,-10,0);
-        grid = new Grid<PathNode>(width, height, .33f, screenOffset,
+        screenOffset = new Vector3(10,-5,0);
+        grid = new Grid<PathNode>(width, height, .5f, screenOffset,
             (Grid<PathNode> g, int x, int y) => new PathNode(g, x, y));
     }
 

@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\beaum\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\beaum\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Studio2.1388985680.00" t="ExcludeRecursive" />
-    <e p="C:\Users\beaum\Documents\GitHub\LesbianVampire\Studio2" t="IncludeRecursive">
+    <e p="C:\Users\Alessia\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Alessia\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Studio2.-1444695406.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Alessia\Desktop\IsometricVamps\LesbianVampireWerewolfMonster\Studio2" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="ItemClick.cs" t="Include" />
         <e p="PickupManager.cs" t="Include" />
         <e p="Resources" t="Include">
-          <e p="DialogueAndTextFiles" t="Include">
-            <e p="CigarLounge.txt" t="Include" />
-            <e p="LibItems.txt" t="Include" />
-            <e p="Library.txt" t="Include" />
-            <e p="LoungeItems.txt" t="Include" />
-          </e>
+          <e p="CigarLounge.txt" t="Include" />
+          <e p="LibItems.txt" t="Include" />
+          <e p="Library.txt" t="Include" />
+          <e p="LoungeItems.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
           <e p="BasicCameraFollow.cs" t="Include" />

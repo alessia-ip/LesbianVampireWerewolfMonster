@@ -58,13 +58,18 @@ public class Grid<TGridObject>
 
   public Vector3 GetWorldPosition(int x, int y)
     {
-        return new Vector3((x - y),(x + y)) * cellSize/2 + originPosition;
+       // return new Vector3((x - y),(x + y)) * cellSize/2 + originPosition;
+       return new Vector3(((x - y) * cellSize/2),((x + y) * cellSize/4)) + originPosition;
     }
 
     public void GetXY(Vector3 worldPosition, out int x, out int y)
     {
+        /*
         x = Mathf.CeilToInt(((worldPosition - originPosition).x/(cellSize/2) + (worldPosition - originPosition).y / (cellSize/2))/2);
         y = Mathf.FloorToInt(((worldPosition - originPosition).y / (cellSize/2) - (worldPosition - originPosition).x / (cellSize/2))/2);
+    */
+        x = Mathf.CeilToInt(((worldPosition - originPosition).x/(cellSize/2) + (worldPosition - originPosition).y / (cellSize/4))/2);
+        y = Mathf.FloorToInt(((worldPosition - originPosition).y / (cellSize/4) - (worldPosition - originPosition).x / (cellSize/2))/2);
     }
 
     public void SetGridObject(int x, int y, TGridObject value)

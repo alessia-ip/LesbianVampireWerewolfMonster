@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b247ed-6865-4c34-8129-e67a317df8cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Library.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Library.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/CigarLounge.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/CigarLounge.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/LibItems.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/LibItems.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Library.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Library.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/LoungeItems.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/LoungeItems.txt.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ClickToMoveSample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ClickToMoveSample.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CanvasDialogueHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasDialogueHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grid.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ItemAndWorldParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ItemAndWorldParser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pathfinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pathfinding.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +61,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/Inventory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/testStuff.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvHover.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ItemAndWorldParser.cs" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/LoungeItems.txt" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/CigarLounge.txt" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/LibItems.txt" />
@@ -60,11 +68,13 @@
       <option value="$PROJECT_DIR$/Assets/testingBaby.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/Item.cs" />
       <option value="$PROJECT_DIR$/Assets/ItemClick.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Grid.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/testing.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Pathfinding.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CanvasDialogueHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Library.txt" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Grid.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Pathfinding.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ItemAndWorldParser.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oGpszqs8gJwgBYnJ0hRq5O7emK" />
@@ -86,6 +96,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -140,6 +151,7 @@
       <workItem from="1615077211721" duration="1765000" />
       <workItem from="1615130391216" duration="6188000" />
       <workItem from="1615475356967" duration="994000" />
+      <workItem from="1615945729827" duration="2228000" />
     </task>
     <servers />
   </component>

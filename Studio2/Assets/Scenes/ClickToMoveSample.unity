@@ -8729,7 +8729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c39363dee3107ed439e33fc6dc099e72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FILE_DIALOGUE: Library.txt
+  FILE_DIALOGUE: Library
   _dialogueInstances: []
 --- !u!114 &443091406
 MonoBehaviour:

@@ -24,22 +24,17 @@ public class ItemAndWorldParser : MonoBehaviour
     }
 
     public string FILE_SCRIPT; //File Name formatted as -> name.txt || DO NOT USE A / in the inspector view
-    private const string DIR = "/Resources/DialogueAndTextFiles/"; //The directory path
     private string FILE_PATH; //the file path
-    private string readText; //the text read out of the file
 
     [FormerlySerializedAs("_dialogueInstances")] public List<WorldTextInstance> _worldTextInstances= new List<WorldTextInstance>(); //all instances of dialogue in the scene
 
     
     void Start()
     {
-        //get the application path 
-        FILE_PATH = Application.dataPath + DIR + FILE_SCRIPT;
-        //read all text from the file
-        readText = File.ReadAllText(FILE_PATH);
-        //split the file into an array on every new line
-        string[] lines = readText.Split('\n');
 
+        String GET_TEXT = FILE_SCRIPT;
+        TextAsset itemTXT = Resources.Load<TextAsset>(GET_TEXT); //YOU MUST LOAD FROM RESOURCES - DO NOT USE .txt IN THE EDITOR (check first if this breaks)
+        string[] lines = itemTXT.text.Split('\n');
 
         for (int i = 0; i < lines.Length; i++)
         {

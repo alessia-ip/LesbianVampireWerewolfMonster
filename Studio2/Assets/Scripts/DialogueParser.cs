@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -24,31 +25,28 @@ public class DialogueParser : MonoBehaviour
         }
     }
     
+
+
     
     public string FILE_DIALOGUE; //File Name formatted as -> name.txt || DO NOT USE A / in the inspector view
-    private const string DIR = "/Resources/DialogueAndTextFiles/"; //The directory path
     private string FILE_PATH; //the file path
-    private string readText; //the text read out of the file
-
-
-
+    
     public List<DialogueInstance> _dialogueInstances= new List<DialogueInstance>(); //all instances of dialogue in the scene
     
     // Start is called before the first frame update
     void Start()
     {
-        //get the application path 
-        FILE_PATH = Application.dataPath + DIR + FILE_DIALOGUE;
-        //read all text from the file
-        readText = File.ReadAllText(FILE_PATH);
-        //split the file into an array on every new line
-        string[] lines = readText.Split('\n');
-
         
+  
+        String GET_DIALOGUE = FILE_DIALOGUE;
+        TextAsset dialogueTxt = Resources.Load<TextAsset>(GET_DIALOGUE); //YOU MUST LOAD FROM RESOURCES - DO NOT USE .txt IN THE EDITOR (check first if this breaks)
+        string[] lines = dialogueTxt.text.Split('\n');
+            
+  
         for(int i = 0; i < lines.Length; i++)
         {
               if (!lines[i].Contains("***"))//lines with *** should just be headers/titles
-            {
+              {
                 string[] parsedParts = lines[i].Split(':'); //split on the colon
 
                 if (parsedParts.Length > 1)
@@ -69,8 +67,8 @@ public class DialogueParser : MonoBehaviour
                     //3 is the portrait type
                     //Debug.Log(_dialogueInstances[0].replies[0]);
 
-                }
-            }
+                } 
+              }
         }
 
     }
