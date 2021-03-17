@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class testing : MonoBehaviour
@@ -12,12 +13,20 @@ public class testing : MonoBehaviour
     private List<PathNode> path;
     private int pathNum;
     public LayerMask layerMask;
-    
+
+    public Animator playerAnimator;
     //TODO if the player clicks on a not walkable space, select the closest walkable node instead
-
-
+    
+    
     public float speed = 2.5f;
-
+    
+    private void Start()
+    {
+        playerAnimator = GameObject.FindWithTag("playerAnimator").GetComponent<Animator>();
+        MapWalk();
+        
+    }
+    
     public void MapWalk()
     {
         pathfinding = new Pathfinding(100, 100);
@@ -52,10 +61,7 @@ public class testing : MonoBehaviour
         
     }
 
-    private void Start()
-    {
-        MapWalk();
-    }
+
 
     private void Update()
     {
@@ -74,13 +80,17 @@ public class testing : MonoBehaviour
             {
                 for (int i = 0; i < path.Count - 1; i++)
                 {
-                    
+                    //draw path
                     //Debug.DrawLine(new Vector3(path[i].x, path[i].y) * .33f + Vector3.one * .165f, new Vector3(path[i + 1].x, path[i + 1].y) * .33f + Vector3.one * .165f, Color.green);
                 }
             }
         }
         if (path != null)
         {
+            
+           // m_Animator.SetBool("Jump", false);
+                playerAnimator.SetBool("isWalking", true);
+
                 //var lastNode = path[path.Count - 1];
                 //var lastNodepos = grid.GetWorldPosition(lastNode.x, lastNode.y);
                 var nextNode = path[pathNum];
@@ -94,9 +104,16 @@ public class testing : MonoBehaviour
                 {
                     pathNum++;
                 }
+
+                if (player.transform.position == nextNodepos && pathNum == path.Count - 1)
+                {
+                    playerAnimator.SetBool("isWalking", false);
+
+                }
+
         }
 
-       
+
     }
 
    
