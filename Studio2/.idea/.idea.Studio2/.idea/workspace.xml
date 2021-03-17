@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b247ed-6865-4c34-8129-e67a317df8cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/BountyHunter/bounty.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/BountyHunter/bounty.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ClickToMoveSample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ClickToMoveSample.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/testing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/testing.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +136,7 @@
       <workItem from="1615077211721" duration="1765000" />
       <workItem from="1615130391216" duration="6188000" />
       <workItem from="1615475356967" duration="994000" />
-      <workItem from="1615945729827" duration="3865000" />
+      <workItem from="1615945729827" duration="6582000" />
     </task>
     <servers />
   </component>

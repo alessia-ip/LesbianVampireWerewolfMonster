@@ -5,10 +5,10 @@
 1:You know you've made it in this line of work when the High Lady of a foreign country hires you.:false:Globe
 ***
 ***
-2:Sapphic Summer. I wonder if this is any good.:true:Poetry Book
-3:...:true:Poetry Book
-4:...oh...it's very good.:true:Poetry Book
-5:...:true:Poetry Book
+2:Sapphic Summer. I wonder if this is any good.:false:Poetry Book
+3:...:false:Poetry Book
+4:...oh...it's very good.:false:Poetry Book
+5:...:false:Poetry Book
 6:Wait...blank pages? That can't be the entire book.:true:Poetry Book
 ***
 ***
