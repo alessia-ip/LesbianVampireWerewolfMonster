@@ -33,6 +33,7 @@
         <e p="Scripts" t="Include">
           <e p="BasicCameraFollow.cs" t="Include" />
           <e p="CanvasDialogueHandler.cs" t="Include" />
+          <e p="CharacterDialogueSOHandler.cs" t="Include" />
           <e p="ClickToMove.cs" t="Include" />
           <e p="ContextCursorScript.cs" t="Include" />
           <e p="DialogueParser.cs" t="Include" />

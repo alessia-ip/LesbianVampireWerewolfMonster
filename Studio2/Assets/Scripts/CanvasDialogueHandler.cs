@@ -22,8 +22,7 @@ public class CanvasDialogueHandler : MonoBehaviour
     private DialogueParser _dialogueParser;
     
    // private bool playerCloseEnough = false; //TODO put this in a scene with player
-
-    private string playerTag = "Player";
+   private string playerTag = "Player";
 
     //TODO make these instances later. This was just easier for now lol
     public GameObject dialogueCanvas;
@@ -47,6 +46,8 @@ public class CanvasDialogueHandler : MonoBehaviour
 
     private bool playerCloseEnough = false;
     public GameObject playerMove;
+
+
     
     // Start is called before the first frame update
     void Start()
@@ -194,6 +195,6 @@ public class CanvasDialogueHandler : MonoBehaviour
             
         }
     }
-    
-    
+
+
 }
