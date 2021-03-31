@@ -9,6 +9,7 @@
         <e p="Logs" t="Include">
           <e p="CorrectCombosFile.txt" t="Include" />
         </e>
+        <e p="OpenMap.cs" t="Include" />
         <e p="QuickOutline" t="Include">
           <e p="Readme.txt" t="Include" />
           <e p="Resources" t="Include">
