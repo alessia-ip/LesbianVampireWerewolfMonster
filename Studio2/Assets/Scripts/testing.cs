@@ -99,7 +99,7 @@ public class testing : MonoBehaviour
                 }
             }
         }
-        if (path != null)
+        if (path != null && path.Count > 1)
         {
             
            // m_Animator.SetBool("Jump", false);

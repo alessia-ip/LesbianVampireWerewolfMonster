@@ -10,7 +10,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
 {
     
     //are they currently talking?
-    private bool isTallking = false;
+    private bool isTalking = false;
 
     //this is if the player is close enough to the other character  or not
     private bool playerCloseEnough = false;
@@ -28,8 +28,15 @@ public class CharacterDialogueSOHandler : MonoBehaviour
     public GameObject thisCharSpriteSpot;
     public TextMeshProUGUI dialogueText;
     public TextMeshProUGUI nameText;
+
+
+    public Camera cam;
     
     public GameObject talkingPos;
+
+    private GameObject advText;
+
+    public GameObject heldItem;
     
     public DialogueScriptableObject CurrentBlock
     {
@@ -50,6 +57,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //
         /*FILE_PATH_JSON = Application.dataPath + "/" + name + ".json";
         if (File.Exists(FILE_PATH_JSON))
         {
@@ -67,98 +75,115 @@ public class CharacterDialogueSOHandler : MonoBehaviour
 
     private void Update()
     {
-        if (isTallking == true && playerCloseEnough == true)
+        if (isTalking == true && playerCloseEnough == true)
         {
+            dialogueCanvas.SetActive(true);
             playerMove.SetActive(false);
         }
 
-        if (isTallking == false)
+        if (isTalking == false)
         {
+            dialogueCanvas.SetActive(false);
             playerMove.SetActive(true);
         }
-    }
 
-    private void OnMouseDown()
-    {
-        
-        if (isTallking == false)
+        if (Input.GetMouseButtonDown(0))
         {
-            for (int i = 0; i < dialogueCanvas.transform.childCount - 1; i++)
+            //Ray2D ray = cam.ScreenPointToRay(Input.mousePosition);
+
+            if (!isTalking)
             {
-                dialogueCanvas.transform.GetChild(i).gameObject.SetActive(true);
-            }
-            dialogueText.text = CurrentBlock.dialogue;
-            nameText.text = currentBlock.character;
-            //WE DO NOT WANT TO UPDATE WHICH BLOCK WE ARE LOOKING AT because the player may not be close enough to see it
-            //this is to compensate if the player clicks to talk, but needs to walk closer first
-            SpriteHandler();
-            isTallking = true;
-        }
+                int layerMask = 1 << 9;
+                RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero, Mathf.Infinity, layerMask);
 
-        if (isTallking == false && playerCloseEnough == true)
-        {
-            //We want to turn off the player's movement
-            //then start the dialogue
-            isTallking = true;
-            dialogueUpdate();
+                if (hit.collider != null)
+                {
+                    var newObj = hit.collider.gameObject;
+                    Debug.Log(newObj.name);
+                
+                    if (newObj.name == this.gameObject.name)
+                    {
+                        /*if (isTalking && playerCloseEnough)
+                        {
+                            dialogueUpdate();
+                        } */
+                        if (!isTalking)
+                        {
+                            dialogueText.text = CurrentBlock.dialogue;
+                            nameText.text = currentBlock.character;
+                            //WE DO NOT WANT TO UPDATE WHICH BLOCK WE ARE LOOKING AT because the player may not be close enough to see it
+                            //this is to compensate if the player clicks to talk, but needs to walk closer first
+                            SpriteHandler();
+                            isTalking = true;
+                        }
+                    }
+                }
+            } else if (isTalking && playerCloseEnough)
+            {
+                Debug.Log("testing when this triggers");
+                dialogueUpdate();
+            } 
+            
         }
-
-        if (isTallking == true && playerCloseEnough == true)
-        {
-            //We want to update the dialogue
-            dialogueUpdate();
-        }
-        
     }
 
     void dialogueUpdate()
     {
+
+        var evt = false;
+        
+        dialogueCanvas.SetActive(true);
+
+        
+        if(CurrentBlock.hasEvent == true)
+        {
+            if (heldItem.name == CurrentBlock.eventItem.name)
+            {
+                evt = true;
+                CurrentBlock = CurrentBlock.alternativeBlock;
+            }
+        }
+        else
+        {
+            CurrentBlock = CurrentBlock.nextLine;
+        }
+
         //if you click, and you're already on the very last block of this particular dialogue section
         if (CurrentBlock.isEnd == true)
         {
          IfDialogueEnded();
-        } else if(CurrentBlock.hasEvent == true)
-        {
-            //handle the item event thing in here
+         Debug.Log("End");
         }
         else //regular happening
         {
-            if (dialogueText.text != CurrentBlock.dialogue)
+            Debug.Log("New");
+
+            if (evt == true)
+            {
+                dialogueText.text = CurrentBlock.altDialogue;
+                nameText.text = CurrentBlock.character;
+                SpriteHandler();
+            }
+            else
             {
                 dialogueText.text = CurrentBlock.dialogue;
                 nameText.text = CurrentBlock.character;
                 SpriteHandler();
-                CurrentBlock = CurrentBlock.nextLine; //advance for the next click
-            }
-            else
-            {
-                CurrentBlock = CurrentBlock.nextLine;
-                if (CurrentBlock.isEnd == true)
-                {
-                    IfDialogueEnded();
-                }
-                else
-                {
-                    dialogueText.text = CurrentBlock.dialogue;
-                    nameText.text = CurrentBlock.character;
-                    SpriteHandler();
-                }
             }
             
 
-            
-            //TODO add replies section
         }
+           
+        //TODO add replies section
+        
     }
 
     void IfDialogueEnded()
     {
-        for (int i = 0; i < dialogueCanvas.transform.childCount; i++)
-        {
-            dialogueCanvas.transform.GetChild(i).gameObject.SetActive(false);
-        }
+        isTalking = false;
+        dialogueCanvas.SetActive((false));
         CurrentBlock = CurrentBlock.nextConvo;  
-        isTallking = false;
+
     }
     
     void SpriteHandler()
@@ -195,10 +220,6 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         {
             playerCloseEnough = false;
             dialogueCanvas.SetActive(true);
-            for (int i = 0; i < dialogueCanvas.transform.childCount; i++)
-            {
-                dialogueCanvas.transform.GetChild(i).gameObject.SetActive(false);
-            }
         }
     }
 
@@ -206,7 +227,6 @@ public class CharacterDialogueSOHandler : MonoBehaviour
     {
         playerMove.GetComponent<testing>().charHover = true;
         playerMove.GetComponent<testing>().charXY = talkingPos.transform.position;
-
     }
 
     private void OnMouseExit()

@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5abc86c81a1db624ca76f02db0c102ab, type: 3}
-  m_Name: SpiderLady_01_InitialMeeting
+  m_Name: SpiderLady_02
   m_EditorClassIdentifier: 
   header: 
-  character: Main Character
-  dialogue: I don't know how you got in here, but I sure as hell know how you're
-    getting out!
-  characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
-  nextLine: {fileID: 11400000, guid: 372e42a46ac4cf141856cf1fbe2d152f, type: 2}
+  character: 
+  dialogue: 
+  characterPortrait: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: b9f33deae61f6944189ed0546a9b01a6, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0
