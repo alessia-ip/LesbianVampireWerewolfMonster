@@ -31,5 +31,6 @@ public class HoldCombine : MonoBehaviour
     public void HoldClick()
     {
         InventoryManager.instance.heldItem.heldItem = itemInfo;
+        InventoryManager.instance.heldItemInvImage.sprite = InventoryManager.instance.heldItem.heldItem.itemSprite;
     }
 }

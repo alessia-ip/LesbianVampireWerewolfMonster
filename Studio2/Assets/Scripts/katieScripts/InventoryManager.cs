@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -13,10 +14,19 @@ public class InventoryManager : MonoBehaviour
 
     public GameObject inventoryCanvas;
 
+    public GameObject playerMovement;
+
+    public Image heldItemInvImage;
+
     private void Awake()
     {
         instance = this;
+    }
+
+    private void Start()
+    {
         inventoryCanvas.SetActive(false);
+        playerMovement.SetActive(true);
     }
 
     private void OnApplicationQuit()
@@ -24,13 +34,15 @@ public class InventoryManager : MonoBehaviour
         inventory.Container.Clear();
     }
 
-    public void OpenIventory()
+    public void OpenInventory()
     {
         inventoryCanvas.SetActive(true);
+        playerMovement.SetActive(false);
     }
 
     public void CloseInventory()
     {
         inventoryCanvas.SetActive(false);
+        playerMovement.SetActive(true);
     }
 }

@@ -6,7 +6,7 @@ using UnityEngine;
 public class DisplayInventory : MonoBehaviour
 {
     public static DisplayInventory instance;
-    private InventoryObject inventory;
+    public InventoryObject inventory;
 
     public int xSpaceBetweenItems;
     public int ySpaceBetweenItems;
@@ -19,11 +19,6 @@ public class DisplayInventory : MonoBehaviour
     private void Awake()
     {
         instance = this;
-    }
-
-    private void Start()
-    {
-        inventory = InventoryManager.instance.inventory;
         CreateDisplay();
     }
 
@@ -36,7 +31,6 @@ public class DisplayInventory : MonoBehaviour
             itemDisplayed.Add(inventory.Container[i], obj);
         }
     }
-
     public void UpdateDisplay()
     {
         for (int i = 0; i < inventory.Container.Count; i++)
@@ -51,7 +45,6 @@ public class DisplayInventory : MonoBehaviour
                 obj.GetComponent<RectTransform>().localPosition = GetPosition(i);
                 itemDisplayed.Add(inventory.Container[i], obj);
             }
-            
         }
     }
 

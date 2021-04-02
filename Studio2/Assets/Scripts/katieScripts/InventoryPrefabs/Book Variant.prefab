@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 597839451791558317, guid: dba5e85ea5465664c8028364667573e5,
         type: 3}
       propertyPath: m_Name
-      value: Book
+      value: Book Variant
       objectReference: {fileID: 0}
     - target: {fileID: 597908920161526992, guid: dba5e85ea5465664c8028364667573e5,
         type: 3}
@@ -122,6 +122,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6402672062809949950, guid: dba5e85ea5465664c8028364667573e5,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fd6a93c7d841222429494ea5d36c6efc,
+        type: 3}
     - target: {fileID: 7144537556047128737, guid: dba5e85ea5465664c8028364667573e5,
         type: 3}
       propertyPath: itemInfo
