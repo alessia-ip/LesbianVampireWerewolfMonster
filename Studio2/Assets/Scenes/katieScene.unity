@@ -326,7 +326,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1641910426}
-        m_MethodName: SlotClick
+        m_MethodName: HoldClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2097,7 +2097,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1251688632}
-        m_MethodName: SlotClick
+        m_MethodName: HoldClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3003,7 +3003,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 630205242}
-        m_MethodName: SlotClick
+        m_MethodName: HoldClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3928,7 +3928,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1684450671}
-        m_MethodName: SlotClick
+        m_MethodName: HoldClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5504,7 +5504,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1157389545}
-        m_MethodName: SlotClick
+        m_MethodName: HoldClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5712,7 +5712,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2024107459}
-        m_MethodName: SlotClick
+        m_MethodName: HoldClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6022,7 +6022,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 433277309}
-        m_MethodName: SlotClick
+        m_MethodName: HoldClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6230,7 +6230,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 205065508}
-        m_MethodName: SlotClick
+        m_MethodName: HoldClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6585,7 +6585,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 208676269}
-        m_MethodName: SlotClick
+        m_MethodName: HoldClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

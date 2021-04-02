@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="82b247ed-6865-4c34-8129-e67a317df8cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/HVD_Bodedo SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/HVD_Bodedo SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AlessiaScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AlessiaScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ClickToMoveSample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ClickToMoveSample.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CanvasDialogueHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CanvasDialogueHandler.cs" afterDir="false" />
     </list>
+=======
+    <list default="true" id="82b247ed-6865-4c34-8129-e67a317df8cf" name="Default Changelist" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +32,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TalkToMe.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickupItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PickupManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -42,24 +49,37 @@
       <option value="$PROJECT_DIR$/Assets/SceneChanger.cs" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Test.txt" />
       <option value="$PROJECT_DIR$/Assets/CanvasDialogueHandler.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvButton.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/Inventory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/testStuff.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvHover.cs" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/LoungeItems.txt" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/CigarLounge.txt" />
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/LibItems.txt" />
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvOpenClose.cs" />
       <option value="$PROJECT_DIR$/Assets/testingBaby.cs" />
+<<<<<<< Updated upstream
       <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/Item.cs" />
       <option value="$PROJECT_DIR$/Assets/ItemClick.cs" />
+=======
+      <option value="$PROJECT_DIR$/Assets/Scripts/testing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CanvasDialogueHandler.cs" />
+>>>>>>> Stashed changes
       <option value="$PROJECT_DIR$/Assets/Resources/DialogueAndTextFiles/Library.txt" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogueParser.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Grid.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Pathfinding.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ItemAndWorldParser.cs" />
+<<<<<<< Updated upstream
       <option value="$PROJECT_DIR$/Assets/Scripts/testing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Resources/LibItems.txt" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CanvasDialogueHandler.cs" />
+=======
+      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/Item.cs" />
+      <option value="$PROJECT_DIR$/Assets/PickupManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/Inventory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvHover.cs" />
+      <option value="$PROJECT_DIR$/Assets/Logs/CorrectCombosFile.txt" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/katieScripts/InvButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/ItemClick.cs" />
+>>>>>>> Stashed changes
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oGpszqs8gJwgBYnJ0hRq5O7emK" />
@@ -136,7 +156,12 @@
       <workItem from="1615077211721" duration="1765000" />
       <workItem from="1615130391216" duration="6188000" />
       <workItem from="1615475356967" duration="994000" />
-      <workItem from="1615945729827" duration="6582000" />
+<<<<<<< Updated upstream
+      <workItem from="1615945729827" duration="8625000" />
+=======
+      <workItem from="1615945729827" duration="2228000" />
+      <workItem from="1615951138666" duration="7049000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>

@@ -6,8 +6,10 @@
     <e p="C:\Users\Alessia\Desktop\IsometricVamps\LesbianVampireWerewolfMonster\Studio2" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="ItemClick.cs" t="Include" />
-        <e p="PickupManager.cs" t="Include" />
+        <e p="Logs" t="Include">
+          <e p="CorrectCombosFile.txt" t="Include" />
+        </e>
+        <e p="OpenMap.cs" t="Include" />
         <e p="QuickOutline" t="Include">
           <e p="Readme.txt" t="Include" />
           <e p="Resources" t="Include">
@@ -26,9 +28,13 @@
           <e p="Library.txt" t="Include" />
           <e p="LoungeItems.txt" t="Include" />
         </e>
+        <e p="ScriptableObjects" t="Include">
+          <e p="DialogueScriptableObject.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="BasicCameraFollow.cs" t="Include" />
           <e p="CanvasDialogueHandler.cs" t="Include" />
+          <e p="CharacterDialogueSOHandler.cs" t="Include" />
           <e p="ClickToMove.cs" t="Include" />
           <e p="ContextCursorScript.cs" t="Include" />
           <e p="DialogueParser.cs" t="Include" />
@@ -41,6 +47,7 @@
           <e p="IsometricCharacterRenderer.cs" t="Include" />
           <e p="IsometricPlayerMovementController.cs" t="Include" />
           <e p="ItemAndWorldParser.cs" t="Include" />
+          <e p="ItemClick.cs" t="Include" />
           <e p="katieScripts" t="Include">
             <e p="InvButton.cs" t="Include" />
             <e p="Inventory.cs" t="Include" />
@@ -52,6 +59,7 @@
           <e p="Pathfinding.cs" t="Include" />
           <e p="PathNode.cs" t="Include" />
           <e p="PickupItem.cs" t="Include" />
+          <e p="PickupManager.cs" t="Include" />
           <e p="SceneChanger.cs" t="Include" />
           <e p="TalkToMe.cs" t="Include" />
           <e p="testing.cs" t="Include" />

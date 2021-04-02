@@ -16,7 +16,10 @@ public class testing : MonoBehaviour
 
     public Animator playerAnimator;
     //TODO if the player clicks on a not walkable space, select the closest walkable node instead
-    
+
+
+    public bool charHover = false;
+    public Vector2 charXY;
     
     public float speed = 2.5f;
     
@@ -61,20 +64,31 @@ public class testing : MonoBehaviour
         
     }
 
-
+  
 
     private void Update()
     {
         var grid = pathfinding.GetGrid();
         if (Input.GetMouseButton(0))
         {
+
             pathNum = 1;
             int x = 0;
             int y = 0;
             int px;
             int py;
-            grid.GetXY(mouse.worldPosition, out x, out y);
+            
+            if (charHover == true)
+            {
+                grid.GetXY(charXY, out x, out y);
+            }
+            else
+            {
+                grid.GetXY(mouse.worldPosition, out x, out y);
+            }
+            
             grid.GetXY(player.transform.position, out px, out py);
+
             path = pathfinding.FindPath(px, py, x, y);
             if (path != null)
             {
@@ -85,7 +99,7 @@ public class testing : MonoBehaviour
                 }
             }
         }
-        if (path != null)
+        if (path != null && path.Count > 1)
         {
             
            // m_Animator.SetBool("Jump", false);
