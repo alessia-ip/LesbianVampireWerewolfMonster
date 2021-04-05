@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: timber_2_fixed_d
   m_Shader: {fileID: 4800000, guid: 1fe8cefbb0066914f8f323f408d6b201, type: 3}
-  m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _METALLICGLOSSMAP _NORMALMAP
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -44,8 +44,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 0f129d822274ce94dbc6388e756b9629, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 49a9d6be5d5f6b144a012aeeb3ba1764, type: 3}
+        m_Scale: {x: 30, y: 20}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 2800000, guid: db4b38977b3161743a2af8370bdafbc6, type: 3}
@@ -76,26 +76,26 @@ Material:
     - _GlossyReflections: 1
     - _HighIntensity: 1.18
     - _LightScalar: 1.18
-    - _LowIntensity: 1.55
+    - _LowIntensity: 2.47
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _OutlineSize: 10
     - _Parallax: 0.02
     - _RampLevels: 25
-    - _RimAlpha: 0.013
+    - _RimAlpha: 0.061
     - _RimDropOff: 0
-    - _RimPower: 0
+    - _RimPower: 0.497
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.6698113, g: 0.38767123, b: 0.16113384, a: 1}
+    - _Color: {r: 0.7924528, g: 0.03364185, b: 0.06525885, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 0.4716981, g: 0.028924897, b: 0.19149238, a: 1}
     - _HighColor: {r: 1, g: 1, b: 1, a: 1}
-    - _LowColor: {r: 0.6415094, g: 0.5064262, b: 0.40245637, a: 1}
+    - _LowColor: {r: 0.2264151, g: 0.09650481, b: 0, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
