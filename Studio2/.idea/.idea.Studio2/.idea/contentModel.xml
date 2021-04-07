@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\beaum\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\beaum\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Studio2.1388985680.00" t="ExcludeRecursive" />
-    <e p="C:\Users\beaum\Documents\GitHub\LesbianVampire\Studio2" t="IncludeRecursive">
+    <e p="C:\Users\Kaitlin Walker\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Kaitlin Walker\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Studio2.-1623822897.00" t="ExcludeRecursive" />
+    <e p="E:\spring2021\Studio2\Studio02Game\Studio2" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CameraFacingBillboard.cs" t="Include" />
+        <e p="Chair" t="Include">
+          <e p="Read Me.txt" t="Include" />
+        </e>
         <e p="FlexibleCelShader" t="Include">
           <e p="Editor" t="Include">
             <e p="CelCustomEditor.cs" t="Include" />
@@ -81,6 +85,7 @@
             <e p="HoldCombine.cs" t="Include" />
             <e p="InventoryManager.cs" t="Include" />
             <e p="Item.cs" t="Include" />
+            <e p="ItemDialogueSOHandler.cs" t="Include" />
             <e p="oldInventory" t="Include">
               <e p="InvButton.cs" t="Include" />
               <e p="Inventory.cs" t="Include" />
@@ -99,6 +104,9 @@
                   <e p="HeldItemObject.cs" t="Include" />
                   <e p="ItemObject.cs" t="Include" />
                 </e>
+              </e>
+              <e p="ItemDialogue" t="Include">
+                <e p="ItemDialogueObject.cs" t="Include" />
               </e>
             </e>
           </e>

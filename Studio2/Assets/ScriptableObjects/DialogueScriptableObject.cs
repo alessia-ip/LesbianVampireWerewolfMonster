@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu (fileName = "Dialogue Block", 
-    menuName = "ScriptableObjects/Dialogue Block",
+    menuName = "ScriptableObjects/Dialogue/Character",
     order = 0)]
 
 public class DialogueScriptableObject : ScriptableObject
