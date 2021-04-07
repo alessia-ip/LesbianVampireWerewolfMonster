@@ -75,7 +75,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
 
     private void Update()
     {
-        if (isTalking == true && playerCloseEnough == true)
+        if (isTalking && playerCloseEnough)
         {
             dialogueCanvas.SetActive(true);
             playerMove.SetActive(false);
@@ -99,7 +99,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
                 if (hit.collider != null)
                 {
                     var newObj = hit.collider.gameObject;
-                    Debug.Log(newObj.name);
+                    //Debug.Log(newObj.name);
                 
                     if (newObj.name == this.gameObject.name)
                     {
@@ -120,7 +120,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
                 }
             } else if (isTalking && playerCloseEnough)
             {
-                Debug.Log("testing when this triggers");
+                //Debug.Log("testing when this triggers");
                 dialogueUpdate();
             } 
             
@@ -152,11 +152,11 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         if (CurrentBlock.isEnd == true)
         {
          IfDialogueEnded();
-         Debug.Log("End");
+         //Debug.Log("End");
         }
         else //regular happening
         {
-            Debug.Log("New");
+            //Debug.Log("New");
 
             if (evt == true)
             {
