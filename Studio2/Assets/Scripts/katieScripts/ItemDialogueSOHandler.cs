@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class ItemDialogueSOHandler : MonoBehaviour
 {
+    public ItemObject item;
+    private SpriteRenderer inGameSprite;
     private bool isTalking = false;
 
     private bool playerCloseEnough = false;
@@ -19,60 +21,102 @@ public class ItemDialogueSOHandler : MonoBehaviour
     public GameObject dialogueCanvas;
     public GameObject mcSpriteSpot;
     public GameObject itemSpriteSpot;
+    public GameObject pickupButton;
     public TextMeshProUGUI dialogueText;
     public TextMeshProUGUI nameText;
 
+    public GameObject player;
+
     private void Start()
     {
+        inGameSprite = this.gameObject.GetComponent<SpriteRenderer>();
+        inGameSprite.sprite = item.itemSprite;
         currentBlock = startBlock;
+        mcSpriteSpot.GetComponent<Image>().sprite = currentBlock.mcSprite;
+        itemSpriteSpot.GetComponent<Image>().sprite = currentBlock.itemSprite;
     }
 
     private void Update()
     {
-        if (isTalking == true && playerCloseEnough == true)
-        {
-            dialogueCanvas.SetActive(true);
-            playerMovement.SetActive(false);
-        }
+        PlayerDistance();
 
-        if (!isTalking)
+        if (playerCloseEnough)
         {
-            int layerMask = 1 << 9;
-            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero, Mathf.Infinity, layerMask);
-
-            if (hit.collider != null)
+            if (Input.GetMouseButtonDown(0))
             {
-                var newObj = hit.collider.gameObject;
-                if (newObj.name == this.gameObject.name)
+                if (!isTalking)
                 {
-                    if (!isTalking)
+                    int layerMask = 1 << 11;
+                    RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition),
+                        Vector2.zero, Mathf.Infinity, layerMask);
+                    if (hit.collider != null)
                     {
-                        dialogueText.text = currentBlock.dialogue;
-                        nameText.text = currentBlock.character;
-                        SpriteHandler();
-                        isTalking = true;
+                        var newObj = hit.collider.gameObject;
+                        if (newObj.name == this.gameObject.name)
+                        {
+                            isTalking = true;
+                            playerMovement.SetActive(false);
+                            dialogueCanvas.SetActive(true);
+                            DialogueUpdate();
+                            
+                        }
+                    }
+                }
+                else //is talking is true
+                {
+                    if (currentBlock.isEnd)
+                    {
+                        DialogueEnded();
+                    }
+                    else
+                    {
+                        currentBlock = currentBlock.nextLine;
+                        DialogueUpdate();
                     }
                 }
             }
-        }else if (isTalking && playerCloseEnough)
-        {
-            
         }
     }
 
     void DialogueUpdate()
     {
-        
-        //this is where i stopped
+        dialogueText.text = currentBlock.dialogue;
+        nameText.text = currentBlock.itemName;
+
+        if (currentBlock.hasPickup)
+        {
+            InventoryManager.instance.currentItem = item;
+            InventoryManager.instance.currentItemGameObj = gameObject;
+            pickupButton.SetActive(true);
+        }
+        else
+        {
+            pickupButton.SetActive(false);
+        }
     }
 
-    void SpriteHandler()
+    private void DialogueEnded()
     {
-        itemSpriteSpot.SetActive(true);
-        mcSpriteSpot.SetActive(true);
+        if (!currentBlock.hasPickup)
+        {
+            isTalking = false;
+            dialogueCanvas.SetActive(false);
+            currentBlock = currentBlock.nextConvo;
+            playerMovement.SetActive(true);
+        }
+    }
 
-        mcSpriteSpot.GetComponent<Image>().sprite = currentBlock.mcSprite;
-        itemSpriteSpot.GetComponent<Image>().sprite = currentBlock.itemSprite;
-
+    void PlayerDistance()
+    {
+        if (Vector2.Distance(gameObject.transform.position, player.transform.position) < 1)
+        {
+            playerCloseEnough = true;
+            //Debug.Log("close enough");
+        }
+        else
+        {
+            playerCloseEnough = false;
+            //Debug.Log("no cigar");
+        }
     }
 }
