@@ -40,7 +40,6 @@ TagManager:
   - 
   - 
   - 
-  - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0
@@ -50,4 +49,7 @@ TagManager:
     locked: 0
   - name: Everything Else
     uniqueID: 604708161
+    locked: 0
+  - name: UI
+    uniqueID: 1220051555
     locked: 0

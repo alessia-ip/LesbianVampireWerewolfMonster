@@ -125,7 +125,7 @@ public class testing : MonoBehaviour
 
                 if (player.transform.position == nextNodepos && pathNum == path.Count - 1)
                 {
-                    playerAnimator.SetBool("isWalking", false);
+                    playerAnimator.SetBool("Walking", false);
 
                 }
 
