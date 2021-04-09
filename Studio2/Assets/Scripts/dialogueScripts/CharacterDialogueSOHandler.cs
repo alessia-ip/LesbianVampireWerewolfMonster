@@ -122,8 +122,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
             {
                 //Debug.Log("testing when this triggers");
                 DialogueUpdate();
-            } 
-            
+            }
         }
     }
 

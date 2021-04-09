@@ -18,9 +18,17 @@ public class InventoryManager : MonoBehaviour
 
     public Image heldItemInvImage;
 
+    public GameObject itemCanvas;
+    
+    [HideInInspector]
+    public ItemObject currentItem;
+    [HideInInspector]
+    public GameObject currentItemGameObj;
+
     private void Awake()
     {
         instance = this;
+        inventoryCanvas.SetActive(true);
     }
 
     private void Start()
@@ -44,5 +52,14 @@ public class InventoryManager : MonoBehaviour
     {
         inventoryCanvas.SetActive(false);
         playerMovement.SetActive(true);
+    }
+
+    public void PickUpButton()
+    {
+        inventory.AddItem(currentItem);
+        DisplayInventory.instance.UpdateDisplay();
+        itemCanvas.SetActive(false);
+        playerMovement.SetActive(true);
+        Destroy(currentItemGameObj);
     }
 }
