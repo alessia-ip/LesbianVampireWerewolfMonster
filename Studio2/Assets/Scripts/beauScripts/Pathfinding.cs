@@ -12,9 +12,10 @@ public class Pathfinding
     private List<PathNode> closedList;
     public Vector3 screenOffset;
     
-    public Pathfinding(int width, int height)
+    public Pathfinding(int width, int height, Vector3 startPos)
     {
-        screenOffset = new Vector3(10,-5,0);
+        //screenOffset = new Vector3(10,-5,0);
+        screenOffset = startPos;
         grid = new Grid<PathNode>(width, height, .5f, screenOffset,
             (Grid<PathNode> g, int x, int y) => new PathNode(g, x, y));
     }
