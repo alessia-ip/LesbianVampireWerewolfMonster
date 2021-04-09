@@ -23,6 +23,10 @@ public class testing : MonoBehaviour
     
     public float speed = 2.5f;
     
+    public GameObject gridStart;
+    public int gWidth;
+    public int gHeight;
+
     private void Start()
     {
         playerAnimator = GameObject.FindWithTag("playerAnimator").GetComponent<Animator>();
@@ -32,7 +36,7 @@ public class testing : MonoBehaviour
     
     public void MapWalk()
     {
-        pathfinding = new Pathfinding(100, 100);
+        pathfinding = new Pathfinding(gWidth, gHeight, gridStart.transform.position); //this is where we make the new grid
         mouse = GetComponent<GetMouseWorld>();
         var grid = pathfinding.GetGrid();
         int testx;

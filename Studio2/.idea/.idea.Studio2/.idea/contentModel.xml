@@ -21,6 +21,11 @@
             <e p="CelSilhouette.shader" t="Include" />
           </e>
         </e>
+        <e p="klen" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="VegetationPBRBase.shader" t="Include" />
+          </e>
+        </e>
         <e p="Logs" t="Include">
           <e p="CorrectCombosFile.txt" t="Include" />
           <e p="Mega Fantasy Props Pack" t="Include">
@@ -28,18 +33,6 @@
           </e>
         </e>
         <e p="OpenMap.cs" t="Include" />
-        <e p="QuickOutline" t="Include">
-          <e p="Readme.txt" t="Include" />
-          <e p="Resources" t="Include">
-            <e p="Shaders" t="Include">
-              <e p="OutlineFill.shader" t="Include" />
-              <e p="OutlineMask.shader" t="Include" />
-            </e>
-          </e>
-          <e p="Scripts" t="Include">
-            <e p="Outline.cs" t="Include" />
-          </e>
-        </e>
         <e p="Scenes" t="Include">
           <e p="Resources" t="Include">
             <e p="CigarLounge.txt" t="Include" />
@@ -140,6 +133,11 @@
             <e p="STFunctions.cginc" t="Include" />
             <e p="STOutline.shader" t="Include" />
             <e p="STTransparent.shader" t="Include" />
+          </e>
+        </e>
+        <e p="SpriteOutline" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="SpriteOutline.shader" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
