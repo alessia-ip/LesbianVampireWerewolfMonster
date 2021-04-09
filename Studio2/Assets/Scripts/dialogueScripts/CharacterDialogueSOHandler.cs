@@ -121,17 +121,18 @@ public class CharacterDialogueSOHandler : MonoBehaviour
             } else if (isTalking && playerCloseEnough)
             {
                 //Debug.Log("testing when this triggers");
-                dialogueUpdate();
+                DialogueUpdate();
             } 
             
         }
     }
 
-    void dialogueUpdate()
+    void DialogueUpdate()
     {
 
         var evt = false;
         
+        //for protection
         dialogueCanvas.SetActive(true);
 
         
