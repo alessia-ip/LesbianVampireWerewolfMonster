@@ -135,17 +135,20 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         //for protection
         dialogueCanvas.SetActive(true);
 
-        
+        //if there is an event on the current scriptable object
         if(CurrentBlock.hasEvent == true)
-        {
+        {//if the held item matches the event item, in name
             if (heldItem.name == CurrentBlock.eventItem.name)
             {
+                //then the event is actually happening
                 evt = true;
+                //the next block will be updated to be the alt block, rather than the usual block of text
                 CurrentBlock = CurrentBlock.alternativeBlock;
             }
         }
         else
         {
+            //otherwise we continue with the regular dialogue
             CurrentBlock = CurrentBlock.nextLine;
         }
 
@@ -155,22 +158,25 @@ public class CharacterDialogueSOHandler : MonoBehaviour
          IfDialogueEnded();
          //Debug.Log("End");
         }
-        else //regular happening
+        else //regular happening in the dialogue
         {
-            //Debug.Log("New");
 
-            if (evt == true)
+            if (evt == true) //if the event is true (item matching) then we display the alt dialogue
             {
                 dialogueText.text = CurrentBlock.altDialogue;
                 nameText.text = CurrentBlock.character;
                 SpriteHandler();
             }
-            else
+            else //otherwise show the regular dialogue
             {
                 dialogueText.text = CurrentBlock.dialogue;
                 nameText.text = CurrentBlock.character;
                 SpriteHandler();
             }
+            
+            //example: if you need to be holding a book:
+            //if you are holding a book, say "I am holding a book"
+            //if not, say "I need to find that book"
             
 
         }
@@ -179,6 +185,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         
     }
 
+    //when the dialogue is over for that particular conversation
     void IfDialogueEnded()
     {
         isTalking = false;
@@ -187,6 +194,8 @@ public class CharacterDialogueSOHandler : MonoBehaviour
 
     }
     
+    //this handles all sprites based on the sprite in the scriptable object
+    //different blocks used for positioning
     void SpriteHandler()
     {
         if (CurrentBlock.character == "Main Character")
@@ -224,6 +233,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         }
     }
 
+    //this is just to set the player's desired position to IN FRONT of the character they have clicked on
     private void OnMouseOver()
     {
         playerMove.GetComponent<testing>().charHover = true;
