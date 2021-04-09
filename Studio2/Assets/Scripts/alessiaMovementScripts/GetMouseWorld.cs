@@ -6,8 +6,8 @@ using Debug = System.Diagnostics.Debug;
 public class GetMouseWorld : MonoBehaviour
 {
     public Vector3 worldPosition;
-    
-    
+
+    public Camera cam;
 
     private void Start()
     {
@@ -16,7 +16,6 @@ public class GetMouseWorld : MonoBehaviour
 
     private void Update()
     {
-        worldPosition = Camera.main
-            .ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, transform.position.z));
+        worldPosition = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, transform.position.z));
     }
 }
