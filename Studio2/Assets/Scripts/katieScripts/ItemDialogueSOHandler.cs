@@ -46,7 +46,7 @@ public class ItemDialogueSOHandler : MonoBehaviour
             {
                 if (!isTalking)
                 {
-                    int layerMask = 1 << 11;
+                    int layerMask = 1 << 12;
                     RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition),
                         Vector2.zero, Mathf.Infinity, layerMask);
                     if (hit.collider != null)
