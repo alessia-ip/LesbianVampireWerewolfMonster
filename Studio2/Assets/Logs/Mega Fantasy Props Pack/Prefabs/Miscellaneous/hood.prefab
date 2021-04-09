@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3352272}
   - component: {fileID: 2377244}
   - component: {fileID: 6429650}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: hood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 137762}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.68039, y: 0.68039, z: 0.68039}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 76a83259762614141892c40ea34bc15d, type: 2}
+  - {fileID: 2100000, guid: da2d7a7a842064e4cb761293c37a9035, type: 2}
   - {fileID: 2100000, guid: f50fd987009300249ad223e750bb4396, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
