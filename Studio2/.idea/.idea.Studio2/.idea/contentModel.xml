@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Kaitlin Walker\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Kaitlin Walker\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Studio2.-1623822897.00" t="ExcludeRecursive" />
-    <e p="E:\spring2021\Studio2\Studio02Game\Studio2" t="IncludeRecursive">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -73,6 +71,9 @@
             <e p="EndDialogue.cs" t="Include" />
             <e p="HoverUIDialogueButton.cs" t="Include" />
             <e p="TalkToMe.cs" t="Include" />
+          </e>
+          <e p="GameManagementScripts" t="Include">
+            <e p="AdditiveSceneLoader.cs" t="Include" />
           </e>
           <e p="itemScripts" t="Include">
             <e p="ItemAndWorldParser.cs" t="Include" />
@@ -219,7 +220,9 @@
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Studio2.sln" t="IncludeFlat" />
-      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
     </e>
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/resharper-host/local/Transient/Rider/v203/SolutionCaches/_Studio2.1891338847.00" t="ExcludeRecursive" />
   </component>
 </project>
