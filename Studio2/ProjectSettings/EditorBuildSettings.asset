@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/PointAndClickSmall.unity
-    guid: a9f4f3c175506a646a66ad5a1b804405
+    path: Assets/Final Scenes/Final Scene.unity
+    guid: 285734cfbfadf497483f5dae696013ca
   - enabled: 1
-    path: Assets/Scenes/ClickToMoveSample.unity
-    guid: 777c329db75edf443b6762e45921c1ff
+    path: Assets/Final Scenes/LibraryScene.unity
+    guid: bb0a610c63f3c43d4a729f0ddb496a9e
+  - enabled: 1
+    path: Assets/Final Scenes/LoungeScene.unity
+    guid: fd00fdf01ec4f440298ffc3b37ceb25e
   m_configObjects: {}

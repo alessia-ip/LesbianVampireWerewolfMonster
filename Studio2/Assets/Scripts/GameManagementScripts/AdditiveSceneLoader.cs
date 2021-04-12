@@ -13,13 +13,13 @@ public class AdditiveSceneLoader : MonoBehaviour
     {
 
 
-        if (!Application.isEditor)
-        {
+        //if (!Application.isEditor)
+        //{
             foreach (var scene in loadScenes)
             {
                 SceneManager.LoadScene(scene, LoadSceneMode.Additive);
             }
-        }
+        //}
 
     }
     

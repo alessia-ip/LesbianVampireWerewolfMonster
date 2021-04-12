@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 364bd1788a725ba44913264f4254d937
+guid: 4056fdee99794d2498b3aacf45d6acc0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1938858541793592400
-    second: cigarroom-fullBG_0
+      213: -7836547378537610585
+    second: Lounge_0000s_0004_Statue_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -87,6 +87,18 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -102,28 +114,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cigarroom-fullBG_0
+      name: Lounge_0000s_0004_Statue_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 3000
-        height: 3000
+        x: 337
+        y: 258
+        width: 47
+        height: 205
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -193.5, y: -86}
-        - {x: -191.92859, y: 260.7151}
-        - {x: -170.32507, y: 272.58667}
-        - {x: 49.102417, y: 136.177}
-        - {x: 49.5, y: -211}
-        - {x: 37.5, y: -219}
+      outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 054c65d329538ea10800000000000000
-      internalID: 1938858541793592400
+      spriteID: 7a24fb4ddadfe3390800000000000000
+      internalID: -7836547378537610585
       vertices: []
       indices: 
       edges: []
