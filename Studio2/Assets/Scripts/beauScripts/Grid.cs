@@ -32,11 +32,11 @@ public class Grid<TGridObject>
             {
                 gridArray[x, y] = createGridobject(this, x, y);
                 //Debug.Log(x + " " + y);
-                Debug.DrawLine(GetWorldPosition(x,y),GetWorldPosition(x, y +1), Color.white, 100f);
-                Debug.DrawLine(GetWorldPosition(x,y),GetWorldPosition(x +1, y), Color.white, 100f);
+                //Debug.DrawLine(GetWorldPosition(x,y),GetWorldPosition(x, y +1), Color.white, 100f);
+                //Debug.DrawLine(GetWorldPosition(x,y),GetWorldPosition(x +1, y), Color.white, 100f);
             }
-                Debug.DrawLine(GetWorldPosition(0, height), GetWorldPosition(width,height), Color.white, 100f);
-                Debug.DrawLine(GetWorldPosition(width,0),GetWorldPosition(width,height), Color.white, 100f);
+                //Debug.DrawLine(GetWorldPosition(0, height), GetWorldPosition(width,height), Color.white, 100f);
+                //Debug.DrawLine(GetWorldPosition(width,0),GetWorldPosition(width,height), Color.white, 100f);
         }
         //Debug.Log(width + " " + height);
     }

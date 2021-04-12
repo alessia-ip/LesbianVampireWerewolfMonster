@@ -30,13 +30,20 @@ public class testing : MonoBehaviour
     private void Start()
     {
         //playerAnimator = GameObject.FindWithTag("playerAnimator").GetComponent<Animator>();
+        pathfinding = new Pathfinding(gWidth, gHeight, gridStart.transform.position, cellSize);
+        var gridhelp = pathfinding.GetGrid();
+        int x, y;
+        gridhelp.GetXY(player.transform.position, out x, out y);
+        player.transform.position = gridhelp.GetWorldPosition(x, y);
+
         MapWalk();
         
+
     }
     
     public void MapWalk()
     {
-        pathfinding = new Pathfinding(gWidth, gHeight, gridStart.transform.position, cellSize); //this is where we make the new grid
+        //pathfinding = new Pathfinding(gWidth, gHeight, gridStart.transform.position, cellSize); //this is where we make the new grid
         mouse = GetComponent<GetMouseWorld>();
         var grid = pathfinding.GetGrid();
         int testx;
@@ -73,7 +80,7 @@ public class testing : MonoBehaviour
     private void Update()
     {
         var grid = pathfinding.GetGrid();
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(0))
         {
 
             pathNum = 1;
@@ -92,6 +99,8 @@ public class testing : MonoBehaviour
             }
             
             grid.GetXY(player.transform.position, out px, out py);
+            Debug.Log(px + " ,"  + py);
+            
 
             path = pathfinding.FindPath(px, py, x, y);
             if (path != null)
