@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DisplayInventory : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class DisplayInventory : MonoBehaviour
     public int numberOfColumns;
     public int xStart;
     public int yStart;
+
+    public GameObject invItemPrefab;
 
     private Dictionary<ItemObject, GameObject> itemDisplayed = new Dictionary<ItemObject, GameObject>();
 
@@ -26,8 +29,10 @@ public class DisplayInventory : MonoBehaviour
     {
         for (int i = 0; i < inventory.Container.Count; i++)
         {
-            var obj = Instantiate(inventory.Container[i].canvasImage, Vector3.zero, Quaternion.identity, transform);
+            var obj = Instantiate(invItemPrefab, Vector3.zero, Quaternion.identity, transform);
             obj.GetComponent<RectTransform>().localPosition = GetPosition(i);
+            obj.GetComponent<Image>().sprite = inventory.Container[i].itemSprite;
+            obj.GetComponent<HoldCombine>().itemInfo = inventory.Container[i];
             itemDisplayed.Add(inventory.Container[i], obj);
         }
     }
@@ -41,8 +46,10 @@ public class DisplayInventory : MonoBehaviour
             }
             else
             {
-                var obj = Instantiate(inventory.Container[i].canvasImage, Vector3.zero, Quaternion.identity, transform);
+                var obj = Instantiate(invItemPrefab, Vector3.zero, Quaternion.identity, transform);
                 obj.GetComponent<RectTransform>().localPosition = GetPosition(i);
+                obj.GetComponent<Image>().sprite = inventory.Container[i].itemSprite;
+                obj.GetComponent<HoldCombine>().itemInfo = inventory.Container[i];
                 itemDisplayed.Add(inventory.Container[i], obj);
             }
         }

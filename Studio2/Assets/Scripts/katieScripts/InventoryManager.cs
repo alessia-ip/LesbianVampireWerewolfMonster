@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
@@ -13,18 +15,24 @@ public class InventoryManager : MonoBehaviour
     public InventoryObject inventory;
 
     public GameObject inventoryCanvas;
-
-    public GameObject playerMovement;
-
+    
     public Image heldItemInvImage;
 
-    public GameObject itemCanvas;
-    
     [HideInInspector]
     public ItemObject currentItem;
     [HideInInspector]
     public GameObject currentItemGameObj;
-
+    
+    [FormerlySerializedAs("dialogueCanvas")] [Header("Repeat Info used for Items")]
+    public GameObject itemDialogueCanvas;
+    public GameObject mcSpriteSpot;
+    public GameObject itemSpriteSpot;
+    public GameObject pickupButton;
+    public TextMeshProUGUI dialogueText;
+    public TextMeshProUGUI nameText;
+    public GameObject player;
+    public GameObject playerMovement;
+    
     private void Awake()
     {
         instance = this;
@@ -58,7 +66,7 @@ public class InventoryManager : MonoBehaviour
     {
         inventory.AddItem(currentItem);
         DisplayInventory.instance.UpdateDisplay();
-        itemCanvas.SetActive(false);
+        itemDialogueCanvas.SetActive(false);
         playerMovement.SetActive(true);
         Destroy(currentItemGameObj);
     }

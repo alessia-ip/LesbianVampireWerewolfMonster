@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1915627343663079082}
   - component: {fileID: 7144537556047128737}
   m_Layer: 5
-  m_Name: Cigar
+  m_Name: ItemPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,9 +68,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 90754439e2f729a409650f7af54100b7, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   holdButton: {fileID: 9215903786976793522}
   combineButton: {fileID: 8261461056374623711}
-  itemInfo: {fileID: 11400000, guid: 6b78a3077627db041ab93a2e0567bd64, type: 2}
+  itemInfo: {fileID: 0}
 --- !u!1 &2424698784603992182
 GameObject:
   m_ObjectHideFlags: 0

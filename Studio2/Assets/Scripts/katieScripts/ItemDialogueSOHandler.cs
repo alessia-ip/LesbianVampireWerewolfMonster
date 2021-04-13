@@ -8,32 +8,28 @@ using UnityEngine.UI;
 public class ItemDialogueSOHandler : MonoBehaviour
 {
     public ItemObject item;
+    public ItemDialogueObject startBlock;
     private SpriteRenderer inGameSprite;
     private bool isTalking = false;
 
     private bool playerCloseEnough = false;
-    public GameObject playerMovement;
     private string playerTag = "Player";
 
-    public ItemDialogueObject startBlock;
-    public ItemDialogueObject currentBlock;
-    
-    public GameObject dialogueCanvas;
-    public GameObject mcSpriteSpot;
-    public GameObject itemSpriteSpot;
-    public GameObject pickupButton;
-    public TextMeshProUGUI dialogueText;
-    public TextMeshProUGUI nameText;
+    [HideInInspector]
+    public Camera mainCam;
 
-    public GameObject player;
+    
+    [HideInInspector]
+    public ItemDialogueObject currentBlock;
 
     private void Start()
     {
+        mainCam = Camera.main;
         inGameSprite = this.gameObject.GetComponent<SpriteRenderer>();
         inGameSprite.sprite = item.itemSprite;
         currentBlock = startBlock;
-        mcSpriteSpot.GetComponent<Image>().sprite = currentBlock.mcSprite;
-        itemSpriteSpot.GetComponent<Image>().sprite = currentBlock.itemSprite;
+        InventoryManager.instance.mcSpriteSpot.GetComponent<Image>().sprite = currentBlock.mcSprite;
+        InventoryManager.instance.itemSpriteSpot.GetComponent<Image>().sprite = currentBlock.itemSprite;
     }
 
     private void Update()
@@ -47,7 +43,7 @@ public class ItemDialogueSOHandler : MonoBehaviour
                 if (!isTalking)
                 {
                     int layerMask = 1 << 12;
-                    RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition),
+                    RaycastHit2D hit = Physics2D.Raycast(mainCam.ScreenToWorldPoint(Input.mousePosition),
                         Vector2.zero, Mathf.Infinity, layerMask);
                     if (hit.collider != null)
                     {
@@ -55,8 +51,8 @@ public class ItemDialogueSOHandler : MonoBehaviour
                         if (newObj.name == this.gameObject.name)
                         {
                             isTalking = true;
-                            playerMovement.SetActive(false);
-                            dialogueCanvas.SetActive(true);
+                            InventoryManager.instance.playerMovement.SetActive(false);
+                            InventoryManager.instance.itemDialogueCanvas.SetActive(true);
                             DialogueUpdate();
                             
                         }
@@ -80,18 +76,18 @@ public class ItemDialogueSOHandler : MonoBehaviour
 
     void DialogueUpdate()
     {
-        dialogueText.text = currentBlock.dialogue;
-        nameText.text = currentBlock.itemName;
+        InventoryManager.instance.dialogueText.text = currentBlock.dialogue;
+        InventoryManager.instance.nameText.text = currentBlock.itemName;
 
         if (currentBlock.hasPickup)
         {
             InventoryManager.instance.currentItem = item;
             InventoryManager.instance.currentItemGameObj = gameObject;
-            pickupButton.SetActive(true);
+            InventoryManager.instance.pickupButton.SetActive(true);
         }
         else
         {
-            pickupButton.SetActive(false);
+            InventoryManager.instance.pickupButton.SetActive(false);
         }
     }
 
@@ -100,15 +96,15 @@ public class ItemDialogueSOHandler : MonoBehaviour
         if (!currentBlock.hasPickup)
         {
             isTalking = false;
-            dialogueCanvas.SetActive(false);
+            InventoryManager.instance.itemDialogueCanvas.SetActive(false);
             currentBlock = currentBlock.nextConvo;
-            playerMovement.SetActive(true);
+            InventoryManager.instance.playerMovement.SetActive(true);
         }
     }
 
     void PlayerDistance()
     {
-        if (Vector2.Distance(gameObject.transform.position, player.transform.position) < 1)
+        if (Vector2.Distance(gameObject.transform.position, InventoryManager.instance.player.transform.position) < 1)
         {
             playerCloseEnough = true;
             //Debug.Log("close enough");
