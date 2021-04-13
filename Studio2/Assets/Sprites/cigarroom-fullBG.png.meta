@@ -105,10 +105,10 @@ TextureImporter:
       name: cigarroom-fullBG_0
       rect:
         serializedVersion: 2
-        x: 1640
-        y: 1497
-        width: 713
-        height: 780
+        x: 0
+        y: 0
+        width: 3000
+        height: 3000
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
