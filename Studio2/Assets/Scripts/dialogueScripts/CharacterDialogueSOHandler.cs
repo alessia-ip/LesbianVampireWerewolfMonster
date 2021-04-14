@@ -82,6 +82,8 @@ public class CharacterDialogueSOHandler : MonoBehaviour
 
     private void Update()
     {
+        PlayerDistance();
+        
         if (isTalking && playerCloseEnough)
         {
             dialogueCanvas.SetActive(true);
@@ -218,7 +220,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         }
     }
     
-    private void OnTriggerEnter2D(Collider2D other)
+    /*private void OnTriggerEnter2D(Collider2D other)
     {
 
         Debug.Log(other.gameObject.name);
@@ -230,14 +232,9 @@ public class CharacterDialogueSOHandler : MonoBehaviour
             dialogueCanvas.SetActive(true);
         }
     }
+    */
 
-
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        Debug.Log(other.gameObject.name + " collision");
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
+    /*private void OnTriggerExit2D(Collider2D other)
     {
         Debug.Log(other.name);
         
@@ -246,6 +243,19 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         {
             playerCloseEnough = false;
             dialogueCanvas.SetActive(true);
+        }
+    }*/
+
+    private void PlayerDistance()
+    {
+        if (Vector2.Distance(gameObject.transform.position, InventoryManager.instance.player.transform.position) < 1)
+        {
+            playerCloseEnough = true;
+            dialogueCanvas.SetActive(true);
+        }else
+        {
+            playerCloseEnough = false;
+            dialogueCanvas.SetActive(false);
         }
     }
 
