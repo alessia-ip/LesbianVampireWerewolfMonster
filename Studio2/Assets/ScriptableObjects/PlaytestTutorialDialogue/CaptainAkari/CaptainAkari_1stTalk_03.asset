@@ -16,7 +16,8 @@ MonoBehaviour:
   character: Captain Akari
   dialogue: 'I see. A respectable decision, rookie! After all, today''s the day...the
     DAY of DAYS. '
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: 2409159706596575678, guid: fe62fd62a773d8844ada0cf757c77ca4,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 29573470b78599c4ebf5da1ebf1dea8d, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

@@ -16,7 +16,8 @@ MonoBehaviour:
   character: Captain Akari
   dialogue: ' Now, come; eternal servitude and many blessings await. Retrieve the
     <b> ruby </b> I gave you when first we met, and bring it to me. '
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: 2409159706596575678, guid: fe62fd62a773d8844ada0cf757c77ca4,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 935ee99b63ad1e849a9b21d67f791685, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

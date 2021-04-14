@@ -708,6 +708,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 1d3fa75d08f5a6d49a4f9ac6328d601f, type: 2}
   startBlock: {fileID: 11400000, guid: a25eec458db35724dbc1678aa5d4752e, type: 2}
+  mainCam: {fileID: 0}
   currentBlock: {fileID: 0}
 --- !u!4 &976557479
 Transform:

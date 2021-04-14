@@ -16,7 +16,8 @@ MonoBehaviour:
   character: Captain Akari
   dialogue: Two years of intense physical, mental, and spiritual conditioning have
     led you to this very moment. What say you?
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: 2409159706596575678, guid: fe62fd62a773d8844ada0cf757c77ca4,
+    type: 3}
   nextLine: {fileID: 11400000, guid: ce4a4070a7c967546813ca4021fc097f, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
