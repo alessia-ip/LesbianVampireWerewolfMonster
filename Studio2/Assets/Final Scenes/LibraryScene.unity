@@ -1598,7 +1598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMove: {fileID: 0}
-  startBlock: {fileID: 11400000, guid: 55ea66009f4e5f643b1902c695fdb3af, type: 2}
+  startBlock: {fileID: 11400000, guid: 6e5966ab26a51154598bf9b2d769f43c, type: 2}
   currentBlock: {fileID: 0}
   dialogueCanvas: {fileID: 0}
   mcSpriteSpot: {fileID: 0}
