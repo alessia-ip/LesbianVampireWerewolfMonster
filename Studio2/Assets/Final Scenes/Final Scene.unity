@@ -1764,7 +1764,7 @@ GameObject:
   - component: {fileID: 892215522}
   m_Layer: 2
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1793,7 +1793,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.071177244, y: 0.014506817}
@@ -2094,7 +2094,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1066763226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3650,7 +3650,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624057108}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.68, y: 1.34, z: 0}
+  m_LocalPosition: {x: -4.26, y: 1.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 754786182}
@@ -4327,7 +4327,7 @@ GameObject:
   - component: {fileID: 1815443634}
   m_Layer: 0
   m_Name: Player Movement
-  m_TagString: Untagged
+  m_TagString: Movement
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4906,6 +4906,7 @@ GameObject:
   - component: {fileID: 2070849960}
   - component: {fileID: 2070849961}
   - component: {fileID: 2070849962}
+  - component: {fileID: 2070849963}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -4947,6 +4948,7 @@ MonoBehaviour:
   - {fileID: 892274154}
   currentScene: LibraryScene
   currentCamera: {fileID: 1107479582}
+  _gridMaker: {fileID: 1815443635}
 --- !u!114 &2070849962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4974,6 +4976,25 @@ MonoBehaviour:
   nameText: {fileID: 1146610971}
   player: {fileID: 892215520}
   playerMovement: {fileID: 1815443633}
+--- !u!114 &2070849963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070849959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874c7aa9177e5a244a37ba4d688e8ffc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkCursor: {fileID: 2800000, guid: b6e0975f11dffa44888ae17075c8710a, type: 3}
+  talkCursor: {fileID: 2800000, guid: d9c9385e52afd5b45b646b7e19db7d1c, type: 3}
+  interactCursor: {fileID: 2800000, guid: a0531c5ce8648fa48b2085c07c216bc6, type: 3}
+  xCursor: {fileID: 2800000, guid: 5551b201a8a5433498bcbf8618c8ddba, type: 3}
+  weaponCursor: {fileID: 2800000, guid: fe85975d047a829458cae87e5abeb775, type: 3}
+  cursorMode: 0
+  hotSpot: {x: 0, y: 0}
 --- !u!1 &2070917367
 GameObject:
   m_ObjectHideFlags: 0

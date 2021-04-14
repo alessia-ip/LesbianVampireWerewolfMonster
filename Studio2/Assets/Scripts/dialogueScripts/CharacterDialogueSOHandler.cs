@@ -69,7 +69,14 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         {
             CurrentBlock = startBlock;
         }*/
-        
+
+        playerMove = GameObject.FindWithTag("Movement");
+        dialogueCanvas = GameObject.Find("DialogueCanvas");
+        mcSpriteSpot = dialogueCanvas.transform.GetChild(4).gameObject;
+        thisCharSpriteSpot = dialogueCanvas.transform.GetChild(5).gameObject;
+        dialogueText = dialogueCanvas.transform.GetChild(6).GetChild(0).GetComponent<TextMeshProUGUI>();
+        nameText = dialogueCanvas.transform.GetChild(7).GetChild(0).GetComponent<TextMeshProUGUI>(); 
+        cam = Camera.main;
         CurrentBlock = startBlock;
     }
 
@@ -137,7 +144,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         //if there is an event on the current scriptable object
         if(CurrentBlock.hasEvent == true)
         {//if the held item matches the event item, in name
-            if (heldItem.name == CurrentBlock.eventItem.name)
+            if (heldItem.GetComponent<SpriteRenderer>().sprite.name == CurrentBlock.eventItem.name)
             {
                 //then the event is actually happening
                 evt = true;
@@ -213,6 +220,9 @@ public class CharacterDialogueSOHandler : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
+
+        Debug.Log(other.gameObject.name);
+        
         var player = other.gameObject.tag;
         if (player == playerTag)
         {
@@ -221,9 +231,16 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         }
     }
 
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        Debug.Log(other.gameObject.name + " collision");
+    }
+
     private void OnTriggerExit2D(Collider2D other)
     {
         Debug.Log(other.name);
+        
         var player = other.gameObject.tag;
         if (player == playerTag)
         {

@@ -7,6 +7,7 @@ TagManager:
   - Unwalkable
   - Dialogue Manager
   - playerAnimator
+  - Movement
   layers:
   - Default
   - TransparentFX
