@@ -1763,7 +1763,7 @@ GameObject:
   - component: {fileID: 892215521}
   - component: {fileID: 892215522}
   m_Layer: 2
-  m_Name: Player
+  m_Name: Player - COLLIDER
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3637,7 +3637,7 @@ GameObject:
   - component: {fileID: 1624057109}
   m_Layer: 0
   m_Name: PlayerFeet
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
