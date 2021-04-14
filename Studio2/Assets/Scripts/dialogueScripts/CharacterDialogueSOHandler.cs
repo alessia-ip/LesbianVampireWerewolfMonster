@@ -77,6 +77,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         dialogueText = dialogueCanvas.transform.GetChild(6).GetChild(0).GetComponent<TextMeshProUGUI>();
         nameText = dialogueCanvas.transform.GetChild(7).GetChild(0).GetComponent<TextMeshProUGUI>(); 
         cam = Camera.main;
+        heldItem = GameObject.Find("RegMenuHeldItem");
         CurrentBlock = startBlock;
     }
 
@@ -146,16 +147,24 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         //if there is an event on the current scriptable object
         if(CurrentBlock.hasEvent == true)
         {//if the held item matches the event item, in name
-            if (heldItem.GetComponent<SpriteRenderer>().sprite.name == CurrentBlock.eventItem.name)
+            if (heldItem.GetComponent<Image>().sprite.name == CurrentBlock.eventItem.name)
             {
+                Debug.Log("EVT TRUE");
                 //then the event is actually happening
                 evt = true;
                 //the next block will be updated to be the alt block, rather than the usual block of text
                 CurrentBlock = CurrentBlock.alternativeBlock;
             }
+            else
+            {
+                Debug.Log("No event");
+                //otherwise we continue with the regular dialogue
+                CurrentBlock = CurrentBlock.nextLine;
+            }
         }
         else
         {
+            Debug.Log("No event");
             //otherwise we continue with the regular dialogue
             CurrentBlock = CurrentBlock.nextLine;
         }
@@ -169,7 +178,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         else //regular happening in the dialogue
         {
 
-            if (evt == true) //if the event is true (item matching) then we display the alt dialogue
+            if (CurrentBlock.hasEvent == true && heldItem.GetComponent<Image>().sprite.name == CurrentBlock.eventItem.name) //if the event is true (item matching) then we display the alt dialogue
             {
                 dialogueText.text = CurrentBlock.altDialogue;
                 nameText.text = CurrentBlock.character;
