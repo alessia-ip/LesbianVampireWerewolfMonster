@@ -32,5 +32,6 @@ public class HoldCombine : MonoBehaviour
     {
         InventoryManager.instance.heldItem.heldItem = itemInfo;
         InventoryManager.instance.heldItemInvImage.sprite = InventoryManager.instance.heldItem.heldItem.itemSprite;
+        InventoryManager.instance.regMenuItemInvImage.sprite = InventoryManager.instance.heldItem.heldItem.itemSprite;
     }
 }

@@ -17,6 +17,8 @@ public class InventoryManager : MonoBehaviour
     public GameObject inventoryCanvas;
     
     public Image heldItemInvImage;
+    public Image regMenuItemInvImage;
+
 
     [HideInInspector]
     public ItemObject currentItem;
