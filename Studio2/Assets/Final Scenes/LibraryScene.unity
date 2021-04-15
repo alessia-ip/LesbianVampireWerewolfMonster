@@ -559,14 +559,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.06, y: 0.31}
-      - {x: -0.26999998, y: 0.19}
-      - {x: -0.26999998, y: -0.26999998}
-      - {x: -0.22, y: -0.31}
-      - {x: 0.04, y: -0.31}
-      - {x: 0.26999998, y: -0.22999999}
-      - {x: 0.26999998, y: 0.29999998}
-      - {x: 0.22999999, y: 0.31}
+    - - {x: -0.062487796, y: -0.058206245}
+      - {x: -0.26751208, y: -0.028933432}
+      - {x: -0.26253635, y: -0.21775447}
+      - {x: -0.2025849, y: -0.25775453}
+      - {x: -0.06200306, y: -0.31}
+      - {x: 0.24014547, y: -0.13794845}
+      - {x: 0.26004848, y: 0.036284775}
+      - {x: 0.18521805, y: -0.02835169}
 --- !u!1 &745085924
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,13 +1592,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1723718622}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 90ed116eb0dd79f4f983425eac328541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerMove: {fileID: 0}
-  startBlock: {fileID: 11400000, guid: 55ea66009f4e5f643b1902c695fdb3af, type: 2}
+  startBlock: {fileID: 11400000, guid: 6e5966ab26a51154598bf9b2d769f43c, type: 2}
   currentBlock: {fileID: 0}
   dialogueCanvas: {fileID: 0}
   mcSpriteSpot: {fileID: 0}

@@ -15,7 +15,6 @@ public class testing : MonoBehaviour
     public LayerMask layerMask;
 
     public Animator playerAnimator;
-    //TODO if the player clicks on a not walkable space, select the closest walkable node instead
 
 
     public bool charHover = false;
@@ -27,6 +26,7 @@ public class testing : MonoBehaviour
     public int gWidth;
     public int gHeight;
     public float cellSize;
+    
     private void Start()
     {
         //playerAnimator = GameObject.FindWithTag("playerAnimator").GetComponent<Animator>();
@@ -37,10 +37,11 @@ public class testing : MonoBehaviour
         player.transform.position = gridhelp.GetWorldPosition(x, y);
 
         MapWalk();
-        
-
     }
+
+    //could regenerate grid on changing rooms <- 
     
+
     public void MapWalk()
     {
         //pathfinding = new Pathfinding(gWidth, gHeight, gridStart.transform.position, cellSize); //this is where we make the new grid
@@ -60,6 +61,7 @@ public class testing : MonoBehaviour
                 Vector2 worldPosition = grid.GetWorldPosition(x, y);
                 if (Physics2D.OverlapPoint(worldPosition, layerMask))
                 {
+                    //Debug.Log("Hit a collider - set to unwalkable: " + pathfinding.GetNode(x,y));
                     //GameObject trigger = new GameObject("check" + worldPosition.x + worldPosition.y);
                     //trigger.transform.localScale = new Vector3(.33f, .33f, .33f);
                     pathfinding.GetNode(x, y).SetIsWalkable(false);
@@ -99,7 +101,7 @@ public class testing : MonoBehaviour
             }
             
             grid.GetXY(player.transform.position, out px, out py);
-            Debug.Log(px + " ,"  + py);
+            //Debug.Log(px + " ,"  + py); //playerPosition
             
 
             path = pathfinding.FindPath(px, py, x, y);

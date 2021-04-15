@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -3578048849698842995
-    second: RubySprite
+    second: Ruby
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -90,7 +90,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RubySprite
+      name: Ruby
       rect:
         serializedVersion: 2
         x: 58
@@ -98,7 +98,7 @@ TextureImporter:
         width: 142
         height: 225
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
