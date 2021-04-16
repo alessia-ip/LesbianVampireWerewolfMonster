@@ -10,7 +10,7 @@ public class testing : MonoBehaviour
     static Pathfinding pathfinding;
     private GetMouseWorld mouse;
     public GameObject player;
-    private List<PathNode> path;
+    public List<PathNode> path;
     private int pathNum;
     public LayerMask layerMask;
 
@@ -40,7 +40,13 @@ public class testing : MonoBehaviour
     }
 
     //could regenerate grid on changing rooms <- 
-    
+    public void playerPosFix()
+    {
+        var gridhelp = pathfinding.GetGrid();
+        int x, y;
+        gridhelp.GetXY(player.transform.position, out x, out y);
+        player.transform.position = gridhelp.GetWorldPosition(x, y);
+    }
 
     public void MapWalk()
     {
