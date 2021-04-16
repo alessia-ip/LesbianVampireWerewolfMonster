@@ -5,7 +5,6 @@
     <explicitIncludes>
       <Path>Library/PackageCache/com.unity.2d.animation@3.2.5</Path>
       <Path>Library/PackageCache/com.unity.2d.common@2.1.0</Path>
-      <Path>Library/PackageCache/com.unity.2d.path@2.0.5</Path>
       <Path>Library/PackageCache/com.unity.2d.path@2.1.0</Path>
       <Path>Library/PackageCache/com.unity.2d.pixel-perfect@2.1.0</Path>
       <Path>Library/PackageCache/com.unity.2d.psdimporter@2.1.6</Path>

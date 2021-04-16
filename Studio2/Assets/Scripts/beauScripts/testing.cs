@@ -146,7 +146,7 @@ public class testing : MonoBehaviour
                 {
                     playerAnimator.SetBool("WalkingRight", true);
                 }
-                else //this is going left
+                else if(xDif > 0)//this is going left
                 {
                     playerAnimator.SetBool("WalkingRight", false);
                 }
@@ -155,7 +155,7 @@ public class testing : MonoBehaviour
                 {
                     playerAnimator.SetBool("WalkingUp", true);
                 }
-                else //this is going down
+                else if (yDif >0)//this is going down
                 {
                     playerAnimator.SetBool("WalkingUp", false);
                 }
@@ -166,9 +166,7 @@ public class testing : MonoBehaviour
                     pathNum++;
                   
                     
-                }
-
-                if (player.transform.position == nextNodepos && pathNum == path.Count - 1)
+                }else
                 {
                     playerAnimator.SetBool("Walking", false);
 
