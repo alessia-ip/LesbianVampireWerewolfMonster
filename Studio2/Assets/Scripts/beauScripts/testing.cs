@@ -114,6 +114,7 @@ public class testing : MonoBehaviour
                 }
             }
         }
+        
         if (path != null && path.Count > 1)
         {
             
@@ -129,9 +130,36 @@ public class testing : MonoBehaviour
                         player.transform.position,
                         nextNodepos,
                         1f * Time.deltaTime * speed);
+
+            
+  
+                var xDif = player.transform.position.x - nextNodepos.x;
+                var yDif = player.transform.position.y - nextNodepos.y;
+                
+                if (xDif < 0) // this is going right
+                {
+                    playerAnimator.SetBool("WalkingRight", true);
+                }
+                else //this is going left
+                {
+                    playerAnimator.SetBool("WalkingRight", false);
+                }
+
+                if (yDif < 0) // this is going up
+                {
+                    playerAnimator.SetBool("WalkingUp", true);
+                }
+                else //this is going down
+                {
+                    playerAnimator.SetBool("WalkingUp", false);
+                }
+
+
                 if (player.transform.position == nextNodepos && pathNum != path.Count - 1)
                 {
                     pathNum++;
+                  
+                    
                 }
 
                 if (player.transform.position == nextNodepos && pathNum == path.Count - 1)

@@ -28,13 +28,28 @@
             <e p="VegetationPBRBase.shader" t="Include" />
           </e>
         </e>
-        <e p="Logs" t="Include">
-          <e p="CorrectCombosFile.txt" t="Include" />
-          <e p="Mega Fantasy Props Pack" t="Include">
-            <e p="Readme.txt" t="Include" />
+        <e p="Mega Fantasy Props Pack" t="Include">
+          <e p="Logs" t="Include">
+            <e p="CorrectCombosFile.txt" t="Include" />
+            <e p="Mega Fantasy Props Pack" t="Include">
+              <e p="Readme.txt" t="Include" />
+            </e>
           </e>
         </e>
         <e p="OpenMap.cs" t="Include" />
+        <e p="RoomTeleportation.cs" t="Include" />
+        <e p="RunemarkStudio" t="Include">
+          <e p="DarkFantasyKit [Free]" t="Include">
+            <e p="Readme" t="Include">
+              <e p="Parts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="ReadmeEditor.cs" t="Include" />
+                </e>
+                <e p="Readme.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Scenes" t="Include">
           <e p="Resources" t="Include">
             <e p="CigarLounge.txt" t="Include" />
