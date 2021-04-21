@@ -26,6 +26,8 @@ public class testing : MonoBehaviour
     public int gWidth;
     public int gHeight;
     public float cellSize;
+
+    public bool canWalk = true;
     
     private void Start()
     {
@@ -88,7 +90,8 @@ public class testing : MonoBehaviour
     private void Update()
     {
         var grid = pathfinding.GetGrid();
-        if (Input.GetMouseButtonDown(0))
+
+        if (Input.GetMouseButtonDown(0) && canWalk == true)
         {
 
             pathNum = 1;
@@ -119,6 +122,11 @@ public class testing : MonoBehaviour
                     //Debug.DrawLine(new Vector3(path[i].x, path[i].y) * .33f + Vector3.one * .165f, new Vector3(path[i + 1].x, path[i + 1].y) * .33f + Vector3.one * .165f, Color.green);
                 }
             }
+        }
+
+        if (canWalk == false)
+        {
+            Debug.Log("Hit the canvas");
         }
         
         if (path != null && path.Count > 1)
@@ -171,10 +179,10 @@ public class testing : MonoBehaviour
                     playerAnimator.SetBool("Walking", false);
 
                 }
-
+        
         }
 
-
+        canWalk = true;
     }
 
    
