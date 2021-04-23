@@ -28,6 +28,8 @@ public class testing : MonoBehaviour
     public float cellSize;
 
     public bool canWalk = true;
+
+    public GameObject pingPos;
     
     private void Start()
     {
@@ -37,7 +39,7 @@ public class testing : MonoBehaviour
         int x, y;
         gridhelp.GetXY(player.transform.position, out x, out y);
         player.transform.position = gridhelp.GetWorldPosition(x, y);
-
+        pingPos.transform.position = player.transform.position;
         MapWalk();
     }
 
@@ -116,6 +118,10 @@ public class testing : MonoBehaviour
             path = pathfinding.FindPath(px, py, x, y);
             if (path != null)
             {
+                pingPos.SetActive(true);
+                var lastNode = path [path.Count- 1];
+                var lastNodepos = grid.GetWorldPosition(lastNode.x, lastNode.y);
+                pingPos.transform.position = new Vector3(lastNodepos.x,lastNodepos.y, pingPos.transform.position.z);
                 for (int i = 0; i < path.Count - 1; i++)
                 {
                     //draw path
@@ -123,6 +129,8 @@ public class testing : MonoBehaviour
                 }
             }
         }
+
+
 
         if (canWalk == false)
         {
@@ -135,8 +143,7 @@ public class testing : MonoBehaviour
            // m_Animator.SetBool("Jump", false);
                 playerAnimator.SetBool("Walking", true);
 
-                //var lastNode = path[path.Count - 1];
-                //var lastNodepos = grid.GetWorldPosition(lastNode.x, lastNode.y);
+
                 var nextNode = path[pathNum];
                 var nextNodepos = grid.GetWorldPosition(nextNode.x, nextNode.y);
                 player.transform.position =
@@ -168,17 +175,18 @@ public class testing : MonoBehaviour
                     playerAnimator.SetBool("WalkingUp", false);
                 }
 
-
                 if (player.transform.position == nextNodepos && pathNum != path.Count - 1)
                 {
                     pathNum++;
-                  
-                    
-                }else
+
+                }else if (player.transform.position == nextNodepos && pathNum == path.Count - 1)
                 {
                     playerAnimator.SetBool("Walking", false);
-
+                    path.Clear();
+                    pingPos.SetActive(false);
                 }
+
+
         
         }
 

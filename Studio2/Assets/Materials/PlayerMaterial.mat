@@ -93,4 +93,4 @@ Material:
     - _GradientOutline1: {r: 1, g: 1, b: 1, a: 1}
     - _GradientOutline2: {r: 1, g: 1, b: 1, a: 1}
     - _ImageOutline: {r: 1, g: 1, b: 1, a: 1}
-    - _SolidOutline: {r: 0.3987629, g: 0.6439441, b: 0.8207547, a: 1}
+    - _SolidOutline: {r: 0.5377358, g: 0.10399607, b: 0.39710802, a: 1}
