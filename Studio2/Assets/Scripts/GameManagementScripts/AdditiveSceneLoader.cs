@@ -14,6 +14,18 @@ public class AdditiveSceneLoader : MonoBehaviour
     public string currentScene;
     public Camera currentCamera;
 
+    public Camera CurrentCamera
+    {
+        get
+        {
+            return currentCamera;
+        }
+        set
+        {
+            currentCamera = value;
+        }
+    }
+
 
     private bool gridGen = false;
 

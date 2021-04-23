@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -16,29 +17,50 @@ public class OpenMap : MonoBehaviour
     public GameObject acceptBut;
     public GameObject denyBut;
 
+    [System.Serializable]
+    public class Location
+    {
+        public string locationName;
+        public Camera cam;
+        public GameObject pos;
+        
+        public Location(string _locationName, Camera _cam, GameObject _position)
+        {
+            locationName = _locationName;
+            cam = _cam;
+            pos = _position;
+        }
+    }
+
+    public List<Location> locations = new List<Location>();
+
+    
+    //transition related things
+    public Camera currentCam;
+    public Camera newCam;
+    public GameObject playerTeleportPos;
+    private GetMouseWorld _getMouseWorld;
+    public testing _testing;
+    private GameObject playerObj;
+    public Animator playAnim;
+    
+    
+    private void Start()
+    {
+        _getMouseWorld = GameObject.FindWithTag("Movement").GetComponent<GetMouseWorld>();
+        _testing = GameObject.FindWithTag("Movement").GetComponent<testing>();
+        playerObj = GameObject.Find("PlayerFeet");
+    }
+
     // Update is called once per frame
     void Update()
     {
         confirmText.GetComponent<Text>().text = "Go to the " + nextRoomName + "?";
-        
-        int layerMask = 1 << 10; //bit shift
-        
-        if (Input.GetMouseButtonDown(0))
-        {
-            RaycastHit2D hit = Physics2D.Raycast(
-                Camera.main.ScreenToWorldPoint(Input.mousePosition), 
-                Vector2.zero, 
-                Mathf.Infinity, 
-                layerMask);
-
-            if (hit != null)
-            {
-                OpenMapUI();
-            }
-        }
+        currentCam = Camera.current; 
+        int layerMask = 1 << 10; //bit shift <- what was this for?
     }
 
-    void OpenMapUI()
+    public void OpenMapUI()
     {
         mapCanv.SetActive(true);
     }
@@ -49,12 +71,16 @@ public class OpenMap : MonoBehaviour
     }
 
     public void Accept()
-    {        
+    {
+        Debug.Log("Accept");
+        playAnim.Play("Base Layer.T", 0, 0);
+        
         acceptBut.SetActive(false);
         denyBut.SetActive(false);
         confirmText.SetActive(false);
         mapCanv.SetActive(false);
-        SceneManager.LoadScene(nextSceneName);
+        
+        //SceneManager.LoadScene(nextSceneName);
     }
 
     public void Deny()
@@ -64,7 +90,7 @@ public class OpenMap : MonoBehaviour
         confirmText.SetActive(false);
     }
     
-    public void LocationSelect(string nextScene)
+    /*public void LocationSelect(string nextScene)
     {
         var breakStr = nextScene.Split(',');
         
@@ -74,6 +100,34 @@ public class OpenMap : MonoBehaviour
         acceptBut.SetActive(true);
         denyBut.SetActive(true);
         confirmText.SetActive(true);
+    } */
+    
+    public void LocationSelect(int nextScene)
+    {
+        nextRoomName = locations[nextScene].locationName;
+
+        newCam = locations[nextScene].cam;
+        playerTeleportPos = locations[nextScene].pos;
+        
+        Debug.Log(nextRoomName);
+        acceptBut.SetActive(true);
+        denyBut.SetActive(true);
+        confirmText.SetActive(true);
+    }
+
+
+    void sceneTransition()
+    {
+        
+        currentCam.gameObject.SetActive(false);
+        newCam.gameObject.SetActive(true);
+        playerObj.transform.position = new Vector3(
+            playerTeleportPos.transform.position.x, 
+            playerTeleportPos.transform.position.y, 
+            playerObj.transform.position.z);
+        _getMouseWorld.cam = newCam;
+        _testing.playerPosFix();
+        _testing.playerAnimator.SetBool("Walking", false);
     }
     
 }

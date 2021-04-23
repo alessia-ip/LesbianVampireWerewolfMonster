@@ -56,5 +56,6 @@ public class RoomTeleportation : MonoBehaviour
             newCam.gameObject.SetActive(true);
             playerObj.transform.position = playerTeleportPos.transform.position;
             _getMouseWorld.cam = newCam;
-        }    }
+        }    
+    }
 }

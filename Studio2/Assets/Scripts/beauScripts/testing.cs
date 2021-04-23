@@ -134,7 +134,7 @@ public class testing : MonoBehaviour
 
         if (canWalk == false)
         {
-            Debug.Log("Hit the canvas");
+            //Debug.Log("Hit the canvas");
         }
         
         if (path != null && path.Count > 1)

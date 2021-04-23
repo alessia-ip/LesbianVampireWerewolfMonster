@@ -4,9 +4,12 @@
     <e p="C:\Users\Alessia\AppData\local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Alessia\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_Studio2.-1444695406.00" t="ExcludeRecursive" />
     <e p="C:\Users\Alessia\Desktop\IsometricVamps\LesbianVampireWerewolfMonster\studio2" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="_www.unityassetcollection.com.txt" t="Include" />
         <e p="CameraFacingBillboard.cs" t="Include" />
         <e p="Chair" t="Include">
           <e p="Read Me.txt" t="Include" />
@@ -36,7 +39,25 @@
             </e>
           </e>
         </e>
+        <e p="NewUIAssets" t="Include">
+          <e p="TransitionAnimation" t="Include">
+            <e p="BroadcastChange.cs" t="Include" />
+          </e>
+        </e>
         <e p="OpenMap.cs" t="Include" />
+        <e p="Plugins" t="Include">
+          <e p="ScreenshotCompanion" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ScreenshotCompanionEditor.cs" t="Include" />
+              <e p="ScreenshotCompanionWindow.cs" t="Include" />
+            </e>
+            <e p="Framework" t="Include">
+              <e p="CameraObject.cs" t="Include" />
+              <e p="SettingsObject.cs" t="Include" />
+            </e>
+            <e p="ScreenshotCompanion.cs" t="Include" />
+          </e>
+        </e>
         <e p="RoomTeleportation.cs" t="Include" />
         <e p="RunemarkStudio" t="Include">
           <e p="DarkFantasyKit [Free]" t="Include">
