@@ -68,9 +68,9 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _FresnelBrightness: 0
+    - _FresnelBrightness: 0.424
     - _FresnelPower: 0
-    - _FresnelShadowDropoff: 0
+    - _FresnelShadowDropoff: 0.036
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -84,8 +84,8 @@ Material:
     - _Parallax: 0.02
     - _RampLevels: 6
     - _RimAlpha: 0
-    - _RimDropOff: 0
-    - _RimPower: 0
+    - _RimDropOff: 0.13
+    - _RimPower: 0.437
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -98,4 +98,4 @@ Material:
     - _HighColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
     - _LowColor: {r: 0.5283019, g: 0.3641233, b: 0.19686721, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 0.2777246, b: 0, a: 1}

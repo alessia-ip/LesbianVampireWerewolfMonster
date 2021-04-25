@@ -34,7 +34,7 @@ Material:
     m_Floats:
     - _FresnelBrightness: 0
     - _FresnelPower: 0
-    - _FresnelShadowDropoff: 0
+    - _FresnelShadowDropoff: 0.268
     - _HighIntensity: 1.5
     - _LightScalar: 1
     - _LowIntensity: 1
