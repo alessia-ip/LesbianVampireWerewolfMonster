@@ -16,7 +16,7 @@ MonoBehaviour:
   character: Aoife
   dialogue: Sorry, what -
   characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
-  nextLine: {fileID: 11400000, guid: e8044b2a0e598ef4bb8e85de2a6d2f78, type: 2}
+  nextLine: {fileID: 11400000, guid: 33db74803f4be9b4f9add2226c9690fb, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0
@@ -26,3 +26,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

@@ -1492,6 +1492,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1130277796}
   - component: {fileID: 1130277795}
+  - component: {fileID: 1130277800}
+  - component: {fileID: 1130277799}
   - component: {fileID: 1130277798}
   - component: {fileID: 1130277797}
   m_Layer: 0
@@ -1605,6 +1607,42 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.34, y: 5.37}
   m_EdgeRadius: 0
+--- !u!114 &1130277799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130277794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7d0d721368b8b94ea15a44cf0db7b0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectContextType: 1
+--- !u!114 &1130277800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130277794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ed116eb0dd79f4f983425eac328541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMove: {fileID: 0}
+  startBlock: {fileID: 0}
+  currentBlock: {fileID: 0}
+  dialogueCanvas: {fileID: 0}
+  mcSpriteSpot: {fileID: 0}
+  thisCharSpriteSpot: {fileID: 0}
+  dialogueText: {fileID: 0}
+  nameText: {fileID: 0}
+  cam: {fileID: 0}
+  talkingPos: {fileID: 0}
+  heldItem: {fileID: 0}
 --- !u!1 &1130539070
 GameObject:
   m_ObjectHideFlags: 0

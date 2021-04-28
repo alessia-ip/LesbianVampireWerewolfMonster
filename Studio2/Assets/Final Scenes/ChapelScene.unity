@@ -2723,6 +2723,36 @@ Transform:
   m_Father: {fileID: 282511651}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1902134582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1902134583}
+  m_Layer: 0
+  m_Name: Pos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1902134583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902134582}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -31.35, y: -13.61, z: -50.56494}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2029883148
 GameObject:
   m_ObjectHideFlags: 0
@@ -2933,7 +2963,9 @@ GameObject:
   - component: {fileID: 2060954099}
   - component: {fileID: 2060954098}
   - component: {fileID: 2060954100}
+  - component: {fileID: 2060954103}
   - component: {fileID: 2060954101}
+  - component: {fileID: 2060954102}
   m_Layer: 0
   m_Name: characterSprite_CaptainAkari
   m_TagString: Untagged
@@ -3045,3 +3077,39 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.98, y: 5.52}
   m_EdgeRadius: 0
+--- !u!114 &2060954102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060954097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ed116eb0dd79f4f983425eac328541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMove: {fileID: 0}
+  startBlock: {fileID: 11400000, guid: 42903553cc01c7141b81b5e3d9329c62, type: 2}
+  currentBlock: {fileID: 0}
+  dialogueCanvas: {fileID: 0}
+  mcSpriteSpot: {fileID: 0}
+  thisCharSpriteSpot: {fileID: 0}
+  dialogueText: {fileID: 0}
+  nameText: {fileID: 0}
+  cam: {fileID: 0}
+  talkingPos: {fileID: 1902134582}
+  heldItem: {fileID: 0}
+--- !u!114 &2060954103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060954097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7d0d721368b8b94ea15a44cf0db7b0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectContextType: 1
