@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
-  m_Name: RoseBush01
+  m_Name: Garden_MillenniumRose_01_Start
   m_EditorClassIdentifier: 
-  itemName: Rose Bush
-  dialogue: 'i could prick my finger on this '
+  itemName: Millennium Rose
+  dialogue: <i> Blood-red, with thorns the size of fangs. I've never seen a rose
+    quite like this before. I wonder... </i>
   itemSprite: {fileID: 21300000, guid: a142fd5cd9d42274dbfefdebb75175a2, type: 3}
-  mcSprite: {fileID: 4084190405005612947, guid: fe62fd62a773d8844ada0cf757c77ca4,
-    type: 3}
+  mcSprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 11400000, guid: d25ad5a629d91434dad67a976a132c99, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

@@ -10,16 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
-  m_Name: RoseBush02_wrong
+  m_Name: Chapel_Mortar&Pestle_06_Loop_End
   m_EditorClassIdentifier: 
-  itemName: Rose Bush
-  dialogue: that just got blood everywhere
-  itemSprite: {fileID: 21300000, guid: a142fd5cd9d42274dbfefdebb75175a2, type: 3}
-  mcSprite: {fileID: 4084190405005612947, guid: fe62fd62a773d8844ada0cf757c77ca4,
-    type: 3}
+  itemName: Mortar & Pestle
+  dialogue: <i> This really came in clutch for me crushing that ruby </i>
+  itemSprite: {fileID: 0}
+  mcSprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 0}
   isEnd: 1
-  nextConvo: {fileID: 11400000, guid: 835a8a06b4359064d955ad8dca148fae, type: 2}
+  nextConvo: {fileID: 11400000}
   hasPickup: 0
   nextLineWrong: {fileID: 0}
   hasCombine: 0

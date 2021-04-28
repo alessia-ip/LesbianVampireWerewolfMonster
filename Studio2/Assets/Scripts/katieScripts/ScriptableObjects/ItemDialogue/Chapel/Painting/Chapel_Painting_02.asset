@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
-  m_Name: RoseBush02_Right
+  m_Name: Chapel_Painting_02
   m_EditorClassIdentifier: 
-  itemName: Rose Bush
-  dialogue: hey i filled my vile with blood
-  itemSprite: {fileID: 21300000, guid: a142fd5cd9d42274dbfefdebb75175a2, type: 3}
-  mcSprite: {fileID: 4084190405005612947, guid: fe62fd62a773d8844ada0cf757c77ca4,
+  itemName: Painting
+  dialogue: Color your captain impressed, rookie! "Portrait of a Lady on Fire" is
+    a personal favorite of mine too.
+  itemSprite: {fileID: 0}
+  mcSprite: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 0}
-  isEnd: 1
-  nextConvo: {fileID: 11400000, guid: 495340f6cbb618944b34d86b4817f5e1, type: 2}
+  isEnd: 0
+  nextConvo: {fileID: 0}
   hasPickup: 0
   nextLineWrong: {fileID: 0}
   hasCombine: 0
