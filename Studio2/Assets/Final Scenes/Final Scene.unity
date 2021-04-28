@@ -10957,6 +10957,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   createdObjects:
   - {fileID: 11400000, guid: a67bedfea796d7445a26ba0b0413c838, type: 2}
+  - {fileID: 11400000, guid: 561e0a266d8ae3446b46021094a0827a, type: 2}
+  - {fileID: 11400000, guid: a237434a4a52cca47ab7af68371dedb0, type: 2}
   heldItem: {fileID: 11400000, guid: 924519194a9076544abaa5484617892b, type: 2}
   inventory: {fileID: 11400000, guid: 81cfbcf9043bd0d4782b519705bb048d, type: 2}
   inventoryCanvas: {fileID: 760428958}

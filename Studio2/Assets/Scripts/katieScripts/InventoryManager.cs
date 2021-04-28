@@ -113,7 +113,6 @@ public class InventoryManager : MonoBehaviour
         {
             if (heldPlusCombine == correctComboList[i].ToUpper() || combinePlusHeld == correctComboList[i].ToUpper())
             {
-                Debug.Log("this is a combo");
                 foundCombo = true;
                 break;
             }
