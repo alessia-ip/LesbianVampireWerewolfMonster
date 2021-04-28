@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1d2a2f0c638f2e14fbecefdedbb42499, type: 3}
-  m_Name: MortarPestle
+  m_Name: Map
   m_EditorClassIdentifier: 
-  nameOfItem: MotarPestle
+  nameOfItem: Map
   itemSprite: {fileID: 0}
   comboParents: 

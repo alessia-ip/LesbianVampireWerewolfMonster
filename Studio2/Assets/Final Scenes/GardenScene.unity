@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 109419307}
   - component: {fileID: 109419309}
   - component: {fileID: 109419308}
+  - component: {fileID: 109419310}
   m_Layer: 0
   m_Name: Bottom left bush
   m_TagString: Unwalkable
@@ -235,6 +236,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &109419310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109419306}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b844cfc7d2f80b458e187efa1749361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: f268f4375cba06f4e965c6b9d3371df5, type: 2}
+  startBlock: {fileID: 11400000, guid: 835a8a06b4359064d955ad8dca148fae, type: 2}
+  mainCam: {fileID: 0}
+  currentBlock: {fileID: 0}
 --- !u!1 &258111334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,7 +1385,8 @@ GameObject:
   - component: {fileID: 1033727157}
   - component: {fileID: 1033727159}
   - component: {fileID: 1033727158}
-  m_Layer: 0
+  - component: {fileID: 1033727160}
+  m_Layer: 12
   m_Name: Wheelbarrel
   m_TagString: Unwalkable
   m_Icon: {fileID: 0}
@@ -1482,6 +1500,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1033727160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033727156}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b844cfc7d2f80b458e187efa1749361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 0}
+  startBlock: {fileID: 11400000, guid: 3f3e72ccf41f38a4c807cea0cb21306c, type: 2}
+  mainCam: {fileID: 0}
+  currentBlock: {fileID: 0}
 --- !u!1 &1130277794
 GameObject:
   m_ObjectHideFlags: 0
@@ -1797,7 +1831,8 @@ GameObject:
   - component: {fileID: 1262199928}
   - component: {fileID: 1262199930}
   - component: {fileID: 1262199929}
-  m_Layer: 0
+  - component: {fileID: 1262199931}
+  m_Layer: 12
   m_Name: Well
   m_TagString: Unwalkable
   m_Icon: {fileID: 0}
@@ -1909,6 +1944,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1262199931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262199927}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b844cfc7d2f80b458e187efa1749361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 0}
+  startBlock: {fileID: 11400000, guid: 90a14efbc9bfe824bb65dd4750127b7a, type: 2}
+  mainCam: {fileID: 0}
+  currentBlock: {fileID: 0}
 --- !u!1 &1400799418
 GameObject:
   m_ObjectHideFlags: 0
@@ -2545,7 +2596,8 @@ GameObject:
   - component: {fileID: 1975942754}
   - component: {fileID: 1975942756}
   - component: {fileID: 1975942755}
-  m_Layer: 0
+  - component: {fileID: 1975942757}
+  m_Layer: 12
   m_Name: Chopped wood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2655,6 +2707,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1975942757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975942753}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b844cfc7d2f80b458e187efa1749361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 0}
+  startBlock: {fileID: 11400000, guid: 095196d4d9c4eb04cb080383cd21cc7f, type: 2}
+  mainCam: {fileID: 0}
+  currentBlock: {fileID: 0}
 --- !u!1 &2068555021
 GameObject:
   m_ObjectHideFlags: 0
