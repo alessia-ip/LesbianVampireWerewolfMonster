@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5abc86c81a1db624ca76f02db0c102ab, type: 3}
-  m_Name: Dialogue Block 2
+  m_Name: Chapel_Akari_32_Lipstick
   m_EditorClassIdentifier: 
   header: 
-  character: 
-  dialogue: 
-  characterPortrait: {fileID: 0}
-  nextLine: {fileID: 0}
-  isEnd: 0
+  character: Captain Akari
+  dialogue: Good. I'll apply it to your lips.
+  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
+  nextLine: {fileID: 11400000, guid: 63f2843c3d07af54faf11291c80f097c, type: 2}
+  isEnd: 1
   nextConvo: {fileID: 0}
   hasReply: 0
   replies: []

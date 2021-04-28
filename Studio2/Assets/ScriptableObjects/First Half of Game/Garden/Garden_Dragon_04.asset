@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Gardener
   dialogue: I see...
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: 4648334792664119862, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 99fae45d98bcdcb478e49b16a2a471c4, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

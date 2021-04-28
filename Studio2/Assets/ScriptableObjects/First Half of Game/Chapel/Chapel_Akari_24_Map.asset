@@ -15,7 +15,7 @@ MonoBehaviour:
   header: 
   character: Captain Akari
   dialogue: Then you'll return to me.
-  characterPortrait: {fileID: -726948120183636617, guid: bccef1f5e37e8f145bd38937a5c9988e,
+  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 8ca9c7583e357604696068d26f0daf46, type: 2}
   isEnd: 0

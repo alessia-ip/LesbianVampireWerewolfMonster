@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Mx. Paws
   dialogue: Work harder.
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -1440913230627174138, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 0}
   isEnd: 1
   nextConvo: {fileID: 11400000, guid: 33928d74dea61704692f0ba893351fc0, type: 2}

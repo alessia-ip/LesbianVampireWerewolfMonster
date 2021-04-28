@@ -15,7 +15,7 @@ MonoBehaviour:
   header: 
   character: Captain Akari
   dialogue: ' Look. On the altar. I had that <b>map</b> specially made for you. '
-  characterPortrait: {fileID: -726948120183636617, guid: bccef1f5e37e8f145bd38937a5c9988e,
+  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 295584f14ab79564099f44207b1b3251, type: 2}
   isEnd: 0

@@ -15,7 +15,7 @@ MonoBehaviour:
   header: 
   character: Captain Akari
   dialogue: Come forward, rookie. I have a gift for you.
-  characterPortrait: {fileID: -726948120183636617, guid: bccef1f5e37e8f145bd38937a5c9988e,
+  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 0}
   isEnd: 1

@@ -10,13 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5abc86c81a1db624ca76f02db0c102ab, type: 3}
-  m_Name: Dialogue Block 13
+  m_Name: Chapel_Akari_41_Lipstick
   m_EditorClassIdentifier: 
   header: 
-  character: 
-  dialogue: 
-  characterPortrait: {fileID: 0}
-  nextLine: {fileID: 0}
+  character: Captain Akari
+  dialogue: This is quite literally a once-in-a-lifetime opportunity. You should
+    be grateful.
+  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
+  nextLine: {fileID: 11400000, guid: bf681af60571e9b49b1e20289d32bfed, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0

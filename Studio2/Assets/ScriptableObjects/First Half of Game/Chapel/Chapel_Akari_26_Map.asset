@@ -16,7 +16,7 @@ MonoBehaviour:
   character: Captain Akari
   dialogue: Hold your questions, rookie. The answers will come later. Hurry along
     then.
-  characterPortrait: {fileID: -726948120183636617, guid: bccef1f5e37e8f145bd38937a5c9988e,
+  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: b572f90bb3bd98345b0e12ca0d7dec98, type: 2}
   isEnd: 0

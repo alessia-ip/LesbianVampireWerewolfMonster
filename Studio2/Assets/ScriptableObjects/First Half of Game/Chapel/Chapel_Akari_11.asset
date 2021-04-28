@@ -16,7 +16,7 @@ MonoBehaviour:
   character: Captain Akari
   dialogue: 'Lovely answer. Eight years ago today, I too stood in this chapel, preparing
     to dedicate my entire being to Duchess Oberforth.  '
-  characterPortrait: {fileID: -726948120183636617, guid: bccef1f5e37e8f145bd38937a5c9988e,
+  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 89850c80cd3a0c44b9ff22601c1d3e4c, type: 2}
   isEnd: 0

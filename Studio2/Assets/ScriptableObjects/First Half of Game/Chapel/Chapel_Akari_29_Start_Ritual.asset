@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Captain Akari
-  dialogue: Back So soon? Do you have the <b> ruby powder </b>?
-  characterPortrait: {fileID: 0}
+  dialogue: Back So soon? Do you have the <b>lipstick</b>?
+  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: a9aa1038c5ec1814abe561ebe0e663fa, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

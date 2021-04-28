@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Mx. Paws
   dialogue: Ha! I like you; you're smarter than the other guards.
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -1440913230627174138, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: add804237912bf8488147da6923ef708, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

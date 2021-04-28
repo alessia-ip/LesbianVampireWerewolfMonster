@@ -16,7 +16,7 @@ MonoBehaviour:
   character: Captain Akari
   dialogue: 'No need to wear your helmet. We''re alone, and soon you will no longer
     be a mere grunt. '
-  characterPortrait: {fileID: -726948120183636617, guid: bccef1f5e37e8f145bd38937a5c9988e,
+  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 3d2df2bf25db17f42b28f25a2a3441f6, type: 2}
   isEnd: 0

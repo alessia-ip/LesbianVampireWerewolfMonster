@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Mx. Paws
   dialogue: Black Lotus petals, Ponch punch, special gemstones; you name it.
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -1440913230627174138, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 21afe1c4b749e694b8229c3c34aa348a, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Mx. Paws
   dialogue: Oh, honey. I've always got rubies.
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -1440913230627174138, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 3fea819ea9f72b046b0d5994df322fef, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

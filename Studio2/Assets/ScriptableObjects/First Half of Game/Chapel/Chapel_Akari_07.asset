@@ -16,7 +16,7 @@ MonoBehaviour:
   character: Captain Akari
   dialogue: 'A respectable decision. It''s far better to look sharp on the most important
     day of your life. '
-  characterPortrait: {fileID: -726948120183636617, guid: bccef1f5e37e8f145bd38937a5c9988e,
+  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 630b4e261f0654342a48ed285a605ce4, type: 2}
   isEnd: 0
