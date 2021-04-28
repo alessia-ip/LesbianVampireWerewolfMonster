@@ -865,7 +865,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &117733259
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11247,13 +11247,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 874c7aa9177e5a244a37ba4d688e8ffc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkCursor: {fileID: 2800000, guid: b6e0975f11dffa44888ae17075c8710a, type: 3}
-  talkCursor: {fileID: 2800000, guid: d9c9385e52afd5b45b646b7e19db7d1c, type: 3}
-  interactCursor: {fileID: 2800000, guid: a0531c5ce8648fa48b2085c07c216bc6, type: 3}
-  xCursor: {fileID: 2800000, guid: 5551b201a8a5433498bcbf8618c8ddba, type: 3}
+  walkCursor: {fileID: 2800000, guid: 4e0477796622bab46b80d88ece0e84a7, type: 3}
+  talkCursor: {fileID: 2800000, guid: 4a73fb2fb2ed165429977bc2c5371de1, type: 3}
+  interactCursor: {fileID: 2800000, guid: a11af97ed6c90ba4b8abe57d05411fc3, type: 3}
+  xCursor: {fileID: 2800000, guid: cf4d601589b5a0647a7f5fbe0fff1444, type: 3}
   weaponCursor: {fileID: 2800000, guid: fe85975d047a829458cae87e5abeb775, type: 3}
   cursorMode: 0
-  hotSpot: {x: 0, y: 0}
+  hotSpot: {x: -1, y: 0}
 --- !u!114 &2070849964
 MonoBehaviour:
   m_ObjectHideFlags: 0
