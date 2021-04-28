@@ -39,6 +39,7 @@ public class UIRaycast : MonoBehaviour
 
             if (results.Count > 0)
             {
+                Debug.Log("UI hit");
                 _Testing.canWalk = false;
                 //Debug.Log("hit the canv");
             }
