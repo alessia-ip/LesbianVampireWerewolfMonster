@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5abc86c81a1db624ca76f02db0c102ab, type: 3}
-  m_Name: Barracks_MxPaws_39_Loop
+  m_Name: PostCutScene_Akari_05
   m_EditorClassIdentifier: 
   header: 
-  character: Mx. Paws
-  dialogue: It's Wonderful. Moreso when you're not around.
-  characterPortrait: {fileID: 0}
-  nextLine: {fileID: 11400000, guid: aeebb108f65fb874fae5660da8d18ce8, type: 2}
+  character: Aoife
+  dialogue: ...
+  characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
+  nextLine: {fileID: 0}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0
