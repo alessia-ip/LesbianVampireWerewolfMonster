@@ -71,7 +71,7 @@ public class ItemDialogueSOHandler : MonoBehaviour
                             isTalking = true;
                             InventoryManager.instance.mcSpriteSpot.GetComponent<Image>().sprite = currentBlock.mcSprite;
                             InventoryManager.instance.itemSpriteSpot.GetComponent<Image>().sprite = currentBlock.itemSprite;
-                            InventoryManager.instance.playerMovement.SetActive(false);
+                            InventoryManager.instance.playerMovement.GetComponent<testing>().enabled = false;
                             InventoryManager.instance.itemDialogueCanvas.SetActive(true);
                             DialogueUpdate();
                             
@@ -132,7 +132,7 @@ public class ItemDialogueSOHandler : MonoBehaviour
             isTalking = false;
             InventoryManager.instance.itemDialogueCanvas.SetActive(false);
             currentBlock = currentBlock.nextConvo;
-            InventoryManager.instance.playerMovement.SetActive(true);
+            InventoryManager.instance.playerMovement.GetComponent<testing>().enabled = true;
         //}
     }
 

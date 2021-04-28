@@ -96,7 +96,7 @@ public class InventoryManager : MonoBehaviour
         inventory.AddItem(currentItem);
         DisplayInventory.instance.UpdateDisplay();
         itemDialogueCanvas.SetActive(false);
-        playerMovement.SetActive(true);
+        playerMovement.GetComponent<testing>().enabled = true;
         Destroy(currentItemGameObj);
     }
 
