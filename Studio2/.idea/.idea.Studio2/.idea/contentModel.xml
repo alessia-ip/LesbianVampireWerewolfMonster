@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Alessia\AppData\local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Alessia\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_Studio2.-1444695406.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Alessia\Desktop\IsometricVamps\LesbianVampireWerewolfMonster\studio2" t="IncludeRecursive">
+    <e p="C:\Users\Kaitlin Walker\AppData\local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Kaitlin Walker\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_Studio2.-1623822897.00" t="ExcludeRecursive" />
+    <e p="E:\spring2021\studio2\Studio02Game\studio2" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -13,6 +13,9 @@
         <e p="CameraFacingBillboard.cs" t="Include" />
         <e p="Chair" t="Include">
           <e p="Read Me.txt" t="Include" />
+        </e>
+        <e p="Files" t="Include">
+          <e p="CorrectCombosFile.txt" t="Include" />
         </e>
         <e p="FlexibleCelShader" t="Include">
           <e p="Editor" t="Include">
@@ -33,7 +36,6 @@
         </e>
         <e p="Mega Fantasy Props Pack" t="Include">
           <e p="Logs" t="Include">
-            <e p="CorrectCombosFile.txt" t="Include" />
             <e p="Mega Fantasy Props Pack" t="Include">
               <e p="Readme.txt" t="Include" />
             </e>

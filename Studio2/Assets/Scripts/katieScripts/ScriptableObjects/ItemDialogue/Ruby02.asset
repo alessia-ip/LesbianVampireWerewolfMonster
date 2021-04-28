@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
   m_Name: Ruby02
   m_EditorClassIdentifier: 
-  header: 
   itemName: Ruby
   dialogue: i will pick it up
   itemSprite: {fileID: -3578048849698842995, guid: 7a482e21dedda7647a10be9da245033e,
@@ -23,3 +22,5 @@ MonoBehaviour:
   isEnd: 1
   nextConvo: {fileID: 11400000, guid: a25eec458db35724dbc1678aa5d4752e, type: 2}
   hasPickup: 1
+  nextLineWrong: {fileID: 0}
+  hasCombine: 0

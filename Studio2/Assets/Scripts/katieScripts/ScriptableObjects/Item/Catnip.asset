@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1d2a2f0c638f2e14fbecefdedbb42499, type: 3}
-  m_Name: Cigar
+  m_Name: Catnip
   m_EditorClassIdentifier: 
-  canvasImage: {fileID: 597839451791558317, guid: dba5e85ea5465664c8028364667573e5,
-    type: 3}
-  itemSprite: {fileID: 21300000, guid: 90754439e2f729a409650f7af54100b7, type: 3}
+  nameOfItem: Catnip
+  itemSprite: {fileID: 21300000, guid: a142fd5cd9d42274dbfefdebb75175a2, type: 3}
+  comboParents: 

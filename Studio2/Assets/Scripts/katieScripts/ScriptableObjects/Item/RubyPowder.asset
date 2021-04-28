@@ -9,6 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab7016d89898a204ea9b130772059f32, type: 3}
-  m_Name: HeldItem
+  m_Script: {fileID: 11500000, guid: 1d2a2f0c638f2e14fbecefdedbb42499, type: 3}
+  m_Name: RubyPowder
   m_EditorClassIdentifier: 
+  nameOfItem: RubyPowder
+  itemSprite: {fileID: 21300000, guid: a142fd5cd9d42274dbfefdebb75175a2, type: 3}
+  comboParents: RubyMortarPestle

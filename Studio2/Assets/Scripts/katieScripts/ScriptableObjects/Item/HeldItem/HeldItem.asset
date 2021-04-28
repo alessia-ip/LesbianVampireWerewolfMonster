@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d2a2f0c638f2e14fbecefdedbb42499, type: 3}
-  m_Name: Book
+  m_Script: {fileID: 11500000, guid: ab7016d89898a204ea9b130772059f32, type: 3}
+  m_Name: HeldItem
   m_EditorClassIdentifier: 
-  canvasImage: {fileID: 6863241050846271628, guid: 86eede50ca2a79e44be265ae283c9616,
-    type: 3}
-  itemSprite: {fileID: 21300000, guid: fd6a93c7d841222429494ea5d36c6efc, type: 3}
+  heldItem: {fileID: 0}

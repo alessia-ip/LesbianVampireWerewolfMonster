@@ -6,7 +6,6 @@ using UnityEngine.Serialization;
 [CreateAssetMenu(fileName = "ItemDialogue", menuName = "ScriptableObjects/Dialogue/Item")]
 public class ItemDialogueObject : ScriptableObject
 {
-    public string header;
     public string itemName;
     public string dialogue;
     public Sprite itemSprite;
@@ -17,5 +16,10 @@ public class ItemDialogueObject : ScriptableObject
     public ItemDialogueObject nextConvo;
 
     public bool hasPickup;
+
+    [Header("if item has combine this line will be what the player says if wrong")]
+    public ItemDialogueObject nextLineWrong;
+    [Header("Only non pickup item can check hasCombine")]
+    public bool hasCombine;
     //public GameObject pickupButton;
 }

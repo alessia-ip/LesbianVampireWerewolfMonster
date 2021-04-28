@@ -10,18 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
-  m_Name: Ruby01
+  m_Name: RoseBushFin
   m_EditorClassIdentifier: 
-  itemName: Ruby
-  dialogue: This would fetch a pretty penny. Gemstones wasted on some silly ritual.
-    Pity.
-  itemSprite: {fileID: -3578048849698842995, guid: 7a482e21dedda7647a10be9da245033e,
-    type: 3}
+  itemName: RoseBush
+  dialogue: no more pricks for me
+  itemSprite: {fileID: 21300000, guid: a142fd5cd9d42274dbfefdebb75175a2, type: 3}
   mcSprite: {fileID: 4084190405005612947, guid: fe62fd62a773d8844ada0cf757c77ca4,
     type: 3}
-  nextLine: {fileID: 11400000, guid: 4f4f4d5fb10975340b2fc8c142d997ba, type: 2}
-  isEnd: 0
-  nextConvo: {fileID: 0}
+  nextLine: {fileID: 0}
+  isEnd: 1
+  nextConvo: {fileID: 11400000}
   hasPickup: 0
   nextLineWrong: {fileID: 0}
   hasCombine: 0

@@ -17,7 +17,7 @@ public class DisplayInventory : MonoBehaviour
 
     public GameObject invItemPrefab;
 
-    private Dictionary<ItemObject, GameObject> itemDisplayed = new Dictionary<ItemObject, GameObject>();
+    private List<GameObject> itemDisplayed = new List<GameObject>();
 
     private void Awake()
     {
@@ -33,25 +33,24 @@ public class DisplayInventory : MonoBehaviour
             obj.GetComponent<RectTransform>().localPosition = GetPosition(i);
             obj.GetComponent<Image>().sprite = inventory.Container[i].itemSprite;
             obj.GetComponent<HoldCombine>().itemInfo = inventory.Container[i];
-            itemDisplayed.Add(inventory.Container[i], obj);
+            itemDisplayed.Add(obj);
         }
     }
     public void UpdateDisplay()
     {
+        for (int j = 0; j < itemDisplayed.Count; j++)
+        {
+            Destroy(itemDisplayed[j]);
+            itemDisplayed.Remove(itemDisplayed[j]);
+        }
         for (int i = 0; i < inventory.Container.Count; i++)
         {
-            if (itemDisplayed.ContainsKey(inventory.Container[i]))
-            {
-                //do nothing
-            }
-            else
-            {
-                var obj = Instantiate(invItemPrefab, Vector3.zero, Quaternion.identity, transform);
+            var obj = Instantiate(invItemPrefab, Vector3.zero, Quaternion.identity, transform);
                 obj.GetComponent<RectTransform>().localPosition = GetPosition(i);
                 obj.GetComponent<Image>().sprite = inventory.Container[i].itemSprite;
                 obj.GetComponent<HoldCombine>().itemInfo = inventory.Container[i];
-                itemDisplayed.Add(inventory.Container[i], obj);
-            }
+                itemDisplayed.Add(obj);
+            
         }
     }
 
