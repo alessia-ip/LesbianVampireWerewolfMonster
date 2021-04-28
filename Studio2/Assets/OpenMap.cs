@@ -56,7 +56,6 @@ public class OpenMap : MonoBehaviour
     void Update()
     {
         confirmText.GetComponent<Text>().text = "Go to the " + nextRoomName + "?";
-        currentCam = Camera.current; 
         int layerMask = 1 << 10; //bit shift <- what was this for?
     }
 
@@ -121,6 +120,7 @@ public class OpenMap : MonoBehaviour
         
         currentCam.gameObject.SetActive(false);
         newCam.gameObject.SetActive(true);
+        currentCam = newCam;
         playerObj.transform.position = new Vector3(
             playerTeleportPos.transform.position.x, 
             playerTeleportPos.transform.position.y, 
