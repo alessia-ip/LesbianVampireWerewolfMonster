@@ -102,44 +102,59 @@ public class InventoryManager : MonoBehaviour
 
     public void ItemDialogueCombineButton()
     {
-        string held = heldItem.heldItem.nameOfItem.ToUpper();
-        string combine = currentItem.nameOfItem.ToUpper();
-        string heldPlusCombine = held + combine;
-        string combinePlusHeld = combine + held;
-
-        bool foundCombo = false;
-    
-        for (int i = 0; i < correctComboList.Count; i++)
+        if (heldItem.heldItem != null)
         {
-            if (heldPlusCombine == correctComboList[i].ToUpper() || combinePlusHeld == correctComboList[i].ToUpper())
+            string held = heldItem.heldItem.nameOfItem.ToUpper();
+            string combine = currentItem.nameOfItem.ToUpper();
+            string heldPlusCombine = held + combine;
+            string combinePlusHeld = combine + held;
+            Debug.Log(heldPlusCombine);
+            Debug.Log(combinePlusHeld);
+            Debug.Log(correctComboList[0].ToUpper());
+
+            bool foundCombo = false;
+
+            for (int i = 0; i < correctComboList.Count; i++)
             {
-                foundCombo = true;
-                break;
+                if (heldPlusCombine == correctComboList[i].ToUpper() ||
+                    combinePlusHeld == correctComboList[i].ToUpper())
+                {
+                    foundCombo = true;
+                    break;
+                }
+                else
+                {
+                    foundCombo = false;
+                }
+
+            }
+
+            if (foundCombo)
+            {
+                inventory.Container.Remove(heldItem.heldItem);
+                DisplayInventory.instance.UpdateDisplay();
+                ResetHeldItemImages();
+                for (int i = 0; i < createdObjects.Count; i++)
+                {
+                    if (createdObjects[i].comboParents.ToUpper() == heldPlusCombine ||
+                        createdObjects[i].comboParents.ToUpper() == combinePlusHeld)
+                    {
+                        inventory.AddItem(createdObjects[i]);
+                        DisplayInventory.instance.UpdateDisplay();
+                        break;
+                    }
+                }
+
+                currentItemDialogue.GetComponent<ItemDialogueSOHandler>().currentBlock = currentItemDialogue
+                    .GetComponent<ItemDialogueSOHandler>().currentBlock.nextLine;
+                currentItemDialogue.GetComponent<ItemDialogueSOHandler>().DialogueUpdate();
             }
             else
             {
-                foundCombo = false;
+                currentItemDialogue.GetComponent<ItemDialogueSOHandler>().currentBlock = currentItemDialogue
+                    .GetComponent<ItemDialogueSOHandler>().currentBlock.nextLineWrong;
+                currentItemDialogue.GetComponent<ItemDialogueSOHandler>().DialogueUpdate();
             }
-        }
-
-        if (foundCombo)
-        {
-            inventory.Container.Remove(heldItem.heldItem);
-            DisplayInventory.instance.UpdateDisplay();
-            ResetHeldItemImages();
-            for (int i = 0; i < createdObjects.Count; i++)
-            {
-                if (createdObjects[i].comboParents.ToUpper() == heldPlusCombine ||
-                    createdObjects[i].comboParents.ToUpper() == combinePlusHeld)
-                {
-                    inventory.AddItem(createdObjects[i]);
-                    DisplayInventory.instance.UpdateDisplay();
-                    break;
-                }
-            }
-            currentItemDialogue.GetComponent<ItemDialogueSOHandler>().currentBlock = currentItemDialogue
-                .GetComponent<ItemDialogueSOHandler>().currentBlock.nextLine;
-            currentItemDialogue.GetComponent<ItemDialogueSOHandler>().DialogueUpdate();
         }
         else
         {

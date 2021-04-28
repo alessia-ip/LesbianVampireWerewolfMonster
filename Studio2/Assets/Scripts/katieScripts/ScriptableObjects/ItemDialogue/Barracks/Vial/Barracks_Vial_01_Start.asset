@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Vial
   dialogue: <i> A vial. Ah, for blood... maybe?
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: c249149a14f62ac4c9d85ad22f9b2316, type: 3}
+  mcSprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 0}
   isEnd: 1
   nextConvo: {fileID: 11400000}

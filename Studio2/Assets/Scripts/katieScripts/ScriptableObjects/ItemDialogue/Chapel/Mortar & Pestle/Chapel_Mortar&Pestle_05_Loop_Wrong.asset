@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Mortar & Pestle
   dialogue: <i> Where is that ruby </i>
-  itemSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: fd6a93c7d841222429494ea5d36c6efc, type: 3}
   mcSprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 0}
   isEnd: 1

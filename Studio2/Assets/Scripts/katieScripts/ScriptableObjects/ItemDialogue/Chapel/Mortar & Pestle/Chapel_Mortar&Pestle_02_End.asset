@@ -20,7 +20,7 @@ MonoBehaviour:
     type: 3}
   nextLine: {fileID: 0}
   isEnd: 1
-  nextConvo: {fileID: 0}
+  nextConvo: {fileID: 11400000, guid: b4ec1f8999c83924ab8ddf25dae46a1d, type: 2}
   hasPickup: 0
   nextLineWrong: {fileID: 0}
   hasCombine: 0

@@ -24,7 +24,7 @@ MonoBehaviour:
   replies: []
   replyAnswers: []
   hasEvent: 1
-  eventItem: {fileID: 0}
+  eventItem: {fileID: 11400000, guid: 7ce50b1fb37b9d241b8952475bf2c943, type: 2}
   altDialogue: Yes?
   alternativeBlock: {fileID: 11400000, guid: 2be7452ff24d14645a2f752507a914c7, type: 2}
   givenObject: {fileID: 11400000, guid: 1d3fa75d08f5a6d49a4f9ac6328d601f, type: 2}

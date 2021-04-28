@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Mortar & Pestle
   dialogue: <i> They use this to crush sacred jewels </i>
-  itemSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: fd6a93c7d841222429494ea5d36c6efc, type: 3}
   mcSprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 11400000, guid: 2f983d62ad26f494e86f97c5597e147f, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0
-  nextLineWrong: {fileID: 0}
+  nextLineWrong: {fileID: 11400000, guid: 74c1665ce74d3484093e4ae4360c49e3, type: 2}
   hasCombine: 1

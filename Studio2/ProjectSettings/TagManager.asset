@@ -8,6 +8,7 @@ TagManager:
   - Dialogue Manager
   - playerAnimator
   - Movement
+  - Door
   layers:
   - Default
   - TransparentFX

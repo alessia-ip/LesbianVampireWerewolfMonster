@@ -17,7 +17,7 @@ MonoBehaviour:
   dialogue: Would you kindly <b>hold</b> the <b>map</b> up to me?
   characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
-  nextLine: {fileID: 11400000, guid: b4ff75ea892bf4743a5e1c7bd304d57c, type: 2}
+  nextLine: {fileID: 11400000, guid: d5a19047b5c414d4991d1acd0fb743c0, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0
@@ -27,3 +27,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

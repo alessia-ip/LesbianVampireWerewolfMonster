@@ -18,7 +18,7 @@ MonoBehaviour:
   itemSprite: {fileID: 0}
   mcSprite: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: 2f401119f5764094d918d0d4f175e8b4, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0

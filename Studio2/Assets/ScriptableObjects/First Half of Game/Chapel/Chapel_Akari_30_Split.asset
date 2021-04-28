@@ -23,6 +23,7 @@ MonoBehaviour:
   replies: []
   replyAnswers: []
   hasEvent: 1
-  eventItem: {fileID: 0}
+  eventItem: {fileID: 11400000, guid: 561e0a266d8ae3446b46021094a0827a, type: 2}
   altDialogue: Yes, ma'am.
   alternativeBlock: {fileID: 11400000, guid: 30fff3bf3f38f584a8ade697b1ad3111, type: 2}
+  givenObject: {fileID: 11400000, guid: e823bea3757a9bc43aa6c77ec476750f, type: 2}

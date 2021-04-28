@@ -39,7 +39,7 @@ public class ItemDialogueSOHandler : MonoBehaviour
 
     private void Start()
     {
-        mainCam = Camera.main;
+        //mainCam = Camera.main;
         inGameSprite = gameObject.GetComponent<SpriteRenderer>();
         inGameSprite.sprite = item.itemSprite;
         currentBlock = startBlock;
@@ -49,6 +49,7 @@ public class ItemDialogueSOHandler : MonoBehaviour
 
     private void Update()
     {
+        mainCam = Camera.main;
         PlayerDistance();
 
         if (playerCloseEnough)
@@ -60,8 +61,10 @@ public class ItemDialogueSOHandler : MonoBehaviour
                     int layerMask = 1 << 12;//check to see if correct item was hit
                     RaycastHit2D hit = Physics2D.Raycast(mainCam.ScreenToWorldPoint(Input.mousePosition),
                         Vector2.zero, Mathf.Infinity, layerMask);
+                    
                     if (hit.collider != null)
                     {
+                        Debug.Log("Test");
                         var newObj = hit.collider.gameObject;
                         if (newObj.name == this.gameObject.name)
                         {
@@ -103,6 +106,7 @@ public class ItemDialogueSOHandler : MonoBehaviour
             InventoryManager.instance.pickupButton.SetActive(true);
             InventoryManager.instance.currentItem = item;
             InventoryManager.instance.currentItemGameObj = gameObject;
+            //Debug.Log(gameObject);
         }
         else if (currentBlock.hasCombine)
         {

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Catnip
   m_EditorClassIdentifier: 
   nameOfItem: Catnip
-  itemSprite: {fileID: 21300000, guid: a142fd5cd9d42274dbfefdebb75175a2, type: 3}
+  itemSprite: {fileID: 21300000, guid: 26662694e80b85c42ad75562aca72dfe, type: 3}
   comboParents: 

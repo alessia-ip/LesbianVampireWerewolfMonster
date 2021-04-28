@@ -18,7 +18,7 @@ MonoBehaviour:
   characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 63f2843c3d07af54faf11291c80f097c, type: 2}
-  isEnd: 1
+  isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0
   replies: []
@@ -27,3 +27,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

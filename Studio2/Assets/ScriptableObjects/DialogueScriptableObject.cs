@@ -22,7 +22,7 @@ public class DialogueScriptableObject : ScriptableObject
     public DialogueScriptableObject[] replyAnswers;
     //This is for if you can trigger alternative dialogue by holding an item
     public bool hasEvent; 
-    public GameObject eventItem;
+    public ItemObject eventItem;
     public string altDialogue; //only needed for events
     public DialogueScriptableObject alternativeBlock;
     

@@ -147,13 +147,15 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         //if there is an event on the current scriptable object
         if(CurrentBlock.hasEvent == true)
         {//if the held item matches the event item, in name
-            if (heldItem.GetComponent<Image>().sprite.name == CurrentBlock.eventItem.name)
+            if (InventoryManager.instance.heldItem.heldItem == CurrentBlock.eventItem)
             {
                 Debug.Log("EVT TRUE");
                 //then the event is actually happening
                 evt = true;
                 //the next block will be updated to be the alt block, rather than the usual block of text
+                ItemReplace();
                 CurrentBlock = CurrentBlock.alternativeBlock;
+                
             }
             else
             {
@@ -178,9 +180,9 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         else //regular happening in the dialogue
         {
 
-            if (CurrentBlock.hasEvent == true && heldItem.GetComponent<Image>().sprite.name == CurrentBlock.eventItem.name) //if the event is true (item matching) then we display the alt dialogue
+            if (CurrentBlock.hasEvent == true && InventoryManager.instance.heldItem.heldItem == CurrentBlock.eventItem) //if the event is true (item matching) then we display the alt dialogue
             {
-                ItemReplace();
+                
                 dialogueText.text = CurrentBlock.altDialogue;
                 nameText.text = CurrentBlock.character;
                 SpriteHandler();

@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Cauldron
   dialogue: <i> This thing still creeps me out. Offerings. </i>
-  itemSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: 50a26802ed972674294ce3e4a079163a, type: 3}
   mcSprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 0}
-  isEnd: 0
-  nextConvo: {fileID: 0}
+  isEnd: 1
+  nextConvo: {fileID: 11400000}
   hasPickup: 0
   nextLineWrong: {fileID: 0}
   hasCombine: 0
