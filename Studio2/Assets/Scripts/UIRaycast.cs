@@ -24,7 +24,7 @@ public class UIRaycast : MonoBehaviour
     void Update()
     {
         //Check if the left Mouse button is clicked
-        if (Input.GetKey(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             //Set up the new Pointer Event
             m_PointerEventData = new PointerEventData(m_EventSystem);
