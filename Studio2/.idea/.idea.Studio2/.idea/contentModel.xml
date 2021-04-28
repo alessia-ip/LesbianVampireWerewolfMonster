@@ -14,9 +14,6 @@
         <e p="Chair" t="Include">
           <e p="Read Me.txt" t="Include" />
         </e>
-        <e p="Files" t="Include">
-          <e p="CorrectCombosFile.txt" t="Include" />
-        </e>
         <e p="FlexibleCelShader" t="Include">
           <e p="Editor" t="Include">
             <e p="CelCustomEditor.cs" t="Include" />
@@ -59,6 +56,9 @@
             </e>
             <e p="ScreenshotCompanion.cs" t="Include" />
           </e>
+        </e>
+        <e p="Resources" t="Include">
+          <e p="CorrectCombosFile.txt" t="Include" />
         </e>
         <e p="RoomTeleportation.cs" t="Include" />
         <e p="RunemarkStudio" t="Include">

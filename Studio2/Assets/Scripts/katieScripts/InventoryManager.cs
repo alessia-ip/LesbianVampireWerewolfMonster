@@ -42,7 +42,7 @@ public class InventoryManager : MonoBehaviour
     public GameObject playerMovement;
     
     //file stuff
-    private const string DIR = "/Files";
+    private const string DIR = "/Resources";
     private const string FILE_COMBOS = DIR + "/CorrectCombosFile.txt";
     private string FILE_PATH_COMBOS;
 
