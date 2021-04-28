@@ -2966,9 +2966,9 @@ GameObject:
   - component: {fileID: 2060954103}
   - component: {fileID: 2060954101}
   - component: {fileID: 2060954102}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: characterSprite_CaptainAkari
-  m_TagString: Untagged
+  m_TagString: Unwalkable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
