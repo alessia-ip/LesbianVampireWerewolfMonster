@@ -81,6 +81,11 @@ public class InventoryManager : MonoBehaviour
             Debug.Log("Item " + i);
             correctComboList.Add(fileData[i].ToUpper());
         }
+
+        correctComboList[0] = "RubyMP".ToUpper();
+        correctComboList[1] = "RoseVile".ToUpper();
+        correctComboList[2] = "RubyPowderBloodVile".ToUpper();
+        
     }
 
     private void OnApplicationQuit()
