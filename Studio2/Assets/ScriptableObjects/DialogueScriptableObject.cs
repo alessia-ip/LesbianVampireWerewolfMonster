@@ -25,4 +25,7 @@ public class DialogueScriptableObject : ScriptableObject
     public GameObject eventItem;
     public string altDialogue; //only needed for events
     public DialogueScriptableObject alternativeBlock;
+    
+    //if has item to give to player put item here
+    public ItemObject givenObject;
 }

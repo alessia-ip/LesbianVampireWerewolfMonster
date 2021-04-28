@@ -180,6 +180,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
 
             if (CurrentBlock.hasEvent == true && heldItem.GetComponent<Image>().sprite.name == CurrentBlock.eventItem.name) //if the event is true (item matching) then we display the alt dialogue
             {
+                ItemReplace();
                 dialogueText.text = CurrentBlock.altDialogue;
                 nameText.text = CurrentBlock.character;
                 SpriteHandler();
@@ -197,9 +198,18 @@ public class CharacterDialogueSOHandler : MonoBehaviour
             
 
         }
-           
+
         //TODO add replies section
         
+    }
+
+    void ItemReplace()
+    {
+        InventoryManager.instance.inventory.Container.Remove(InventoryManager.instance.heldItem.heldItem);
+        DisplayInventory.instance.UpdateDisplay();
+        InventoryManager.instance.ResetHeldItemImages();
+        InventoryManager.instance.inventory.Container.Add(C);
+        //update display
     }
 
     //when the dialogue is over for that particular conversation
