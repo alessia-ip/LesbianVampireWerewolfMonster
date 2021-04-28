@@ -15,7 +15,7 @@ MonoBehaviour:
   itemName: Weapon Rack
   dialogue: <i> Pikes, pikes, and more pikes. I'm more of a sword-and-crossbow gal
     myself... not that anyone's asking.
-  itemSprite: {fileID: 21300000, guid: feed7f24ac5093d43a8d1a2f9d31a5ca, type: 3}
+  itemSprite: {fileID: 0}
   mcSprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 0}
   isEnd: 1

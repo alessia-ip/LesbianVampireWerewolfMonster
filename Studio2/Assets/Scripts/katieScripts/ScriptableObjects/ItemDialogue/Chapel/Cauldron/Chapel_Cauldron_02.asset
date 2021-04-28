@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Cauldron
   dialogue: Rather curious today, are we?
-  itemSprite: {fileID: 21300000, guid: 50a26802ed972674294ce3e4a079163a, type: 3}
+  itemSprite: {fileID: 0}
   mcSprite: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 7807ef9bc00dd2e4ab080cb92b77ddbe, type: 2}

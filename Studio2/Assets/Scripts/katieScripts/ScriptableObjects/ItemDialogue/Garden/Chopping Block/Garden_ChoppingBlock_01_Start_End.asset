@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Chopping Block
   dialogue: <i> Ah, yes, my prefered type of chopping block. No heads in sight </i>
-  itemSprite: {fileID: 21300000, guid: 14e73938736ad954abedf1efb6306e6b, type: 3}
+  itemSprite: {fileID: 0}
   mcSprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 0}
   isEnd: 1

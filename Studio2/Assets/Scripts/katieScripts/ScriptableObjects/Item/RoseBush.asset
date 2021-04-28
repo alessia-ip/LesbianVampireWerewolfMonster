@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: RoseBush
   m_EditorClassIdentifier: 
   nameOfItem: RoseBush
-  itemSprite: {fileID: 21300000, guid: 3bef8d576c7d53b499197181df3208e7, type: 3}
+  itemSprite: {fileID: 21300000, guid: a142fd5cd9d42274dbfefdebb75175a2, type: 3}
   comboParents: 

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Millennium Rose
   dialogue: <i> That would just get blood everywhere </i>
-  itemSprite: {fileID: 21300000, guid: 3bef8d576c7d53b499197181df3208e7, type: 3}
+  itemSprite: {fileID: 21300000, guid: a142fd5cd9d42274dbfefdebb75175a2, type: 3}
   mcSprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 0}
   isEnd: 1

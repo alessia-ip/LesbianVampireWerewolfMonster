@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Vile
   m_EditorClassIdentifier: 
   nameOfItem: Vile
-  itemSprite: {fileID: 21300000, guid: c249149a14f62ac4c9d85ad22f9b2316, type: 3}
+  itemSprite: {fileID: 21300000, guid: a142fd5cd9d42274dbfefdebb75175a2, type: 3}
   comboParents: 
