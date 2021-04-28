@@ -42,10 +42,12 @@ public class InventoryManager : MonoBehaviour
     public GameObject playerMovement;
     
     //file stuff
-    private const string DIR = "/Resources";
+    /*private const string DIR = "/Resources";
     private const string FILE_COMBOS = DIR + "/CorrectCombosFile.txt";
-    private string FILE_PATH_COMBOS;
-
+    private string FILE_PATH_COMBOS;*/
+    private TextAsset FILE_COMBOS;
+    
+    
     [HideInInspector]
     public List<string> correctComboList;
     [HideInInspector]
@@ -59,7 +61,8 @@ public class InventoryManager : MonoBehaviour
 
     private void Start()
     {
-        FILE_PATH_COMBOS = Application.dataPath + FILE_COMBOS;
+        //FILE_PATH_COMBOS = Application.dataPath + FILE_COMBOS;
+        FILE_COMBOS = Resources.Load<TextAsset>("CorrectCombosFile") as TextAsset;
         SplitComboFile();
         inventoryCanvas.SetActive(false);
         playerMovement.SetActive(true);
@@ -67,10 +70,16 @@ public class InventoryManager : MonoBehaviour
 
     public void SplitComboFile()
     {
-        string[] fileData = File.ReadAllLines(FILE_PATH_COMBOS);
+        string[] fileData = FILE_COMBOS.text.Split('\n');
+        
+        Debug.Log(fileData[1]);
+        Debug.Log(fileData[0]);
+        Debug.Log(fileData[2]);
+        //string[] fileData = File.ReadAllLines(FILE_PATH_COMBOS);
         for (int i = 0; i < fileData.Length; i++)
         {
-            correctComboList.Add(fileData[i]);
+            Debug.Log("Item " + i);
+            correctComboList.Add(fileData[i].ToUpper());
         }
     }
 
