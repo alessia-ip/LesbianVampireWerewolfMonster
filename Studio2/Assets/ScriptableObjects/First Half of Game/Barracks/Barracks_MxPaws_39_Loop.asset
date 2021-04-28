@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Mx. Paws
-  dialogue: It's Wonderful. Moreso when you're not around.
+  dialogue: It's wonderful. Moreso when you're not around.
   characterPortrait: {fileID: 0}
   nextLine: {fileID: 11400000, guid: aeebb108f65fb874fae5660da8d18ce8, type: 2}
   isEnd: 0

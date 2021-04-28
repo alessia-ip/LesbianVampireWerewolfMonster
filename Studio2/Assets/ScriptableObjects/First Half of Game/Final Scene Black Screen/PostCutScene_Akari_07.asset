@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Aoife
-  dialogue: " Okay. Stay calm. Stay calm, and get back to the original plan. Just...ignore
-    the floating wisp, and sprint to the client\u2019s bedroom. Easy."
+  dialogue: "<i> Okay. Stay calm. Stay calm, and get back to the original plan. Just...ignore
+    the floating wisp, and sprint to the client\u2019s bedroom. Easy.</i>"
   characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 11400000, guid: 6de40b7cfc7962e489282995039981b4, type: 2}
   isEnd: 0

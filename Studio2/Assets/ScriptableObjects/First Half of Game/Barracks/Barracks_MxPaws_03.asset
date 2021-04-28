@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Mx. Paws
-  dialogue: Mx. Paws
+  dialogue: Mx. Paws.
   characterPortrait: {fileID: 0}
   nextLine: {fileID: 11400000, guid: 1aaad72bc6e5b1340ba80c2a8575b73f, type: 2}
   isEnd: 0

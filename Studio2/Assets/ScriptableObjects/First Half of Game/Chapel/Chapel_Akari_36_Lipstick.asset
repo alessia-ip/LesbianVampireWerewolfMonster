@@ -10,15 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5abc86c81a1db624ca76f02db0c102ab, type: 3}
-  m_Name: Chapel_Akari_04
+  m_Name: Dialogue Block 8
   m_EditorClassIdentifier: 
   header: 
-  character: Captain Akari
-  dialogue: 'No need to wear your helmet. We''re alone, and soon you will no longer
-    be a mere grunt. '
-  characterPortrait: {fileID: -726948120183636617, guid: bccef1f5e37e8f145bd38937a5c9988e,
-    type: 3}
-  nextLine: {fileID: 11400000, guid: 3d2df2bf25db17f42b28f25a2a3441f6, type: 2}
+  character: 
+  dialogue: 
+  characterPortrait: {fileID: 0}
+  nextLine: {fileID: 0}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0

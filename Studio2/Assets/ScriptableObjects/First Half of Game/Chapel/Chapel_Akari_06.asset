@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Aoife
-  dialogue: ... I'd prefer to keep the helmet on.. Rules are rules!
+  dialogue: ... I'd prefer to keep the helmet on. Rules are rules!
   characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 11400000, guid: 25eb2bc589d355044b83ac9fb3386410, type: 2}
   isEnd: 0

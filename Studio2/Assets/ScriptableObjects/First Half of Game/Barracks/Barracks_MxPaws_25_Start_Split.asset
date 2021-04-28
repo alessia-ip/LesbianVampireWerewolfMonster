@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Barracks_MxPaws_25_Start_Split
   m_EditorClassIdentifier: 
   header: 
-  character: Mx Paws
+  character: Mx. Paws
   dialogue: Got my <b>Catnip</b> yet?
   characterPortrait: {fileID: 0}
   nextLine: {fileID: 11400000, guid: d6a246418a879a54cb137a575ca33364, type: 2}
@@ -24,5 +24,5 @@ MonoBehaviour:
   replyAnswers: []
   hasEvent: 1
   eventItem: {fileID: 0}
-  altDialogue: ...
+  altDialogue: Yes?
   alternativeBlock: {fileID: 11400000, guid: 2be7452ff24d14645a2f752507a914c7, type: 2}

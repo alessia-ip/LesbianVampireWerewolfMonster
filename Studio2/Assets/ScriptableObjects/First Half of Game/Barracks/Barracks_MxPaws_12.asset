@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Barracks_MxPaws_12
   m_EditorClassIdentifier: 
   header: 
-  character: Mx Paws
+  character: Mx. Paws
   dialogue: On what?
   characterPortrait: {fileID: 0}
   nextLine: {fileID: 11400000, guid: a5820d4d193a3e342905bfb49d0bd1a6, type: 2}
