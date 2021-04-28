@@ -41,7 +41,7 @@ public class ItemDialogueSOHandler : MonoBehaviour
     {
         mainCam = Camera.main;
         inGameSprite = gameObject.GetComponent<SpriteRenderer>();
-        inGameSprite.sprite = item.itemSprite;
+        inGameSprite.sprite = currentBlock.itemSprite;
         currentBlock = startBlock;
         
         canClickNext = true;
