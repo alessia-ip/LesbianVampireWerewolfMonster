@@ -8,10 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Final Scenes/Final Scene.unity
     guid: 285734cfbfadf497483f5dae696013ca
-  - enabled: 1
+  - enabled: 0
     path: Assets/Final Scenes/LibraryScene.unity
     guid: bb0a610c63f3c43d4a729f0ddb496a9e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Final Scenes/LoungeScene.unity
     guid: fd00fdf01ec4f440298ffc3b37ceb25e
+  - enabled: 1
+    path: Assets/Final Scenes/GardenScene.unity
+    guid: e1e1af052c88f6147b25ae4d5f451f67
   m_configObjects: {}

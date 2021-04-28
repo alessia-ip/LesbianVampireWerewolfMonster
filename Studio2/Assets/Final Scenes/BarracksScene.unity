@@ -1173,6 +1173,7 @@ GameObject:
   - component: {fileID: 1132684122}
   - component: {fileID: 1132684124}
   - component: {fileID: 1132684123}
+  - component: {fileID: 1132684125}
   m_Layer: 0
   m_Name: Doorway
   m_TagString: Unwalkable
@@ -1256,7 +1257,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 399f264a99257364fa37acc19da63a87, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1288,6 +1289,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1132684125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132684121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6722c2ead65bc654b9144e140094334a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outline: {fileID: 2100000, guid: 399f264a99257364fa37acc19da63a87, type: 2}
 --- !u!1 &1180520739
 GameObject:
   m_ObjectHideFlags: 0
