@@ -15,7 +15,7 @@ MonoBehaviour:
   itemName: Banner
   dialogue: <i> Intricate. I should get my own banner made when all is said and done.
     </i>
-  itemSprite: {fileID: 21300000, guid: 56349ab2d389ddc4baccdaa14c8788ab, type: 3}
+  itemSprite: {fileID: 0}
   mcSprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 0}
   isEnd: 1

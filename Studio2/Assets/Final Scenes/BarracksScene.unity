@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 92101956}
   - component: {fileID: 92101959}
   - component: {fileID: 92101958}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bed 5 (Fourth from Top Left)
   m_TagString: Unwalkable
   m_Icon: {fileID: 0}
@@ -694,7 +694,7 @@ GameObject:
   - component: {fileID: 414301524}
   - component: {fileID: 414301527}
   - component: {fileID: 414301526}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Weapons against wall
   m_TagString: Unwalkable
   m_Icon: {fileID: 0}
@@ -1425,7 +1425,7 @@ GameObject:
   - component: {fileID: 1115251316}
   - component: {fileID: 1115251315}
   - component: {fileID: 1115251318}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Banner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
