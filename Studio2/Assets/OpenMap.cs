@@ -129,5 +129,15 @@ public class OpenMap : MonoBehaviour
         _testing.playerPosFix();
         _testing.playerAnimator.SetBool("Walking", false);
     }
+
+    public void buttonHover(GameObject buttonObj)
+    {
+        var circleObj = buttonObj.transform.GetChild(1).gameObject;
+       circleObj.SetActive(!circleObj.activeInHierarchy);
+       if (circleObj.activeInHierarchy)
+       {
+           this.gameObject.GetComponent<ContextCursorScript>().Interact();
+       }
+    }
     
 }

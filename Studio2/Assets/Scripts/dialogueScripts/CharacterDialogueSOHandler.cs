@@ -88,13 +88,13 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         if (isTalking && playerCloseEnough)
         {
             dialogueCanvas.SetActive(true);
-            playerMove.SetActive(false);
+          //  playerMove.SetActive(false);
         }
 
         if (isTalking == false)
         {
             dialogueCanvas.SetActive(false);
-            playerMove.SetActive(true);
+           // playerMove.SetActive(true);
         }
 
         if (Input.GetMouseButtonDown(0))
