@@ -38,6 +38,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
 
     public GameObject heldItem;
     
+    
     public DialogueScriptableObject CurrentBlock
     {
         get
@@ -106,7 +107,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
                 int layerMask = 1 << 9;
                 RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero, Mathf.Infinity, layerMask);
 
-                if (hit.collider != null)
+                if (hit.collider != null && playerMove.GetComponent<testing>().canWalk == true)
                 {
                     var newObj = hit.collider.gameObject;
                     //Debug.Log(newObj.name);
