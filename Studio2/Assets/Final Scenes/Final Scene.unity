@@ -791,7 +791,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &117733259
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7118,6 +7118,63 @@ Transform:
   m_Father: {fileID: 2146140130}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1380309621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1380309622}
+  - component: {fileID: 1380309624}
+  m_Layer: 12
+  m_Name: Chapel Door
+  m_TagString: Door
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1380309622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380309621}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -24.721699, y: -16.0509, z: -0.89646375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1380309624
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380309621}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.15982962}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.68034077}
+  m_EdgeRadius: 0
 --- !u!1 &1447269859
 GameObject:
   m_ObjectHideFlags: 0
@@ -12355,6 +12412,7 @@ GameObject:
   - component: {fileID: 2070849963}
   - component: {fileID: 2070849964}
   - component: {fileID: 2070849965}
+  - component: {fileID: 2070849966}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -12510,6 +12568,22 @@ MonoBehaviour:
   MxPaws: {fileID: 1871348815}
   turnOn: []
   turnOff: []
+--- !u!114 &2070849966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070849959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fceddcd131d6e164491c31f26c47547b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueCheck: {fileID: 1898124175}
+  mapGetDialogue: {fileID: 11400000, guid: d5a19047b5c414d4991d1acd0fb743c0, type: 2}
+  mapButton: {fileID: 117733258}
+  mapCollider: {fileID: 1380309621}
 --- !u!1 &2070917367
 GameObject:
   m_ObjectHideFlags: 0
