@@ -41,6 +41,16 @@ public class OneOffEvents : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+        //check if the blank character has been spoken 
+        //TODO - blank character that takes up the whole screen
+        
+        
+        
+        //turn items off until you talk to akari
+        
+        
+        
         //checking if the player has gotten the map at the beginning of the game
         if (dialogueCheck.text == mapGetDialogue.altDialogue)
         {

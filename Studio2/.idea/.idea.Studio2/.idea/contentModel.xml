@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\beaum\AppData\local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\beaum\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_Studio2.1388985680.00" t="ExcludeRecursive" />
-    <e p="C:\Users\beaum\Documents\GitHub\LesbianVampire\studio2" t="IncludeRecursive">
+    <e p="C:\Users\Alessia\AppData\local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Alessia\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_Studio2.-1444695406.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Alessia\Desktop\IsometricVamps\LesbianVampireWerewolfMonster\studio2" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -184,6 +184,9 @@
           <e p="Shaders" t="Include">
             <e p="SpriteOutline.shader" t="Include" />
           </e>
+        </e>
+        <e p="StartScreenAndIntroUI" t="Include">
+          <e p="TransitionScene.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">
