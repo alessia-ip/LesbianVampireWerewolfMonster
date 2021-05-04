@@ -16,7 +16,7 @@ public class HoldCombine : MonoBehaviour
 
     private void Start()
     {
-        itemNameText.text = itemInfo.nameOfItem;
+        itemNameText.text = itemInfo.nameOfItemInGame;
         itemName.SetActive(false);
         holdButton.SetActive(false);
         combineButton.SetActive(false);
@@ -45,8 +45,8 @@ public class HoldCombine : MonoBehaviour
 
     public void CombineClick()
     {
-        string held = InventoryManager.instance.heldItem.heldItem.nameOfItem.ToUpper();
-        string combine = itemInfo.nameOfItem.ToUpper();
+        string held = InventoryManager.instance.heldItem.heldItem.nameOfItemNoSpaces.ToUpper();
+        string combine = itemInfo.nameOfItemNoSpaces.ToUpper();
         string heldPlusCombine = held + combine;
         string combinePlusHeld = combine + held;
 

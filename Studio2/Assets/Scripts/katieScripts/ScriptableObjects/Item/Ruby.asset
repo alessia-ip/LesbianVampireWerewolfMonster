@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d2a2f0c638f2e14fbecefdedbb42499, type: 3}
   m_Name: Ruby
   m_EditorClassIdentifier: 
-  nameOfItem: Ruby
+  nameOfItemNoSpaces: Ruby
+  nameOfItemInGame: Ruby
   itemSprite: {fileID: -3578048849698842995, guid: 7a482e21dedda7647a10be9da245033e,
     type: 3}
   comboParents: 

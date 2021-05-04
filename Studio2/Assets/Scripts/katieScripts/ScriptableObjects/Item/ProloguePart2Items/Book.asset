@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1d2a2f0c638f2e14fbecefdedbb42499, type: 3}
-  m_Name: MortarPestle
+  m_Name: Book
   m_EditorClassIdentifier: 
-  nameOfItemNoSpaces: MP
-  nameOfItemInGame: Mortar Pestle
-  itemSprite: {fileID: 21300000, guid: a142fd5cd9d42274dbfefdebb75175a2, type: 3}
+  nameOfItemNoSpaces: book
+  nameOfItemInGame: Romance Book
+  itemSprite: {fileID: 21300000, guid: fd6a93c7d841222429494ea5d36c6efc, type: 3}
   comboParents: 

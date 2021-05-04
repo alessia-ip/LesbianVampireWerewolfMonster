@@ -26,4 +26,4 @@ MonoBehaviour:
   eventItem: {fileID: 11400000, guid: 32fd8f29b91076c41869a50779e17f87, type: 2}
   altDialogue: Here it is.
   alternativeBlock: {fileID: 11400000, guid: a34b563e0f200ec4ea83007409ef8f98, type: 2}
-  givenObject: {fileID: 11400000, guid: f95ab9f70e825d74e8b82b158e76cbca, type: 2}
+  givenObject: {fileID: 0}

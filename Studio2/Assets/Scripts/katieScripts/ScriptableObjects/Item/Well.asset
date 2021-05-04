@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d2a2f0c638f2e14fbecefdedbb42499, type: 3}
   m_Name: Well
   m_EditorClassIdentifier: 
-  nameOfItem: Well
+  nameOfItemNoSpaces: Well
+  nameOfItemInGame: Well
   itemSprite: {fileID: 21300000, guid: 8c3446c41bc1b944eaeb2fcb769de695, type: 3}
   comboParents: 

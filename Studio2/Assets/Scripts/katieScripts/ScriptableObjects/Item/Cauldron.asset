@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d2a2f0c638f2e14fbecefdedbb42499, type: 3}
   m_Name: Cauldron
   m_EditorClassIdentifier: 
-  nameOfItem: Cauldron
+  nameOfItemNoSpaces: Cauldron
+  nameOfItemInGame: Cauldron
   itemSprite: {fileID: 21300000, guid: 50a26802ed972674294ce3e4a079163a, type: 3}
   comboParents: 

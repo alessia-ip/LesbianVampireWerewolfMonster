@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d2a2f0c638f2e14fbecefdedbb42499, type: 3}
   m_Name: RoseBush
   m_EditorClassIdentifier: 
-  nameOfItem: Rose
+  nameOfItemNoSpaces: Rose
+  nameOfItemInGame: Rose Bush
   itemSprite: {fileID: 21300000, guid: 3bef8d576c7d53b499197181df3208e7, type: 3}
   comboParents: 

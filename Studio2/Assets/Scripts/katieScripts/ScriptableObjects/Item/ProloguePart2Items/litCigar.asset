@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1d2a2f0c638f2e14fbecefdedbb42499, type: 3}
-  m_Name: BloodVile
+  m_Name: litCigar
   m_EditorClassIdentifier: 
-  nameOfItem: BloodVile
-  itemSprite: {fileID: 21300000, guid: 0e0889e5ce0be814490477c979be41a5, type: 3}
-  comboParents: RoseVile
+  nameOfItemNoSpaces: LitCigar
+  nameOfItemInGame: Lit Cigar
+  itemSprite: {fileID: 21300000, guid: 32fd6caf4ad929444a618a36df4e1f6e, type: 3}
+  comboParents: litCigarFireplace

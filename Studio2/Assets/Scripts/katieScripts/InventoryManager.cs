@@ -83,9 +83,11 @@ public class InventoryManager : MonoBehaviour
         }
 
         correctComboList[0] = "RubyMP".ToUpper();
-        correctComboList[1] = "RoseVile".ToUpper();
-        correctComboList[2] = "RubyPowderBloodVile".ToUpper();
-        
+        correctComboList[1] = "RoseVial".ToUpper();
+        correctComboList[2] = "RubyPowderBloodVial".ToUpper();
+        correctComboList[3] = "CigarFireplace".ToUpper();
+        correctComboList[4] = "LitCigarBlankPaper".ToUpper();
+
     }
 
     private void OnApplicationQuit()
@@ -118,8 +120,8 @@ public class InventoryManager : MonoBehaviour
     {
         if (heldItem.heldItem != null)
         {
-            string held = heldItem.heldItem.nameOfItem.ToUpper();
-            string combine = currentItem.nameOfItem.ToUpper();
+            string held = heldItem.heldItem.nameOfItemNoSpaces.ToUpper();
+            string combine = currentItem.nameOfItemNoSpaces.ToUpper();
             string heldPlusCombine = held + combine;
             string combinePlusHeld = combine + held;
             Debug.Log(heldPlusCombine);
