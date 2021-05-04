@@ -18,7 +18,7 @@ MonoBehaviour:
   characterPortrait: {fileID: 0}
   nextLine: {fileID: 0}
   isEnd: 1
-  nextConvo: {fileID: 11400000, guid: 33db74803f4be9b4f9add2226c9690fb, type: 2}
+  nextConvo: {fileID: 11400000, guid: 82ad8148d59975648ae81cf5ab179ba5, type: 2}
   hasReply: 0
   replies: []
   replyAnswers: []
