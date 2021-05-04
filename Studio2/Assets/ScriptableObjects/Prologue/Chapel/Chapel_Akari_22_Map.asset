@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Captain Akari
-  dialogue: Perfect. Let us begin; we'll need <b>ruby powder</b> and your own <b>blood</b>
-    to make lipstick.
+  dialogue: Let us begin; we'll need <b>ruby powder</b> and your own <b>blood</b>
+    to make <b>lipstick</b>.
   characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 0aaddfe3ca38a8c43a0dea52d45b8dd0, type: 2}
@@ -28,3 +28,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

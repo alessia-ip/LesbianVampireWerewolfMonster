@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Garden_Dragon_02
   m_EditorClassIdentifier: 
   header: 
-  character: Aoife
+  character: Ifa
   dialogue: <i> Ma'am? I could get used to that. </i>
   characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 11400000, guid: 2bbad25ce05fb614ea0b32336c58d624, type: 2}
@@ -26,3 +26,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Barracks_MxPaws_30_Catnip
   m_EditorClassIdentifier: 
   header: 
-  character: Aoife
-  dialogue: I've got your catnip, Paws.
+  character: Ifa
+  dialogue: I've got your <b>catnip</b>, Paws.
   characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 11400000, guid: b8a99180d9d1f4b498e9703540834348, type: 2}
   isEnd: 0
@@ -26,3 +26,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

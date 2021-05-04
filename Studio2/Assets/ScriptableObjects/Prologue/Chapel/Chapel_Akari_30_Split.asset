@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chapel_Akari_30_Split
   m_EditorClassIdentifier: 
   header: 
-  character: Aoife
+  character: Ifa
   dialogue: Sorry, not yet
   characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 11400000, guid: 4fb5664b786803e4ea8d1a63245a32eb, type: 2}
@@ -24,6 +24,6 @@ MonoBehaviour:
   replyAnswers: []
   hasEvent: 1
   eventItem: {fileID: 11400000, guid: 561e0a266d8ae3446b46021094a0827a, type: 2}
-  altDialogue: Yes, ma'am.
+  altDialogue: Right here, ma'am.
   alternativeBlock: {fileID: 11400000, guid: 30fff3bf3f38f584a8ade697b1ad3111, type: 2}
   givenObject: {fileID: 11400000, guid: e823bea3757a9bc43aa6c77ec476750f, type: 2}

@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Barracks_MxPaws_37_Catnip_End
   m_EditorClassIdentifier: 
   header: 
-  character: Mx. Paws
-  dialogue: Oh, are you still here? Run along now, little girl.
-  characterPortrait: {fileID: -1440913230627174138, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
-    type: 3}
+  character: 
+  dialogue: 
+  characterPortrait: {fileID: 0}
   nextLine: {fileID: 0}
   isEnd: 1
   nextConvo: {fileID: 11400000, guid: 9eacc014558f68f40a916d2fb554d54b, type: 2}
@@ -27,3 +26,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

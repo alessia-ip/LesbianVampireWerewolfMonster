@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chapel_Akari_23_Map
   m_EditorClassIdentifier: 
   header: 
-  character: Aoife
+  character: Ifa
   dialogue: <i> Shit, not good. </i>
   characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 11400000, guid: 59ccf58016af1b54fa8e49ba06120caa, type: 2}
@@ -26,3 +26,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

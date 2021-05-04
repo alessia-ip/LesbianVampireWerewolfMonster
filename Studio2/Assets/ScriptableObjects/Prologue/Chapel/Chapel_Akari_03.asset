@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Chapel_Akari_03
   m_EditorClassIdentifier: 
   header: 
-  character: Aoife
-  dialogue: <i> Rookie? Is she talking to me? </i>
-  characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
+  character: Captain Akari
+  dialogue: There's something different about you, and I can't quite put my finger
+    on it.
+  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 6a21e3d05ad1d814dbfd187ba703703b, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
@@ -26,3 +28,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

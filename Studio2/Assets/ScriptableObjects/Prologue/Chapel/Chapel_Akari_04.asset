@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: Chapel_Akari_04
   m_EditorClassIdentifier: 
   header: 
-  character: Captain Akari
-  dialogue: 'No need to wear your helmet. We''re alone, and soon you will no longer
-    be a mere grunt. '
+  character: Ifa
+  dialogue: <i> Uh-oh. </i>
   characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 3d2df2bf25db17f42b28f25a2a3441f6, type: 2}
@@ -28,3 +27,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Chapel_Akari_42_Lipstick
   m_EditorClassIdentifier: 
   header: 
-  character: Aoife
-  dialogue: I am so very grateful, ma'am
-  characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
+  character: Captain Akari
+  dialogue: You're being quite forward, rookie. Don't forget that I am your captain.
+  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 28bd05bc0d88f2d4db327c129bf86f60, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
@@ -26,3 +27,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

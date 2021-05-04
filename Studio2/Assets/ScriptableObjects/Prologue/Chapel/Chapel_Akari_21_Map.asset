@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chapel_Akari_21_Map
   m_EditorClassIdentifier: 
   header: 
-  character: Aoife
+  character: Ifa
   dialogue: <i>I mean, I don't think I need a map to know that this is a chapel.</i>
   characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 11400000, guid: 838ff85c25540d14dabca22591c7cfed, type: 2}
@@ -26,3 +26,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

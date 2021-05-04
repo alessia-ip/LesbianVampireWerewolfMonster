@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chapel_Akari_08
   m_EditorClassIdentifier: 
   header: 
-  character: Aoife
+  character: Ifa
   dialogue: <i> I haven't a clue what this woman's on about. </i>
   characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 11400000, guid: 8e78088279a7e0141a583240e0045290, type: 2}
@@ -26,3 +26,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

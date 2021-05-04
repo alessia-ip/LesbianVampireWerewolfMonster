@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Captain Akari
-  dialogue: Hold your questions, rookie. The answers will come later. Hurry along
-    then.
+  dialogue: Rookie... we spoke about this at length just yesterday.
   characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: b572f90bb3bd98345b0e12ca0d7dec98, type: 2}
@@ -28,3 +27,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Chapel_Akari_39_Lipstick
   m_EditorClassIdentifier: 
   header: 
-  character: Aoife
-  dialogue: KISS?!
+  character: Ifa
+  dialogue: ...so...uh...are you gonna lean in or am I?
   characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 11400000, guid: 25dddfed39c822649a8e162bf49eca61, type: 2}
   isEnd: 0
@@ -26,3 +26,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

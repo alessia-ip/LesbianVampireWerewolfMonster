@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Chapel_Akari_01_Start
   m_EditorClassIdentifier: 
   header: 
-  character: Aoife
-  dialogue: "<i> Wait. The note said to make a left, then another left, then\u2013 
-    </i>"
-  characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
+  character: Captain Akari
+  dialogue: ...
+  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 95e099a26990b1147bd391066ad28777, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
@@ -27,3 +27,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

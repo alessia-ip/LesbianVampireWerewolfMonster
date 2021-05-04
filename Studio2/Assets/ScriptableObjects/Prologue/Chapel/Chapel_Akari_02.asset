@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Chapel_Akari_02
   m_EditorClassIdentifier: 
   header: 
-  character: Captain Akari
-  dialogue: "Well done, rookie! You\u2019re early! "
-  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
-    type: 3}
+  character: Ifa
+  dialogue: ... is something wrong?
+  characterPortrait: {fileID: 0}
   nextLine: {fileID: 11400000, guid: bd178b556c98a314cbada1162bfee870, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
@@ -27,3 +26,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

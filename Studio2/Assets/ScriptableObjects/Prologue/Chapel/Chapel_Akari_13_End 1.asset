@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Chapel_Akari_13_End 1
   m_EditorClassIdentifier: 
   header: 
-  character: Captain Akari
-  dialogue: Come forward, rookie. I have a gift for you.
-  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
-    type: 3}
+  character: 
+  dialogue: 
+  characterPortrait: {fileID: 0}
   nextLine: {fileID: 0}
   isEnd: 1
   nextConvo: {fileID: 11400000, guid: 33db74803f4be9b4f9add2226c9690fb, type: 2}

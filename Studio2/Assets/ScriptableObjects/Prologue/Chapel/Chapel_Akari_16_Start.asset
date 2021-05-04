@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Captain Akari
-  dialogue: Would you kindly <b>hold</b> the <b>map</b> up to me?
+  dialogue: ' <b>Hold</b> the <b>map</b> up to me.'
   characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: d5a19047b5c414d4991d1acd0fb743c0, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Mx. Paws
-  dialogue: Precious stones wasted on some silly ritual. What a pity.
+  dialogue: Now get out of my sight.
   characterPortrait: {fileID: -1440913230627174138, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 9328ffe2b297aa84eb99546f6e14a1f9, type: 2}
@@ -27,3 +27,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

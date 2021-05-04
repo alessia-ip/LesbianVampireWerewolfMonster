@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: Chapel_Akari_41_Lipstick
   m_EditorClassIdentifier: 
   header: 
-  character: Captain Akari
-  dialogue: This is quite literally a once-in-a-lifetime opportunity. You should
-    be grateful.
-  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
-    type: 3}
+  character: Ifa
+  dialogue: I'm not sure if I can wait much longer...
+  characterPortrait: {fileID: 0}
   nextLine: {fileID: 11400000, guid: bf681af60571e9b49b1e20289d32bfed, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
@@ -28,3 +26,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

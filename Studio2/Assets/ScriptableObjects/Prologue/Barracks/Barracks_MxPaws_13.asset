@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Barracks_MxPaws_13
   m_EditorClassIdentifier: 
   header: 
-  character: Aoife
-  dialogue: If you've got any rubies.
+  character: Ifa
+  dialogue: If you've got any <b>rubies</b>.
   characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 11400000, guid: 2285650391709db4383e837aa2e4e4ef, type: 2}
   isEnd: 0
@@ -26,3 +26,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

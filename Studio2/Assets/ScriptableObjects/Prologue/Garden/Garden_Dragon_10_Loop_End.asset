@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5abc86c81a1db624ca76f02db0c102ab, type: 3}
+  m_Name: Garden_Dragon_10_Loop_End
+  m_EditorClassIdentifier: 
+  header: 
+  character: 
+  dialogue: 
+  characterPortrait: {fileID: 4648334792664119862, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
+  nextLine: {fileID: 0}
+  isEnd: 1
+  nextConvo: {fileID: 11400000, guid: 97775677f60bc8743ae80c071e0c45f2, type: 2}
+  hasReply: 0
+  replies: []
+  replyAnswers: []
+  hasEvent: 0
+  eventItem: {fileID: 0}
+  altDialogue: 
+  alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

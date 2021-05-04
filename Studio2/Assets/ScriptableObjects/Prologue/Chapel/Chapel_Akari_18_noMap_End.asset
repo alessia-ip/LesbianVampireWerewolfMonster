@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Chapel_Akari_18_noMap_End
   m_EditorClassIdentifier: 
   header: 
-  character: Captain Akari
-  dialogue: No time to waste rookie.
-  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
-    type: 3}
+  character: 
+  dialogue: 
+  characterPortrait: {fileID: 0}
   nextLine: {fileID: 0}
   isEnd: 1
   nextConvo: {fileID: 11400000, guid: 82ad8148d59975648ae81cf5ab179ba5, type: 2}
@@ -27,3 +26,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

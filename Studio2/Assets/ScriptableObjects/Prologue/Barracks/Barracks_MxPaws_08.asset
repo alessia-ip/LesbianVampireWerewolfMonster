@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Mx. Paws
-  dialogue: Black Lotus petals, Ponch punch, special gemstones; you name it.
+  dialogue: Black Lotus petals, Ponch punch, <b>sacred jewels</b>; you name it.
   characterPortrait: {fileID: -1440913230627174138, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 21afe1c4b749e694b8229c3c34aa348a, type: 2}
@@ -27,3 +27,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

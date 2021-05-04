@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Barracks_MxPaws_06
   m_EditorClassIdentifier: 
   header: 
-  character: Aoife
+  character: Ifa
   dialogue: Mx. Paws, was it? What could you possibly be doing here of all places?
   characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 11400000, guid: 2fd6752b41372774f9fecde962a4f3f1, type: 2}
@@ -26,3 +26,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

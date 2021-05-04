@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Chapel_Akari_17_Split
   m_EditorClassIdentifier: 
   header: 
-  character: Aoife
-  dialogue: <i>I should <b>hold</b> that <b>map</b>.</i>
+  character: Ifa
+  dialogue: <i>I should probably do as she says for now.</i>
   characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 11400000, guid: 1153aa77f8709f14ca63672d15b0d07d, type: 2}
   isEnd: 0
@@ -25,5 +25,5 @@ MonoBehaviour:
   hasEvent: 1
   eventItem: {fileID: 11400000, guid: 32fd8f29b91076c41869a50779e17f87, type: 2}
   altDialogue: Here it is.
-  alternativeBlock: {fileID: 11400000, guid: 3348c69d39f982740b7855d0706e903f, type: 2}
+  alternativeBlock: {fileID: 11400000, guid: a34b563e0f200ec4ea83007409ef8f98, type: 2}
   givenObject: {fileID: 11400000, guid: f95ab9f70e825d74e8b82b158e76cbca, type: 2}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Chapel_Akari_25_Map
   m_EditorClassIdentifier: 
   header: 
-  character: Aoife
-  dialogue: Where can I find these things?
+  character: Ifa
+  dialogue: Why would I need these things?
   characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 11400000, guid: e4caf3bb7408c7c4db549d0e0e9e79ed, type: 2}
   isEnd: 0
@@ -26,3 +26,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

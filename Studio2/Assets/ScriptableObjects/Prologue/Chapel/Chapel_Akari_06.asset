@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Chapel_Akari_06
   m_EditorClassIdentifier: 
   header: 
-  character: Aoife
-  dialogue: ... I'd prefer to keep the helmet on. Rules are rules!
-  characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
-  nextLine: {fileID: 11400000, guid: 25eb2bc589d355044b83ac9fb3386410, type: 2}
+  character: Captain Akari
+  dialogue: ...did you always have long hair?
+  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
+  nextLine: {fileID: 11400000, guid: 0559f59a4dc1bcd41ad2af8f3ca09367, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0
@@ -26,3 +27,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}
