@@ -43,6 +43,8 @@ public class testing : MonoBehaviour
         MapWalk();
     }
 
+    
+    
     //could regenerate grid on changing rooms <- 
     public void playerPosFix()
     {
@@ -78,6 +80,10 @@ public class testing : MonoBehaviour
                     //trigger.AddComponent<CircleCollider2D>();
                     //trigger.AddComponent<Rigidbody2D>();
                     //trigger.AddComponent<NodeCollision>();
+                }
+                else
+                {
+                    pathfinding.GetNode(x, y).SetIsWalkable(true);
                 }
                 
                 //Destroy(trigger);

@@ -12575,7 +12575,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2070849959}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fceddcd131d6e164491c31f26c47547b, type: 3}
   m_Name: 
@@ -12584,6 +12584,20 @@ MonoBehaviour:
   mapGetDialogue: {fileID: 11400000, guid: d5a19047b5c414d4991d1acd0fb743c0, type: 2}
   mapButton: {fileID: 117733258}
   mapCollider: {fileID: 1380309621}
+  akariRitualDialogue: {fileID: 0}
+  fadeToBlack: {fileID: 0}
+  akariCharacterInGame: {fileID: 2060954097}
+  mxPaws: {fileID: 0}
+  mxPawsNewStart: {fileID: 0}
+  gardener: {fileID: 0}
+  gardenerNewStart: {fileID: 0}
+  resetGrid: {fileID: 1815443635}
+  ritualEndDialogue: {fileID: 0}
+  libraryButton: {fileID: 441568839}
+  loungeButton: {fileID: 2002314248}
+  passwordDialogue: {fileID: 0}
+  hubRoom: {fileID: 0}
+  lastLine: {fileID: 0}
 --- !u!1 &2070917367
 GameObject:
   m_ObjectHideFlags: 0
