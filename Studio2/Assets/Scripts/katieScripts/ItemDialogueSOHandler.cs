@@ -69,8 +69,6 @@ public class ItemDialogueSOHandler : MonoBehaviour
                         if (newObj.name == this.gameObject.name)
                         {
                             isTalking = true;
-                            InventoryManager.instance.mcSpriteSpot.GetComponent<Image>().sprite = currentBlock.mcSprite;
-                            InventoryManager.instance.itemSpriteSpot.GetComponent<Image>().sprite = currentBlock.itemSprite;
                             InventoryManager.instance.playerMovement.GetComponent<testing>().enabled = false;
                             InventoryManager.instance.itemDialogueCanvas.SetActive(true);
                             DialogueUpdate();
@@ -96,6 +94,8 @@ public class ItemDialogueSOHandler : MonoBehaviour
 
     public void DialogueUpdate()
     {
+        InventoryManager.instance.mcSpriteSpot.GetComponent<Image>().sprite = currentBlock.mcSprite;
+        InventoryManager.instance.itemSpriteSpot.GetComponent<Image>().sprite = currentBlock.itemSprite;
         InventoryManager.instance.dialogueText.text = currentBlock.dialogue;
         InventoryManager.instance.nameText.text = currentBlock.itemName;
 

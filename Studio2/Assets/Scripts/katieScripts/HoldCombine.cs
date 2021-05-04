@@ -1,29 +1,37 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class HoldCombine : MonoBehaviour
 {
     public GameObject holdButton;
     public GameObject combineButton;
+    public GameObject itemName;
+    public TextMeshProUGUI itemNameText;
 
     public ItemObject itemInfo;
 
     private void Start()
     {
+        itemNameText.text = itemInfo.nameOfItem;
+        itemName.SetActive(false);
         holdButton.SetActive(false);
         combineButton.SetActive(false);
     }
 
-    public void OnHove()
+    public void OnHover()
     {
+        itemName.SetActive(true);
         holdButton.SetActive(true);
         combineButton.SetActive(true);
     }
 
     public void OffHover()
     {
+        itemName.SetActive(false);
         holdButton.SetActive(false);
         combineButton.SetActive(false);
     }
@@ -59,6 +67,7 @@ public class HoldCombine : MonoBehaviour
         if (foundCombo)
         {
             InventoryManager.instance.inventory.Container.Remove(InventoryManager.instance.heldItem.heldItem);
+            InventoryManager.instance.inventory.Container.Remove(itemInfo);
             DisplayInventory.instance.UpdateDisplay();
             InventoryManager.instance.ResetHeldItemImages();
             for (int i = 0; i < InventoryManager.instance.createdObjects.Count; i++)

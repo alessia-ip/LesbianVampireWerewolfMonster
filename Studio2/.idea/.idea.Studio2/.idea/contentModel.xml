@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Alessia\AppData\local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Alessia\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_Studio2.-1444695406.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Alessia\Desktop\IsometricVamps\LesbianVampireWerewolfMonster\studio2" t="IncludeRecursive">
+    <e p="C:\Users\Kaitlin Walker\AppData\local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Kaitlin Walker\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_Studio2.-1623822897.00" t="ExcludeRecursive" />
+    <e p="E:\spring2021\studio2\Studio02Game\studio2" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -30,6 +30,10 @@
           <e p="Shaders" t="Include">
             <e p="VegetationPBRBase.shader" t="Include" />
           </e>
+        </e>
+        <e p="Materials" t="Include">
+          <e p="MirrorReflection.cs" t="Include" />
+          <e p="MirrorShader.shader" t="Include" />
         </e>
         <e p="Mega Fantasy Props Pack" t="Include">
           <e p="Logs" t="Include">
