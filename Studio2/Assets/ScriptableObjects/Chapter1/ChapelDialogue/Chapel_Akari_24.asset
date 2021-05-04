@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5abc86c81a1db624ca76f02db0c102ab, type: 3}
+  m_Name: Chapel_Akari_24
+  m_EditorClassIdentifier: 
+  header: 
+  character: Akari
+  dialogue: "I can\u2019t imagine why. "
+  characterPortrait: {fileID: -4713435305899008172, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
+  nextLine: {fileID: 11400000, guid: 4131a8d4164de6f4380939f131bc732c, type: 2}
+  isEnd: 0
+  nextConvo: {fileID: 0}
+  hasReply: 0
+  replies: []
+  replyAnswers: []
+  hasEvent: 0
+  eventItem: {fileID: 0}
+  altDialogue: 
+  alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}

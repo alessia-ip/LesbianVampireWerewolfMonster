@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5abc86c81a1db624ca76f02db0c102ab, type: 3}
+  m_Name: Library_Librarian_19
+  m_EditorClassIdentifier: 
+  header: 
+  character: Librarian
+  dialogue: Fetch that for me, while I try to jog my memory.
+  characterPortrait: {fileID: -616541869618017182, guid: fe62fd62a773d8844ada0cf757c77ca4,
+    type: 3}
+  nextLine: {fileID: 11400000, guid: 77f944830b1e02344ae2aab4b6fd773b, type: 2}
+  isEnd: 0
+  nextConvo: {fileID: 0}
+  hasReply: 0
+  replies: []
+  replyAnswers: []
+  hasEvent: 0
+  eventItem: {fileID: 0}
+  altDialogue: 
+  alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}
