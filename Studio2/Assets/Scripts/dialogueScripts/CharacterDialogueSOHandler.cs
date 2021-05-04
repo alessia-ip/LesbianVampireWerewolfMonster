@@ -56,6 +56,19 @@ public class CharacterDialogueSOHandler : MonoBehaviour
     private string FILE_PATH_JSON;
     
     // Start is called before the first frame update
+    private void Awake()
+    {
+        playerMove = GameObject.FindWithTag("Movement");
+        dialogueCanvas = GameObject.Find("DialogueCanvas");
+        mcSpriteSpot = dialogueCanvas.transform.GetChild(4).gameObject;
+        thisCharSpriteSpot = dialogueCanvas.transform.GetChild(5).gameObject;
+        dialogueText = dialogueCanvas.transform.GetChild(6).GetChild(0).GetComponent<TextMeshProUGUI>();
+        nameText = dialogueCanvas.transform.GetChild(7).GetChild(0).GetComponent<TextMeshProUGUI>(); 
+        cam = Camera.main;
+        heldItem = GameObject.Find("RegMenuHeldItem");
+        CurrentBlock = startBlock;
+    }
+
     void Start()
     {
         //
@@ -71,15 +84,8 @@ public class CharacterDialogueSOHandler : MonoBehaviour
             CurrentBlock = startBlock;
         }*/
 
-        playerMove = GameObject.FindWithTag("Movement");
-        dialogueCanvas = GameObject.Find("DialogueCanvas");
-        mcSpriteSpot = dialogueCanvas.transform.GetChild(4).gameObject;
-        thisCharSpriteSpot = dialogueCanvas.transform.GetChild(5).gameObject;
-        dialogueText = dialogueCanvas.transform.GetChild(6).GetChild(0).GetComponent<TextMeshProUGUI>();
-        nameText = dialogueCanvas.transform.GetChild(7).GetChild(0).GetComponent<TextMeshProUGUI>(); 
-        cam = Camera.main;
-        heldItem = GameObject.Find("RegMenuHeldItem");
-        CurrentBlock = startBlock;
+  
+        dialogueCanvas.SetActive(false);
     }
 
     private void Update()
@@ -94,7 +100,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
 
         if (isTalking == false)
         {
-            dialogueCanvas.SetActive(false);
+            //dialogueCanvas.SetActive(false);
            // playerMove.SetActive(true);
         }
 
@@ -270,14 +276,14 @@ public class CharacterDialogueSOHandler : MonoBehaviour
 
     private void PlayerDistance()
     {
-        if (Vector2.Distance(gameObject.transform.position, InventoryManager.instance.player.transform.position) < 1)
+        if (Vector2.Distance(gameObject.transform.position, InventoryManager.instance.player.transform.position) < 1 && isTalking == true)
         {
             playerCloseEnough = true;
-            dialogueCanvas.SetActive(true);
+            //dialogueCanvas.SetActive(true);
         }else
         {
             playerCloseEnough = false;
-            dialogueCanvas.SetActive(false);
+            //dialogueCanvas.SetActive(false);
         }
     }
 

@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5abc86c81a1db624ca76f02db0c102ab, type: 3}
-  m_Name: Aoife_Start_02
+  m_Name: Chapel_Akari_13_End 1
   m_EditorClassIdentifier: 
   header: 
-  character: Aoife
-  dialogue: "<i> \u201CMeet me in my bedroom.\u201D Right...let\u2019s move. </i>"
-  characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
+  character: Captain Akari
+  dialogue: Come forward, rookie. I have a gift for you.
+  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 0}
   isEnd: 1
-  nextConvo: {fileID: 0}
+  nextConvo: {fileID: 11400000, guid: 33db74803f4be9b4f9add2226c9690fb, type: 2}
   hasReply: 0
   replies: []
   replyAnswers: []
@@ -26,3 +27,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
+  givenObject: {fileID: 0}
