@@ -14,6 +14,21 @@ TextureImporter:
   - first:
       213: -4713435305899008172
     second: characterSprite_Akari
+  - first:
+      213: -7036688961560294079
+    second: characterSprite_Ifa
+  - first:
+      213: -2230209616020430755
+    second: characterSprite_Attendant
+  - first:
+      213: 5905735770905774871
+    second: characterSprite_Eshe
+  - first:
+      213: -603414620747622545
+    second: characterSprite_Duchess
+  - first:
+      213: -1053815374339818468
+    second: characterSprite_Spider
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -178,6 +193,111 @@ TextureImporter:
       bones: []
       spriteID: 45fda18ef83869eb0800000000000000
       internalID: -4713435305899008172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterSprite_Ifa
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 507
+        width: 211
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d4943eba8a85e90800000000000000
+      internalID: -7036688961560294079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterSprite_Attendant
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 15
+        width: 342
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50217e9b24bc01e0800000000000000
+      internalID: -2230209616020430755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterSprite_Eshe
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 4
+        width: 259
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b082ac46365f150800000000000000
+      internalID: 5905735770905774871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterSprite_Duchess
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 0
+        width: 237
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f679f06799d30a7f0800000000000000
+      internalID: -603414620747622545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterSprite_Spider
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 439
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c31a910881061f0800000000000000
+      internalID: -1053815374339818468
       vertices: []
       indices: 
       edges: []
