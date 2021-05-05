@@ -17,7 +17,7 @@ MonoBehaviour:
     road.</i>"
   itemSprite: {fileID: 0}
   mcSprite: {fileID: 0}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: cb72dab5ac8f6964693633f73b9e4f6c, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0
