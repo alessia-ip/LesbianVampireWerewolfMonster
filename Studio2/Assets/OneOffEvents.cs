@@ -11,6 +11,10 @@ public class OneOffEvents : MonoBehaviour
     [Header("Dialogue Box")]
     public TextMeshProUGUI dialogueCheck;
 
+    [Header("THICC character lol")] 
+    public GameObject thiccCharacter;
+    public DialogueScriptableObject introScene;
+    
     [Header("Map Check Variables")]
     public DialogueScriptableObject mapGetDialogue;
     public GameObject mapButton;
