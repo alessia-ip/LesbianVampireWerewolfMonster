@@ -19,7 +19,7 @@ MonoBehaviour:
     type: 3}
   nextLine: {fileID: 0}
   isEnd: 0
-  nextConvo: {fileID: 0}
+  nextConvo: {fileID: 11400000, guid: 1985d2c51e0b0ef43b0290eecfe2d94f, type: 2}
   hasReply: 0
   replies: []
   replyAnswers: []
