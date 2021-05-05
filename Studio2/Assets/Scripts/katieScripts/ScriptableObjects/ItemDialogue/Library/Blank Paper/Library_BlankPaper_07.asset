@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
-  m_Name: Garden_MillenniumRose_03_Wrong
+  m_Name: Library_BlankPaper_07
   m_EditorClassIdentifier: 
-  itemName: Millennium Rose
-  dialogue: <i> Yeah I'll pass. That would just get <b>blood</b> everywhere </i>
-  itemSprite: {fileID: 21300000, guid: 3bef8d576c7d53b499197181df3208e7, type: 3}
-  mcSprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
+  itemName: 
+  dialogue: 
+  itemSprite: {fileID: 0}
+  mcSprite: {fileID: 0}
   nextLine: {fileID: 0}
-  isEnd: 1
-  nextConvo: {fileID: 11400000, guid: 835a8a06b4359064d955ad8dca148fae, type: 2}
+  isEnd: 0
+  nextConvo: {fileID: 0}
   hasPickup: 0
   nextLineWrong: {fileID: 0}
   hasCombine: 0
