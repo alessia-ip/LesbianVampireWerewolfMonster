@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
-  m_Name: Library_BlankPaper_16
+  m_Name: Library_BlankPaper_25_Loop
   m_EditorClassIdentifier: 
   itemName: Blank Paper
-  dialogue: I'm impressed, Ifa. What's it say?
+  dialogue: <i>So...the <b>blank paper</b> turned out to be very important after
+    all.</i>
   itemSprite: {fileID: 0}
   mcSprite: {fileID: 0}
-  nextLine: {fileID: 11400000, guid: cbe60e935776d0944b82f424c13b66f5, type: 2}
+  nextLine: {fileID: 11400000, guid: 567ce1aef83fbc5439c0223b41de50bf, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0

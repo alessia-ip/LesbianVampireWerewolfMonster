@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
-  m_Name: Library_BlankPaper_16
+  m_Name: Bookcase_Library_20_End
   m_EditorClassIdentifier: 
-  itemName: Blank Paper
-  dialogue: I'm impressed, Ifa. What's it say?
+  itemName: Bookcase
+  dialogue: '...Let''s put it this way: you weren''t not good.'
   itemSprite: {fileID: 0}
   mcSprite: {fileID: 0}
-  nextLine: {fileID: 11400000, guid: cbe60e935776d0944b82f424c13b66f5, type: 2}
-  isEnd: 0
-  nextConvo: {fileID: 0}
+  nextLine: {fileID: 0}
+  isEnd: 1
+  nextConvo: {fileID: 11400000, guid: 567f863fa2ba9324d8f2120c9cbf069e, type: 2}
   hasPickup: 0
   nextLineWrong: {fileID: 0}
   hasCombine: 0

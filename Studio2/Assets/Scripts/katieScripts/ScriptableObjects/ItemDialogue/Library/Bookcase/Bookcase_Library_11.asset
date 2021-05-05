@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
-  m_Name: Library_BlankPaper_16
+  m_Name: Bookcase_Library_11
   m_EditorClassIdentifier: 
-  itemName: Blank Paper
-  dialogue: I'm impressed, Ifa. What's it say?
+  itemName: Bookcase
+  dialogue: <i>Any recommendations?</i>
   itemSprite: {fileID: 0}
   mcSprite: {fileID: 0}
-  nextLine: {fileID: 11400000, guid: cbe60e935776d0944b82f424c13b66f5, type: 2}
+  nextLine: {fileID: 11400000, guid: 7f07b8568d9f9d14b84c245c40827f53, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0

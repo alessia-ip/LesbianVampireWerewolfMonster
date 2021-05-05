@@ -17,7 +17,7 @@ MonoBehaviour:
     Unless...</i>
   itemSprite: {fileID: 0}
   mcSprite: {fileID: 0}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: bbd3858f0a36cdf47831852976c2086a, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0

@@ -7622,7 +7622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1273350448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13671,7 +13671,7 @@ MonoBehaviour:
   mainMenu: {fileID: 143251967}
   thiccCharacter: {fileID: 1494570302}
   introScene: {fileID: 11400000, guid: b1fa252970522b143862f0a0ca2102a9, type: 2}
-  firstAkari: {fileID: 11400000, guid: 42903553cc01c7141b81b5e3d9329c62, type: 2}
+  firstAkari: {fileID: 11400000, guid: 95e099a26990b1147bd391066ad28777, type: 2}
   mortar: {fileID: 0}
   cauldron: {fileID: 0}
   painting: {fileID: 0}
