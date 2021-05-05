@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Captain Akari
-  dialogue: ...
+  dialogue: 'I must say: that armor suits you wonderfully, rookie.'
   characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 95e099a26990b1147bd391066ad28777, type: 2}
