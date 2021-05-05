@@ -73,7 +73,7 @@ public class ItemDialogueSOHandler : MonoBehaviour
                         if (newObj.name == this.gameObject.name)
                         {
                             isTalking = true;
-                            InventoryManager.instance.playerMovement.GetComponent<testing>().enabled = false;
+                            //InventoryManager.instance.playerMovement.GetComponent<testing>().enabled = false;
                             InventoryManager.instance.itemDialogueCanvas.SetActive(true);
                             DialogueUpdate();
                             
@@ -144,7 +144,7 @@ public class ItemDialogueSOHandler : MonoBehaviour
             isTalking = false;
             InventoryManager.instance.itemDialogueCanvas.SetActive(false);
             currentBlock = currentBlock.nextConvo;
-            InventoryManager.instance.playerMovement.GetComponent<testing>().enabled = true;
+            //InventoryManager.instance.playerMovement.GetComponent<testing>().enabled = true;
         //}
     }
 
