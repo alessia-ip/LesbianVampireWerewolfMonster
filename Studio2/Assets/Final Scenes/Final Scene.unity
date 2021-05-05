@@ -1601,7 +1601,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167163698}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.65, y: 3.56, z: -0}
+  m_LocalPosition: {x: -5.9, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 775107377}
@@ -14632,8 +14632,10 @@ MonoBehaviour:
   newStartBlockTHICC: {fileID: 11400000, guid: 77b1e625f8192824f89dc32ee3e017ac, type: 2}
   ChapterOne: {fileID: 754377289}
   endCH1: {fileID: 11400000, guid: d9dd351129cb16c448c7097bf6b46de5, type: 2}
-  passwordDialogue: {fileID: 11400000, guid: 28597b898b92d9944bbeb4dcfba9f79d, type: 2}
+  passwordDialogue: {fileID: 11400000, guid: 1e9452a6c436e17428284233d49c7a40, type: 2}
   hubRoom: {fileID: 15032645}
+  duchess: {fileID: 2119784793}
+  duchessExit: {fileID: 11400000, guid: e99d0f0a439b9124ba696756dbbd0981, type: 2}
   lastLine: {fileID: 11400000, guid: 538f98c69b3ae5c4c9b28cf3bf47131e, type: 2}
   endOfCh1Text: {fileID: 1504567542}
 --- !u!1 &2070917367
