@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
-  m_Name: Library_BlankPaper_07
+  m_Name: Library_BlankPaper_13_Startloopcheck
   m_EditorClassIdentifier: 
   itemName: Blank Paper
-  dialogue: Wow. Are you so low that you'd actually steal a mere leaf of <b>blank
-    paper</b>?
+  dialogue: <i> Still not entirely sure what I could possible do with <b>blank paper</b>.
+    Unless...</i>
   itemSprite: {fileID: 0}
   mcSprite: {fileID: 0}
-  nextLine: {fileID: 11400000, guid: fe168ef43d44fb94a9c862f2329e7207, type: 2}
+  nextLine: {fileID: 0}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0
-  nextLineWrong: {fileID: 0}
-  hasCombine: 0
+  nextLineWrong: {fileID: 11400000, guid: 7792c76fc6097254a8f054b5fe27f7bb, type: 2}
+  hasCombine: 1

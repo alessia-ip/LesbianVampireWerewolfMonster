@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
   m_Name: Library_BlankPaper_10
   m_EditorClassIdentifier: 
-  itemName: 
-  dialogue: 
+  itemName: Blank Paper
+  dialogue: Trust you?!
   itemSprite: {fileID: 0}
   mcSprite: {fileID: 0}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: 2e69709c7f7fedd47ae6f6b15c5e6621, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0
