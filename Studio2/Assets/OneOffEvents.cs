@@ -49,13 +49,18 @@ public class OneOffEvents : MonoBehaviour
     public DialogueScriptableObject ritualEndDialogue;
     public Button libraryButton;
     public Button loungeButton;
+    public DialogueScriptableObject newStartBlockTHICC;
+    public GameObject ChapterOne;
 
+    [Header("End Ch 1 Cutscene")] public DialogueScriptableObject endCH1;
+    
     [Header("Password")] 
     public DialogueScriptableObject passwordDialogue;
     public Button hubRoom;
 
     [Header("HubEnd")] 
     public DialogueScriptableObject lastLine;
+    public GameObject endOfCh1Text;
 
     // Update is called once per frame
     void Update()
@@ -93,7 +98,7 @@ public class OneOffEvents : MonoBehaviour
             {
                 resetGrid.MapWalk();
                 initGridReset = true;
-                resetGrid.path.Clear();
+//                resetGrid.path.Clear();
             }
         }
         
@@ -126,6 +131,7 @@ public class OneOffEvents : MonoBehaviour
             gardener.GetComponent<CharacterDialogueSOHandler>().startBlock = gardenerNewStart;
             
             fadeToBlack.SetActive(true); //TODO ANIMATE THIS
+            
             if (initGridReset2 == false)
             {
                 resetGrid.MapWalk();
@@ -133,28 +139,55 @@ public class OneOffEvents : MonoBehaviour
                 resetGrid.path.Clear();
             }
         }
-
-        //TODO CHAPTER HEADER CHANGE 
         
-        //check if the the ritual is completed
+        
+        //check if the the ritual is completed - turn on chapter one header
         if (dialogueCheck.text == ritualEndDialogue.dialogue)
         {
             fadeToBlack.SetActive(false);
             loungeButton.interactable = true;
             libraryButton.interactable = true;
+            
+            
+            thiccCharacter.GetComponent<SpriteRenderer>().enabled = true;
+            thiccCharacter.GetComponent<Collider2D>().enabled = true;
+            thiccCharacter.GetComponent<CharacterDialogueSOHandler>().startBlock = newStartBlockTHICC;
+            
+            ChapterOne.SetActive(true);
         }
-
+        
+        //when you start talking to thicc, turn off the chapter one header
+        if (dialogueCheck.text == newStartBlockTHICC.dialogue)
+        {
+            ChapterOne.SetActive(false);
+        }
+                
+        if (dialogueCheck.text == endCH1.dialogue)
+        {
+            thiccCharacter.GetComponent<SpriteRenderer>().enabled = false;
+            thiccCharacter.GetComponent<Collider2D>().enabled = false;
+            fadeToBlack.SetActive(false);
+        }
+        
         //check if the password is given
         if (dialogueCheck.text == passwordDialogue.dialogue) //TODO check if dialogue or ALT dialogue
         {
             hubRoom.interactable = true;
         }
         
+        
         //check for last line of dialogue
         if (dialogueCheck.text == lastLine.dialogue)
         {
-            //TODO last line event
+            Invoke("lastLineEnd", 1);
         }
         
     }
+
+    public void lastLineEnd()
+    {
+        fadeToBlack.SetActive(true);
+        endOfCh1Text.SetActive(true);
+    }
+    
 }

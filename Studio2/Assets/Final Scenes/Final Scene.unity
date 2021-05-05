@@ -836,7 +836,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &117733259
 RectTransform:
   m_ObjectHideFlags: 0
@@ -854,7 +854,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -225.8, y: -161.37}
+  m_AnchoredPosition: {x: -284.57, y: -161.37}
   m_SizeDelta: {x: 69.86493, y: 58.263046}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &117733261
@@ -1362,7 +1362,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 5}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &145507638
@@ -1385,7 +1385,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: ec4b619b61547974aa12a152c9cbb558, type: 3}
+    m_Font: {fileID: 12800000, guid: 4241b4b8905273e4bae87ab0305a7719, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
@@ -3063,7 +3063,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 3}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &501132540
@@ -3086,7 +3086,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: ec4b619b61547974aa12a152c9cbb558, type: 3}
+    m_Font: {fileID: 12800000, guid: 4241b4b8905273e4bae87ab0305a7719, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -3097,7 +3097,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 0.67
+    m_LineSpacing: 2.56
   m_Text: 'Open Map
 
 '
@@ -5216,7 +5216,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -292, y: -163}
+  m_AnchoredPosition: {x: 297, y: -165}
   m_SizeDelta: {x: 55, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &911234407
@@ -8782,7 +8782,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 265.53, y: -165}
+  m_AnchoredPosition: {x: 215, y: -165}
   m_SizeDelta: {x: 99.947815, y: 41.378326}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1523739604
@@ -13689,12 +13689,16 @@ MonoBehaviour:
   gardener: {fileID: 1130277794}
   gardenerNewStart: {fileID: 11400000, guid: 0ee0f2ced904fbf49bdfc34d8f099154, type: 2}
   resetGrid: {fileID: 1815443635}
-  ritualEndDialogue: {fileID: 11400000, guid: 00ddbe8215180424a8915517d81d75e6, type: 2}
+  ritualEndDialogue: {fileID: 11400000, guid: 306e202d9bb37284ba1839cbedc83aa7, type: 2}
   libraryButton: {fileID: 441568839}
   loungeButton: {fileID: 2002314248}
+  newStartBlockTHICC: {fileID: 11400000, guid: 6be4aa5fa1425c04b8002be0f6dddac3, type: 2}
+  ChapterOne: {fileID: 754377289}
+  endCH1: {fileID: 11400000, guid: d9dd351129cb16c448c7097bf6b46de5, type: 2}
   passwordDialogue: {fileID: 11400000, guid: 28597b898b92d9944bbeb4dcfba9f79d, type: 2}
   hubRoom: {fileID: 15032645}
   lastLine: {fileID: 11400000, guid: 538f98c69b3ae5c4c9b28cf3bf47131e, type: 2}
+  endOfCh1Text: {fileID: 1504567542}
 --- !u!1 &2070917367
 GameObject:
   m_ObjectHideFlags: 0
