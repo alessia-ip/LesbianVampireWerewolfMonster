@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5abc86c81a1db624ca76f02db0c102ab, type: 3}
-  m_Name: Library_Guard_57
+  m_Name: Library_Guard_58
   m_EditorClassIdentifier: 
   header: 
   character: Guard
@@ -18,7 +18,7 @@ MonoBehaviour:
   characterPortrait: {fileID: 0}
   nextLine: {fileID: 0}
   isEnd: 1
-  nextConvo: {fileID: 0}
+  nextConvo: {fileID: 11400000, guid: 365c647747250b84aab04ccc6cd1de66, type: 2}
   hasReply: 0
   replies: []
   replyAnswers: []

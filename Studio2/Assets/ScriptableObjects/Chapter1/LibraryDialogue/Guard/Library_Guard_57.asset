@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Library_Guard_57
   m_EditorClassIdentifier: 
   header: 
-  character: Guard
-  dialogue: ...
+  character: Akari
+  dialogue: The path is clear. Why do you insist upon dilly-dallying?!
   characterPortrait: {fileID: 0}
-  nextLine: {fileID: 0}
-  isEnd: 1
+  nextLine: {fileID: 11400000, guid: 8240cb2a9bfe6cc49989be98f913d41e, type: 2}
+  isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0
   replies: []

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
-  m_Name: CigarLounge_Fireplace_14_End
+  m_Name: CigarLounge_Fireplace_16_Cigar
   m_EditorClassIdentifier: 
   itemName: Fireplace
-  dialogue: Sure.
+  dialogue: So you are going to smoke the <b>cigar</b>.
   itemSprite: {fileID: 0}
   mcSprite: {fileID: 0}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: 23e9c2163c6e4c54ba79e874a8800453, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0

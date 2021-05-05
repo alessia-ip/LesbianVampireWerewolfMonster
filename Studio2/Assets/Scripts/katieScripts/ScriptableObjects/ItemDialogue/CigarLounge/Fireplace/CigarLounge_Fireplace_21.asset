@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
-  m_Name: CigarLounge_Fireplace_14_End
+  m_Name: CigarLounge_Fireplace_21
   m_EditorClassIdentifier: 
   itemName: Fireplace
-  dialogue: Sure.
+  dialogue: Although, on occasion, I've seen the Duchess light her <b>black lotus
+    cigars</b> with the <b>flames</b>.
   itemSprite: {fileID: 0}
   mcSprite: {fileID: 0}
   nextLine: {fileID: 0}
-  isEnd: 0
-  nextConvo: {fileID: 0}
+  isEnd: 1
+  nextConvo: {fileID: 11400000, guid: 752922f6f247a6940841714d172ea06a, type: 2}
   hasPickup: 0
   nextLineWrong: {fileID: 0}
   hasCombine: 0

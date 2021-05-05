@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
-  m_Name: CigarLounge_Fireplace_14_End
+  m_Name: CigarLounge_Fireplace_15_Start
   m_EditorClassIdentifier: 
   itemName: Fireplace
-  dialogue: Sure.
+  dialogue: <i>Maybe I can use this. </i>
   itemSprite: {fileID: 0}
   mcSprite: {fileID: 0}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: a5b330265ecc410409124f7f0ce38878, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0
-  nextLineWrong: {fileID: 0}
-  hasCombine: 0
+  nextLineWrong: {fileID: 11400000, guid: fb5df604d164fd747ac2ee5d1ef2b3b1, type: 2}
+  hasCombine: 1

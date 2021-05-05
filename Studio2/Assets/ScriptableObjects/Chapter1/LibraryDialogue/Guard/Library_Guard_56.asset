@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Library_Guard_56
   m_EditorClassIdentifier: 
   header: 
-  character: Guard
-  dialogue: ...
+  character: Ifa
+  dialogue: So...how's it going?
   characterPortrait: {fileID: 0}
-  nextLine: {fileID: 0}
-  isEnd: 1
+  nextLine: {fileID: 11400000, guid: a765127d561516b4a96f1a06ef2d6393, type: 2}
+  isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0
   replies: []
