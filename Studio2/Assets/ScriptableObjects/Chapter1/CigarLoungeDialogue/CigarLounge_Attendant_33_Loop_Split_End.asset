@@ -10,16 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5abc86c81a1db624ca76f02db0c102ab, type: 3}
-  m_Name: CigarLounge_Attendant_31_Loop_Split
+  m_Name: CigarLounge_Attendant_33_Loop_Split_End
   m_EditorClassIdentifier: 
   header: 
-  character: Akari
-  dialogue: "Excuse me, but I\u2019m getting the strangest feeling that we are no
-    closer to meeting this \u201C<b>Ashe</b>.\u201D"
-  characterPortrait: {fileID: -4713435305899008172, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
-    type: 3}
-  nextLine: {fileID: 11400000, guid: c9b39d60de4aa5a41bc28d59eaa182b4, type: 2}
-  isEnd: 0
+  character: 
+  dialogue: 
+  characterPortrait: {fileID: 0}
+  nextLine: {fileID: 0}
+  isEnd: 1
   nextConvo: {fileID: 0}
   hasReply: 0
   replies: []

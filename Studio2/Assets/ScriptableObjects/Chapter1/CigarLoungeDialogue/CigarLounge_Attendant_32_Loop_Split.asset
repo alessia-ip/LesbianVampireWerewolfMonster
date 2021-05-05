@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: CigarLounge_Attendant_32_Loop_Split
   m_EditorClassIdentifier: 
   header: 
-  character: 
-  dialogue: 
+  character: Ifa
+  dialogue: <i>Patience is a virtue, too.</i>
   characterPortrait: {fileID: 0}
   nextLine: {fileID: 11400000, guid: d3a3be6db3f220248a8d765cbc16088e, type: 2}
   isEnd: 0
