@@ -16,7 +16,7 @@ MonoBehaviour:
   dialogue: Well done, rookie
   itemSprite: {fileID: 21300000, guid: fd6a93c7d841222429494ea5d36c6efc, type: 3}
   mcSprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: 6d624dc2c5272144d91b9ece0fd9296b, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0
