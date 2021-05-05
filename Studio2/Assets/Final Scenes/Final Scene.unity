@@ -6776,7 +6776,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.000011444, y: -0.0000019073}
-  m_SizeDelta: {x: 140.34845, y: 30.574997}
+  m_SizeDelta: {x: 238.12, y: 30.574997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1146610971
 MonoBehaviour:
@@ -6797,7 +6797,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Item
+  m_text: Millennium Rose
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 18c75f38d17dc46488a962eb255b5daf, type: 2}
   m_sharedMaterial: {fileID: 1427340220110402202, guid: 18c75f38d17dc46488a962eb255b5daf,
@@ -9196,8 +9196,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -210.28, y: -127.26}
-  m_SizeDelta: {x: 205.78528, y: 47.66411}
+  m_AnchoredPosition: {x: -203.8, y: -127.26}
+  m_SizeDelta: {x: 243.9, y: 47.66411}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1548594038
 MonoBehaviour:

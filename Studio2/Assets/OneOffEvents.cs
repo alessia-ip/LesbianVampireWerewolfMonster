@@ -129,6 +129,8 @@ public class OneOffEvents : MonoBehaviour
 
             mxPaws.GetComponent<CharacterDialogueSOHandler>().startBlock = mxPawsNewStart;
             gardener.GetComponent<CharacterDialogueSOHandler>().startBlock = gardenerNewStart;
+            mxPaws.GetComponent<CharacterDialogueSOHandler>().currentBlock = mxPawsNewStart;
+            gardener.GetComponent<CharacterDialogueSOHandler>().currentBlock = gardenerNewStart;
             
             fadeToBlack.SetActive(true); //TODO ANIMATE THIS
             
@@ -147,12 +149,13 @@ public class OneOffEvents : MonoBehaviour
             fadeToBlack.SetActive(false);
             loungeButton.interactable = true;
             libraryButton.interactable = true;
-            
+            loungeButton.gameObject.SetActive(true);
+            libraryButton.gameObject.SetActive(true);
             
             thiccCharacter.GetComponent<SpriteRenderer>().enabled = true;
             thiccCharacter.GetComponent<Collider2D>().enabled = true;
             thiccCharacter.GetComponent<CharacterDialogueSOHandler>().startBlock = newStartBlockTHICC;
-            
+            thiccCharacter.GetComponent<CharacterDialogueSOHandler>().CurrentBlock = newStartBlockTHICC;
             ChapterOne.SetActive(true);
         }
         
@@ -173,6 +176,8 @@ public class OneOffEvents : MonoBehaviour
         if (dialogueCheck.text == passwordDialogue.dialogue) //TODO check if dialogue or ALT dialogue
         {
             hubRoom.interactable = true;
+            hubRoom.gameObject.SetActive(true);
+
         }
         
         
