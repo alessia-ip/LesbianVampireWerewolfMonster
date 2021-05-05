@@ -100,8 +100,8 @@ public class OneOffEvents : MonoBehaviour
             if (initGridReset == false)
             {
                 resetGrid.MapWalk();
-                initGridReset = true;
-//                resetGrid.path.Clear();
+                initGridReset = true; 
+                //resetGrid.path.Clear();
             }
         }
         
@@ -206,6 +206,7 @@ public class OneOffEvents : MonoBehaviour
     {
         fadeToBlack.SetActive(true);
         endOfCh1Text.SetActive(true);
+        mainMenu.SetActive(false);
     }
     
 }
