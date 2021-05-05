@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Library_Book_04
   m_EditorClassIdentifier: 
   itemName: Romance Book
-  dialogue: <i>"<b>Sapphic Summer</b>." I wonder if it's any good.</i>
+  dialogue: <i>...oh...this is very good.</i>
   itemSprite: {fileID: 0}
   mcSprite: {fileID: 0}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: 20455f15a1f8a2c498e7e1650ee5a43f, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0

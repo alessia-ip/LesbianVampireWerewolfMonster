@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Library_Book_11
   m_EditorClassIdentifier: 
   itemName: Romance Book
-  dialogue: <i>"<b>Sapphic Summer</b>." I wonder if it's any good.</i>
+  dialogue: "<i> It\u2019s settled then, we\u2019ll take the sexy poetry for the
+    road.</i>"
   itemSprite: {fileID: 0}
   mcSprite: {fileID: 0}
   nextLine: {fileID: 0}
