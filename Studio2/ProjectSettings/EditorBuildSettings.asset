@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Final Scenes/ChapelScene.unity
     guid: 6eb31e0316156974d89093c2f7a560f5
+  - enabled: 1
+    path: Assets/Final Scenes/HubScene.unity
+    guid: c5ba423a99f0d484c9f5bb6b0f42c823
   m_configObjects: {}

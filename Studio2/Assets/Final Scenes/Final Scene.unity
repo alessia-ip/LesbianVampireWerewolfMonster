@@ -12760,12 +12760,14 @@ MonoBehaviour:
   - GardenScene
   - ChapelScene
   - BarracksScene
+  - HubScene
   camerasInScene:
   - {fileID: 1107479582}
   - {fileID: 892274154}
   - {fileID: 514239961}
   - {fileID: 453616154}
   - {fileID: 512079517}
+  - {fileID: 1146777788}
   currentScene: ChapelScene
   currentCamera: {fileID: 512079517}
   _gridMaker: {fileID: 1815443635}
