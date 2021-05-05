@@ -11,6 +11,11 @@ public class OneOffEvents : MonoBehaviour
     [Header("Dialogue Box")]
     public TextMeshProUGUI dialogueCheck;
 
+    [Header("Remove Prologue Thing")] 
+    public DialogueScriptableObject startSO;
+    public GameObject prologueText;
+    public GameObject mainMenu;
+    
     [Header("THICC character lol")] 
     public GameObject thiccCharacter;
     public DialogueScriptableObject introScene;
@@ -48,8 +53,20 @@ public class OneOffEvents : MonoBehaviour
         
         //check if the blank character has been spoken 
         //TODO - blank character that takes up the whole screen
+        if (dialogueCheck.text == startSO.dialogue)
+        {
+            mainMenu.SetActive(true);
+            prologueText.SetActive(false);
+        }
         
         
+        //turn off dark character
+        if (dialogueCheck.text == introScene.dialogue)
+        {
+            thiccCharacter.GetComponent<SpriteRenderer>().enabled = false;
+            thiccCharacter.GetComponent<Collider2D>().enabled = false;
+            resetGrid.MapWalk();
+        }
         
         //turn items off until you talk to akari
         

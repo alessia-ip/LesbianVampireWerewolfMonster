@@ -91,6 +91,11 @@ public class CharacterDialogueSOHandler : MonoBehaviour
     private void Update()
     {
         PlayerDistance();
+
+        if (this.gameObject.name == "characterSprite_THICC")
+        {
+            playerCloseEnough = true;
+        }
         
         if (isTalking && playerCloseEnough)
         {
