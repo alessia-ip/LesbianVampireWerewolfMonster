@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: MxPaws_Barracks_08
   m_EditorClassIdentifier: 
   header: 
-  character: 
-  dialogue: 
-  characterPortrait: {fileID: 0}
+  character: Mx. Paws
+  dialogue: ...
+  characterPortrait: {fileID: -1440913230627174138, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 8a0cf8f642003e34ea04b8a1a26f4d1b, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

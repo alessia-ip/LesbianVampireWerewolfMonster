@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5abc86c81a1db624ca76f02db0c102ab, type: 3}
-  m_Name: MxPaws_Barracks_07
+  m_Name: CigarLounge_Attendant_16_End 1
   m_EditorClassIdentifier: 
   header: 
-  character: Mx. Paws
-  dialogue: "Cursed <b>ruby</b>? Don\u2019t ask such stupid questions."
-  characterPortrait: {fileID: -1440913230627174138, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
-    type: 3}
-  nextLine: {fileID: 11400000, guid: 6c054b1b25e0e5d419dca827ff4915e6, type: 2}
-  isEnd: 0
+  character: 
+  dialogue: 
+  characterPortrait: {fileID: 0}
+  nextLine: {fileID: 0}
+  isEnd: 1
   nextConvo: {fileID: 0}
   hasReply: 0
   replies: []
