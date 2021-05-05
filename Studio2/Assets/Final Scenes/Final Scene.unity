@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &15032644
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2432,12 +2432,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 4241b4b8905273e4bae87ab0305a7719, type: 3}
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2474,7 +2474,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &441568838
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7622,7 +7622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1273350448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9290,7 +9290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1576657957
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12021,7 +12021,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.2, y: -7.7}
+  m_AnchoredPosition: {x: 2.2, y: -4.8}
   m_SizeDelta: {x: 570.21136, y: 40.140175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1898124175
@@ -12047,8 +12047,8 @@ MonoBehaviour:
     gotten a good night's sleep in a long time. testing the height of the line. Clue
     clue
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8eb44593c1918c44dbfdb6e9986df3b2, type: 2}
-  m_sharedMaterial: {fileID: -5594102952629962936, guid: 8eb44593c1918c44dbfdb6e9986df3b2,
+  m_fontAsset: {fileID: 11400000, guid: 18c75f38d17dc46488a962eb255b5daf, type: 2}
+  m_sharedMaterial: {fileID: 1427340220110402202, guid: 18c75f38d17dc46488a962eb255b5daf,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -12073,8 +12073,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -12085,7 +12085,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: -19.3
+  m_lineSpacing: 93.7
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -12109,7 +12109,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -7.9720125, w: 0}
+  m_margin: {x: 0, y: 0, z: 6.3963885, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -12598,7 +12598,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2002314247
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13671,6 +13671,12 @@ MonoBehaviour:
   mainMenu: {fileID: 143251967}
   thiccCharacter: {fileID: 1494570302}
   introScene: {fileID: 11400000, guid: b1fa252970522b143862f0a0ca2102a9, type: 2}
+  firstAkari: {fileID: 11400000, guid: 42903553cc01c7141b81b5e3d9329c62, type: 2}
+  mortar: {fileID: 0}
+  cauldron: {fileID: 0}
+  painting: {fileID: 0}
+  map: {fileID: 0}
+  window: {fileID: 0}
   mapGetDialogue: {fileID: 11400000, guid: d5a19047b5c414d4991d1acd0fb743c0, type: 2}
   mapButton: {fileID: 117733258}
   mapCollider: {fileID: 1380309621}

@@ -10,7 +10,8 @@ public class OneOffEvents : MonoBehaviour
 
     [Header("Dialogue Box")]
     public TextMeshProUGUI dialogueCheck;
-
+    private bool initGridReset = false;
+    
     [Header("Remove Prologue Thing")] 
     public DialogueScriptableObject startSO;
     public GameObject prologueText;
@@ -19,6 +20,14 @@ public class OneOffEvents : MonoBehaviour
     [Header("THICC character lol")] 
     public GameObject thiccCharacter;
     public DialogueScriptableObject introScene;
+
+    [Header("ItemsToTurnOn")] 
+    public DialogueScriptableObject firstAkari;
+    public GameObject mortar;
+    public GameObject cauldron;
+    public GameObject painting;
+    public GameObject map;
+    public GameObject window;
     
     [Header("Map Check Variables")]
     public DialogueScriptableObject mapGetDialogue;
@@ -34,6 +43,7 @@ public class OneOffEvents : MonoBehaviour
     public GameObject gardener;
     public DialogueScriptableObject gardenerNewStart;
     public testing resetGrid;
+    private bool initGridReset2 = false;
 
     [Header("Ritual End Variables")] 
     public DialogueScriptableObject ritualEndDialogue;
@@ -57,6 +67,20 @@ public class OneOffEvents : MonoBehaviour
         {
             mainMenu.SetActive(true);
             prologueText.SetActive(false);
+          
+            mortar = GameObject.Find("Mortar&Pestle");
+            painting = GameObject.Find("Painting");
+            window = GameObject.Find("Stained glass");
+            cauldron = GameObject.Find("Cauldron");
+            map = GameObject.Find("Map");
+
+            mortar.GetComponent<ItemDialogueSOHandler>().enabled = false;
+            painting.GetComponent<ItemDialogueSOHandler>().enabled = false;
+            window.GetComponent<ItemDialogueSOHandler>().enabled = false;
+            cauldron.GetComponent<ItemDialogueSOHandler>().enabled = false;
+            map.GetComponent<ItemDialogueSOHandler>().enabled = false;
+
+
         }
         
         
@@ -65,11 +89,24 @@ public class OneOffEvents : MonoBehaviour
         {
             thiccCharacter.GetComponent<SpriteRenderer>().enabled = false;
             thiccCharacter.GetComponent<Collider2D>().enabled = false;
-            resetGrid.MapWalk();
+            if (initGridReset == false)
+            {
+                resetGrid.MapWalk();
+                initGridReset = true;
+                resetGrid.path.Clear();
+            }
         }
         
         //turn items off until you talk to akari
-        
+        if (dialogueCheck.text == firstAkari.dialogue)
+        {
+
+            mortar.GetComponent<ItemDialogueSOHandler>().enabled = true;
+            painting.GetComponent<ItemDialogueSOHandler>().enabled = true;
+            window.GetComponent<ItemDialogueSOHandler>().enabled = true;
+            cauldron.GetComponent<ItemDialogueSOHandler>().enabled = true;
+            map.GetComponent<ItemDialogueSOHandler>().enabled = true;
+        }
         
         
         //checking if the player has gotten the map at the beginning of the game
@@ -89,7 +126,12 @@ public class OneOffEvents : MonoBehaviour
             gardener.GetComponent<CharacterDialogueSOHandler>().startBlock = gardenerNewStart;
             
             fadeToBlack.SetActive(true); //TODO ANIMATE THIS
-            resetGrid.MapWalk();
+            if (initGridReset2 == false)
+            {
+                resetGrid.MapWalk();
+                initGridReset2 = true;
+                resetGrid.path.Clear();
+            }
         }
 
         //TODO CHAPTER HEADER CHANGE 
