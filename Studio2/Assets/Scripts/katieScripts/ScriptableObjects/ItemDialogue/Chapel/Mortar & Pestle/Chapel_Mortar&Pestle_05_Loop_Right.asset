@@ -10,17 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
-  m_Name: Chapel_Mortar&Pestle_02_End
+  m_Name: Chapel_Mortar&Pestle_05_Loop_Right
   m_EditorClassIdentifier: 
   itemName: Mortar & Pestle
-  dialogue: Ha! An early riser and an overachiever! We use the mortar and pestle
-    to crush sacred jewels. You'll see.
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
-    type: 3}
-  nextLine: {fileID: 0}
-  isEnd: 1
-  nextConvo: {fileID: 11400000, guid: b4ec1f8999c83924ab8ddf25dae46a1d, type: 2}
+  dialogue: That was pretty simple!
+  itemSprite: {fileID: 21300000, guid: fd6a93c7d841222429494ea5d36c6efc, type: 3}
+  mcSprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
+  nextLine: {fileID: 11400000, guid: 8d384dc231f4fad49aee7122d5be5bab, type: 2}
+  isEnd: 0
+  nextConvo: {fileID: 0}
   hasPickup: 0
   nextLineWrong: {fileID: 0}
   hasCombine: 0

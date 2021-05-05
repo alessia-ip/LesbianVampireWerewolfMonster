@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
-  m_Name: Chapel_Cauldron_06_Loop_Start_End
+  m_Name: Chapel_Painting_04
   m_EditorClassIdentifier: 
-  itemName: Cauldron
-  dialogue: <i> Which god are these offerings dedicated to? </i>
-  itemSprite: {fileID: 21300000, guid: 50a26802ed972674294ce3e4a079163a, type: 3}
+  itemName: Painting
+  dialogue: <i> Damn, what a beautiful painting. </i>
+  itemSprite: {fileID: 0}
   mcSprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 0}
   isEnd: 1
