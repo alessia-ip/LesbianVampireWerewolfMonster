@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
+  m_Name: CigarLounge_Lamp_06_Loop
+  m_EditorClassIdentifier: 
+  itemName: Lamp
+  dialogue: <i>So we can agree on something!</i>
+  itemSprite: {fileID: 0}
+  mcSprite: {fileID: 0}
+  nextLine: {fileID: 0}
+  isEnd: 0
+  nextConvo: {fileID: 0}
+  hasPickup: 0
+  nextLineWrong: {fileID: 0}
+  hasCombine: 0

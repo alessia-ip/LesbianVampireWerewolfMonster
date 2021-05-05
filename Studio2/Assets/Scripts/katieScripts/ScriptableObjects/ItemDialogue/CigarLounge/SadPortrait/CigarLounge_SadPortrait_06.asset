@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
+  m_Name: CigarLounge_SadPortrait_06
+  m_EditorClassIdentifier: 
+  itemName: Sad Portrait
+  dialogue: "...perhaps, this woman finds comfort in smiling for someone else\u2019s
+    sake. "
+  itemSprite: {fileID: 0}
+  mcSprite: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: 6a519c23c0472ca4189e7c176c8d7f4e, type: 2}
+  isEnd: 0
+  nextConvo: {fileID: 0}
+  hasPickup: 0
+  nextLineWrong: {fileID: 0}
+  hasCombine: 0
