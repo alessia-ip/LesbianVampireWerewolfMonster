@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chapel_StainedGlass_06
   m_EditorClassIdentifier: 
   itemName: Window
-  dialogue: ...
+  dialogue: Who knows?
   itemSprite: {fileID: 0}
   mcSprite: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}

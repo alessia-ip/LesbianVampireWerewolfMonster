@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Chapel_Mortar&Pestle_04_Loop_Right
   m_EditorClassIdentifier: 
   itemName: Mortar & Pestle
-  dialogue: <i>The time has finally come to crush the thing, then kiss the fine lady.
-    </i>
+  dialogue: <i>The time has finally come to crush the thing. </i>
   itemSprite: {fileID: 21300000, guid: 8dc40c46bb38ee84592d4e9f9d15e3d5, type: 3}
   mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}

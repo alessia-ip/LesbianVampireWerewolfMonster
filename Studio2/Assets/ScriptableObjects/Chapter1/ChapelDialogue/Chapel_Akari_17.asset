@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: <i>Nope. Never have been.</i>
+  dialogue: <i>Never have been.</i>
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 4fc9d44e8ac96a247b7a75e6c9fd3fb5, type: 2}

@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: <i>I can't just turn down this beautiful woman...even if it is for some
-    dumb ritual.</i>
+  dialogue: <i>Damn it... For now, playing along might be the safer option.</i>
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 0539e1fb7bb9160448e0d4bf6171e2e9, type: 2}

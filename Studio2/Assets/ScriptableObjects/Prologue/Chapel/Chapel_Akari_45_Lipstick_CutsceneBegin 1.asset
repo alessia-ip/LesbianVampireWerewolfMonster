@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5abc86c81a1db624ca76f02db0c102ab, type: 3}
-  m_Name: Chapel_Akari_04
+  m_Name: Chapel_Akari_45_Lipstick_CutsceneBegin 1
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: <i> Uh-oh. </i>
+  dialogue: With pleasure.
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
-  nextLine: {fileID: 11400000, guid: 3d2df2bf25db17f42b28f25a2a3441f6, type: 2}
+  nextLine: {fileID: 11400000, guid: da979eae669b0fe4194e4812047d210a, type: 2}
   isEnd: 0
-  nextConvo: {fileID: 0}
+  nextConvo: {fileID: 11400000, guid: 5ada9a4578320294ca1a5fadc24240ad, type: 2}
   hasReply: 0
   replies: []
   replyAnswers: []

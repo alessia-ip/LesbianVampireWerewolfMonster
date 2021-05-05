@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Captain Akari
-  dialogue: Rookie... we spoke about this at length just yesterday.
+  dialogue: Rookie... I thought your superiors would have talked to you about this
+    just yesterday.
   characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: b572f90bb3bd98345b0e12ca0d7dec98, type: 2}
