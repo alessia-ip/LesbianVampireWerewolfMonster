@@ -82,6 +82,7 @@ public class ItemDialogueSOHandler : MonoBehaviour
                 }
                 else //is talking is true
                 {
+                    InventoryManager.instance.playerMovement.GetComponent<testing>().enabled = false;
                     if (currentBlock.isEnd)
                     {
                         DialogueEnded();
@@ -123,6 +124,7 @@ public class ItemDialogueSOHandler : MonoBehaviour
         else if (currentBlock.hasCombine)
         {
             canClickNext = false;
+            InventoryManager.instance.playerMovement.GetComponent<testing>().enabled = false;
             InventoryManager.instance.pickupButton.SetActive(false);
             InventoryManager.instance.combineButton.SetActive(true);
             InventoryManager.instance.currentItem = item;
@@ -144,7 +146,7 @@ public class ItemDialogueSOHandler : MonoBehaviour
             isTalking = false;
             InventoryManager.instance.itemDialogueCanvas.SetActive(false);
             currentBlock = currentBlock.nextConvo;
-            //InventoryManager.instance.playerMovement.GetComponent<testing>().enabled = true;
+            InventoryManager.instance.playerMovement.GetComponent<testing>().enabled = true;
         //}
     }
 

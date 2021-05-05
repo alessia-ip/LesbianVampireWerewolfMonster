@@ -49,6 +49,7 @@
         </e>
         <e p="OneOffEvents.cs" t="Include" />
         <e p="OpenMap.cs" t="Include" />
+        <e p="PlayAudioOnEnter.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="ScreenshotCompanion" t="Include">
             <e p="Editor" t="Include">
