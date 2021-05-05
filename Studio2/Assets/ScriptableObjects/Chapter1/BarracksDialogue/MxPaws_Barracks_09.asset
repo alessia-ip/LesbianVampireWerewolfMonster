@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: MxPaws_Barracks_09
   m_EditorClassIdentifier: 
   header: 
-  character: 
-  dialogue: 
-  characterPortrait: {fileID: 0}
-  nextLine: {fileID: 0}
+  character: Mx. Paws
+  dialogue: ...rats!
+  characterPortrait: {fileID: -1440913230627174138, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
+  nextLine: {fileID: 11400000, guid: 115f696c873aed840b2b8970d87a690d, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0

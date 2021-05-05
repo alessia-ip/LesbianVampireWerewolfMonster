@@ -242,7 +242,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
     //different blocks used for positioning
     void SpriteHandler()
     {
-        if (CurrentBlock.character == "Aoife")
+        if (CurrentBlock.character == "Ifa")
         {
             thisCharSpriteSpot.SetActive(false);
             mcSpriteSpot.SetActive(true);

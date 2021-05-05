@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Library_BlankPaper_15_Correct
   m_EditorClassIdentifier: 
   itemName: Blank Paper
-  dialogue: I'm entirely sure that it has nothing to do with fixing our predicament.
+  dialogue: '<i>Yup, there you go: invisible ink.</i>'
   itemSprite: {fileID: 0}
   mcSprite: {fileID: 0}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: 318a23b8358ab8b4fa5067e886562b03, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0

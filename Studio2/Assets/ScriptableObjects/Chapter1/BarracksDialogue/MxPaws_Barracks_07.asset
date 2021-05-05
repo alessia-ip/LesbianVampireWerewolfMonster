@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: MxPaws_Barracks_07
   m_EditorClassIdentifier: 
   header: 
-  character: 
-  dialogue: 
-  characterPortrait: {fileID: 0}
+  character: Mx. Paws
+  dialogue: "Cursed <b>ruby</b>? Don\u2019t ask such stupid questions."
+  characterPortrait: {fileID: -1440913230627174138, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 6c054b1b25e0e5d419dca827ff4915e6, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

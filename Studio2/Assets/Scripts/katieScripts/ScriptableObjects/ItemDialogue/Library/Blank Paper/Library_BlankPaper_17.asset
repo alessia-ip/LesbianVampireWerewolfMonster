@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Library_BlankPaper_17
   m_EditorClassIdentifier: 
   itemName: Blank Paper
-  dialogue: I'm entirely sure that it has nothing to do with fixing our predicament.
+  dialogue: <i>I'm pretty sure it says the <b>passphrase</b>.</i>
   itemSprite: {fileID: 0}
   mcSprite: {fileID: 0}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: 53f9208532d59464483a9e0c7bfe3a31, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Library_BlankPaper_16
   m_EditorClassIdentifier: 
   itemName: Blank Paper
-  dialogue: I'm entirely sure that it has nothing to do with fixing our predicament.
+  dialogue: I'm impressed, Ifa. What's it say?
   itemSprite: {fileID: 0}
   mcSprite: {fileID: 0}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: cbe60e935776d0944b82f424c13b66f5, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0

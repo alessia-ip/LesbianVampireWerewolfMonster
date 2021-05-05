@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: Oh fuck.
+  dialogue: Oh fuck!
   characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
   nextLine: {fileID: 11400000, guid: 00ddbe8215180424a8915517d81d75e6, type: 2}
   isEnd: 0
