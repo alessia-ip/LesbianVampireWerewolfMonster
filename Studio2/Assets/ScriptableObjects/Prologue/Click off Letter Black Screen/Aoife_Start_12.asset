@@ -16,7 +16,7 @@ MonoBehaviour:
   character: Ifa
   dialogue: <i> Alright...act natural </i>
   characterPortrait: {fileID: 0}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: 3804588f33bbf6e46bc86a1bef2379c0, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0
