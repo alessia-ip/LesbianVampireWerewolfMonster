@@ -22,8 +22,8 @@ MonoBehaviour:
   hasReply: 0
   replies: []
   replyAnswers: []
-  hasEvent: 0
+  hasEvent: 1
   eventItem: {fileID: 0}
   altDialogue: 
-  alternativeBlock: {fileID: 0}
+  alternativeBlock: {fileID: 11400000, guid: 9eadbe03ad3a1ed42b252389fc29e482, type: 2}
   givenObject: {fileID: 0}

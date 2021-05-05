@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5abc86c81a1db624ca76f02db0c102ab, type: 3}
-  m_Name: Library_Guard_43_Loop_End
+  m_Name: Library_Guard_49
   m_EditorClassIdentifier: 
   header: 
-  character: Guard
-  dialogue: '"<b>Passphrase</b>."'
+  character: Ifa
+  dialogue: ...please.
   characterPortrait: {fileID: 0}
-  nextLine: {fileID: 0}
-  isEnd: 1
-  nextConvo: {fileID: 11400000, guid: c379d7397b9fa094fb3a81d16c999475, type: 2}
+  nextLine: {fileID: 11400000, guid: 3f0a927a7f5420a48af98702c309834c, type: 2}
+  isEnd: 0
+  nextConvo: {fileID: 0}
   hasReply: 0
   replies: []
   replyAnswers: []

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5abc86c81a1db624ca76f02db0c102ab, type: 3}
-  m_Name: Library_Guard_Password_End_Event
+  m_Name: Library_Guard_44_Loop_Start
   m_EditorClassIdentifier: 
-  header: BETTER FILL ME IN
-  character: 
-  dialogue: 'Beau and Jay, please change me. '
+  header: 
+  character: Ifa
+  dialogue: '"<b>Passphrase</b>."'
   characterPortrait: {fileID: 0}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: 2e717da242f51554ab0484b8ccca4b79, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0
