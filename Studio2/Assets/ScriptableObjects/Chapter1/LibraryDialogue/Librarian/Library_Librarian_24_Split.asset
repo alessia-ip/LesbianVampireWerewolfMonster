@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: Not yet. Did you remember anything?
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 26f1a6279115daf4d809ba59fc5466fb, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
@@ -23,7 +24,7 @@ MonoBehaviour:
   replies: []
   replyAnswers: []
   hasEvent: 1
-  eventItem: {fileID: 0}
+  eventItem: {fileID: 11400000, guid: f273c9d419f2448468e9650dfb1cc200, type: 2}
   altDialogue: "Yes, but it\u2019s mostly filled with blank pages."
   alternativeBlock: {fileID: 11400000, guid: d1aff8f5f254f2c4eba0e1301a918347, type: 2}
   givenObject: {fileID: 0}

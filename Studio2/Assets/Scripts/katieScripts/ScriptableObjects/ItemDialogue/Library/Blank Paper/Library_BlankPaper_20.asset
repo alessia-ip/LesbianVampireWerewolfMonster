@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Blank Paper
   dialogue: Yes, I know that's what it is, you oaf! Tell me what it says!
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: 2df90061950cc114da0f859c518fbc80, type: 3}
+  mcSprite: {fileID: -4713435305899008172, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 28a8a09f70e96d746858c593e3758eb4, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

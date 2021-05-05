@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Attendant
   dialogue: Speaking of love...I wonder how the <b>Gardener</b> is faring.
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -2230209616020430755, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 9cedb2444168b6f4a9ec89b5a7bfc83f, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

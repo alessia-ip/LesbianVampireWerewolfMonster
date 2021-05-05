@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: <i>...possibly.</i>
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: a2c08d36dd14def47b0f9d958feea515, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

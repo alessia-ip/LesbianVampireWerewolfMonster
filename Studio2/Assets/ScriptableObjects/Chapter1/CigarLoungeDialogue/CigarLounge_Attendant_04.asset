@@ -16,7 +16,8 @@ MonoBehaviour:
   character: Attendant
   dialogue: "Pardon me, but who are you? I don\u2019t think I\u2019ve ever seen you
     before."
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -2230209616020430755, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 9644b60d22ffca042a0e48cc0262ae8b, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

@@ -14,11 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Lamp
   dialogue: I...uh...I wholeheartedly agree.
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
-  nextLine: {fileID: 11400000, guid: c627b1b14d7fcc242afaa4c8218ac1c2, type: 2}
-  isEnd: 0
-  nextConvo: {fileID: 0}
+  itemSprite: {fileID: -7836547378537610585, guid: 4056fdee99794d2498b3aacf45d6acc0,
+    type: 3}
+  mcSprite: {fileID: -4713435305899008172, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
+  nextLine: {fileID: 0}
+  isEnd: 1
+  nextConvo: {fileID: 11400000, guid: 32613b0ef37c1cb4da8d8bdffb60611e, type: 2}
   hasPickup: 0
   nextLineWrong: {fileID: 0}
   hasCombine: 0

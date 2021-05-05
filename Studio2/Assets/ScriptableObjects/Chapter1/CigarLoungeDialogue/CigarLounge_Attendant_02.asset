@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Attendant
   dialogue: It takes the edge off.
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -2230209616020430755, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 4dd68bd5ee80aa9498244a672fb94e8a, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

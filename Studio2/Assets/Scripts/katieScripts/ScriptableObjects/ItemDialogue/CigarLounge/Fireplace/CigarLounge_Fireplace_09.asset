@@ -15,8 +15,9 @@ MonoBehaviour:
   itemName: Fireplace
   dialogue: "<i>If I\u2019m going to settle, I\u2019d much rather do it with someone
     special.</i>"
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: 60bc20cf4babab44f91aea03b6c57774, type: 3}
+  mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: e68afc926b560ba4da931c810461299c, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

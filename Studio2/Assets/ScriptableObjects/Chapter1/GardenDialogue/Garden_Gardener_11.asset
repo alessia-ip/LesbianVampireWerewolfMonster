@@ -18,7 +18,7 @@ MonoBehaviour:
     see you tonight.\u201D "
   characterPortrait: {fileID: 4648334792664119862, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: d100073412630b04594d912abe9f636b, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0
@@ -28,4 +28,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
-  givenObject: {fileID: 0}
+  givenObject: {fileID: 11400000, guid: db48620f2c81d014b88afd2c9a643824, type: 2}

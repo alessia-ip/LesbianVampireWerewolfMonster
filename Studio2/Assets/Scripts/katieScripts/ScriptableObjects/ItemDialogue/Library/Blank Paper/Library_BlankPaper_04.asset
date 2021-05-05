@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Library_BlankPaper_04
   m_EditorClassIdentifier: 
   itemName: Blank Paper
-  dialogue: Can you stop talking for a second? I'm trying to think.
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
+  dialogue: <i>Can you stop talking for a second? I'm trying to think.</i>
+  itemSprite: {fileID: 21300000, guid: 2df90061950cc114da0f859c518fbc80, type: 3}
+  mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: b234c865517ceb449b2237c1e775e2cb, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

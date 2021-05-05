@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: CigarLounge_VelvetChair_01_Start
   m_EditorClassIdentifier: 
   itemName: Velvet Chair
-  dialogue: "You\u2019ve been eyeballing that chair for a while. Just take a seat
-    so we can move on."
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
-  nextLine: {fileID: 0}
+  dialogue: <i>Your Duchess sure is fancy.</i>
+  itemSprite: {fileID: 4341257704938647759, guid: e40301f25009afa44a2712fa63b8f6f1,
+    type: 3}
+  mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
+  nextLine: {fileID: 11400000, guid: 77bc55d1199566c4e855587086566a52, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0

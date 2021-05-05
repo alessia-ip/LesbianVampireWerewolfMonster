@@ -15,7 +15,7 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: Ah, well, I thought I'd wear my finest wig today!
-  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 25eb2bc589d355044b83ac9fb3386410, type: 2}
   isEnd: 0

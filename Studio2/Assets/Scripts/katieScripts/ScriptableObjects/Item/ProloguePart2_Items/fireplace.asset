@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfItemNoSpaces: Fireplace
   nameOfItemInGame: Fireplace
-  itemSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: 60bc20cf4babab44f91aea03b6c57774, type: 3}
   comboParents: 

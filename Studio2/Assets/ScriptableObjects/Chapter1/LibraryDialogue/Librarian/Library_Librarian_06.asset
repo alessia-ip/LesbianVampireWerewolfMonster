@@ -16,7 +16,8 @@ MonoBehaviour:
   character: Ifa
   dialogue: "\u2026\u201C<b>Ashe</b>\u201D said you\u2019d...uh\u2026\u201Cshow me
     the way.\u201D Ring any bells?"
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: c675b55f17f7f894fa96a8b064529790, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

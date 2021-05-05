@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Blank Paper
   dialogue: <i>"Passphrase."</i>
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: 2df90061950cc114da0f859c518fbc80, type: 3}
+  mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 80b99fa789f357644b56d2fe7f2d579c, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

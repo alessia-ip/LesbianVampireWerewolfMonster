@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: "<i>Ah, forget it. That reference would\u2019ve been wasted on you.</i>"
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: f0161a54abcbe7740a25c0e6f4b721e7, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

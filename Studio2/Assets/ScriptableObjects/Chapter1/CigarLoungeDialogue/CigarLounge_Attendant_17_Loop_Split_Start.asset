@@ -15,15 +15,16 @@ MonoBehaviour:
   header: 
   character: Attendant
   dialogue: Maybe I should cook something and bring it to her.
-  characterPortrait: {fileID: 0}
-  nextLine: {fileID: 11400000, guid: 3d48f36707b739949922ee6e0a704b15, type: 2}
+  characterPortrait: {fileID: -2230209616020430755, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
+  nextLine: {fileID: 11400000, guid: 5e46de3b24c30704f9a9044ec13d00d7, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0
   replies: []
   replyAnswers: []
-  hasEvent: 0
-  eventItem: {fileID: 0}
+  hasEvent: 1
+  eventItem: {fileID: 11400000, guid: db48620f2c81d014b88afd2c9a643824, type: 2}
   altDialogue: 
   alternativeBlock: {fileID: 11400000, guid: 3d48f36707b739949922ee6e0a704b15, type: 2}
   givenObject: {fileID: 0}

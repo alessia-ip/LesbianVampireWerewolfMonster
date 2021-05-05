@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
   m_Name: Chapel_Mortar&Pestle_01_Start
   m_EditorClassIdentifier: 
-  itemName: 
-  dialogue: 
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
+  itemName: Morter & Pestle
+  dialogue: "We use the mortar and pestle to crush sacred jewels. You\u2019ll see. "
+  itemSprite: {fileID: 21300000, guid: 8dc40c46bb38ee84592d4e9f9d15e3d5, type: 3}
+  mcSprite: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 0}
-  isEnd: 0
-  nextConvo: {fileID: 0}
+  isEnd: 1
+  nextConvo: {fileID: 11400000, guid: b4ec1f8999c83924ab8ddf25dae46a1d, type: 2}
   hasPickup: 0
   nextLineWrong: {fileID: 0}
   hasCombine: 0

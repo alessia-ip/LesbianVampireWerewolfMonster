@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: "<i>Wait a minute, what makes you think that I\u2019d lose?!</i>"
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 11010c372f2f6f14ab52a4669a8584f2, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

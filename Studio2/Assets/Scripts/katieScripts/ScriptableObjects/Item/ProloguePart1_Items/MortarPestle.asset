@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfItemNoSpaces: MP
   nameOfItemInGame: Mortar Pestle
-  itemSprite: {fileID: 21300000, guid: a142fd5cd9d42274dbfefdebb75175a2, type: 3}
+  itemSprite: {fileID: 21300000, guid: 8dc40c46bb38ee84592d4e9f9d15e3d5, type: 3}
   comboParents: 

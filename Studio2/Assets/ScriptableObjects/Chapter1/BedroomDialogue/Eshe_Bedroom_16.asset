@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Duchess
   dialogue: Does this guard speak the truth?
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -603414620747622545, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 6bc2be3b61ed7ee468f0aa7add0a9eef, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

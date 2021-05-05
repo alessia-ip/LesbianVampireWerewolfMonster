@@ -15,8 +15,9 @@ MonoBehaviour:
   itemName: Romance Book
   dialogue: "<i> It\u2019s settled then, we\u2019ll take the sexy poetry for the
     road.</i>"
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: 13f674cea7b905e47b0290c537f4b4f3, type: 3}
+  mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: cb72dab5ac8f6964693633f73b9e4f6c, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

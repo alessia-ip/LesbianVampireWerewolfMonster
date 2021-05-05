@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: What's the catch?
-  characterPortrait: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 942a14c9714b8b241bda0280ab354998, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

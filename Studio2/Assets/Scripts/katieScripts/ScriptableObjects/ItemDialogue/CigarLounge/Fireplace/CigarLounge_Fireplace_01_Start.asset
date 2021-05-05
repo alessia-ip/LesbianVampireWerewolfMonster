@@ -15,8 +15,9 @@ MonoBehaviour:
   itemName: Fireplace
   dialogue: <i>Oak. Maple. Ash. How many fireplaces have I slept beside just to get
     to this one? </i>
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: 60bc20cf4babab44f91aea03b6c57774, type: 3}
+  mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 63cf559e5ac57014dadb2b62a1ef8715, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

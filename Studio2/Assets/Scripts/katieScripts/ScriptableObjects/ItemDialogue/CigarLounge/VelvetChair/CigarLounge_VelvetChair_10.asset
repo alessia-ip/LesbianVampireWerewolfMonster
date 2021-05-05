@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
   m_Name: CigarLounge_VelvetChair_10
   m_EditorClassIdentifier: 
-  itemName: 
-  dialogue: 
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
-  nextLine: {fileID: 0}
+  itemName: Velvet Chair
+  dialogue: ...
+  itemSprite: {fileID: 4341257704938647759, guid: e40301f25009afa44a2712fa63b8f6f1,
+    type: 3}
+  mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
+  nextLine: {fileID: 11400000, guid: 9d52745a309cd3347b077852abe38c60, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0

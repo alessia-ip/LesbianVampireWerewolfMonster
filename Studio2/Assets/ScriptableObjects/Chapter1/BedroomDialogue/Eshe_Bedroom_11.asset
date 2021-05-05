@@ -16,7 +16,8 @@ MonoBehaviour:
   character: Ifa
   dialogue: "Oh, I do. In fact, I think we should be here. I\u2019ve been hired to
     do a job, after all."
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: f3d059538dcce024bb24e7d22d43c005, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

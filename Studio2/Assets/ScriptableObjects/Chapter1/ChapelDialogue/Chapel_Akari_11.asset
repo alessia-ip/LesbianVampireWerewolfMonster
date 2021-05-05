@@ -16,7 +16,8 @@ MonoBehaviour:
   character: Ifa
   dialogue: "<i>I\u2019ve...uh...been in worse situations. We\u2019ll...figure this
     out.</i>"
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 64f33b93ccec6ef42bcca1923a87b741, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

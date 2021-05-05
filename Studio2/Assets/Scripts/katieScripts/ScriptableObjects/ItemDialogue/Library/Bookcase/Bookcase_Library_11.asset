@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Bookcase
   dialogue: <i>Any recommendations?</i>
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: 0c64ca6e7d71fcb4dad6749a95a7dec9, type: 3}
+  mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 7f07b8568d9f9d14b84c245c40827f53, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

@@ -15,7 +15,7 @@ MonoBehaviour:
   itemName: Map
   dialogue: After the ritual, you'll step into the Duchess' palace for the first
     time. Take this map; the manor can be quite overwhelming for newcomers.
-  itemSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: 01a35e46699b45f41a36750dabf0bb44, type: 3}
   mcSprite: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: e458e750a24c0c74a95aacb17fff45ce, type: 2}

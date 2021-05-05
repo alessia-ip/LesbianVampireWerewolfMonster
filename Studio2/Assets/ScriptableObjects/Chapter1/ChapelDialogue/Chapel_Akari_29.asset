@@ -16,7 +16,8 @@ MonoBehaviour:
   character: Ifa
   dialogue: "<i>Not sure that it\u2019s a good idea for people to hear your disembodied
     voice coming from my general direction.</i>"
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 8415d1df623f02345b6c13dcb195a97d, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

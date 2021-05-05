@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: "She also said, \u201CI\u2019ll see you tonight.\u201D"
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: d2e8821fa83964c42bf346261f582900, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

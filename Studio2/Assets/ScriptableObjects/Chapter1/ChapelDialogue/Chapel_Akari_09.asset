@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: "<i>...I got it from the giant cat that lives right outside the barracks\u2026</i>"
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 0a25ee4e6375cbb4cbfe3e157aa4b2f4, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

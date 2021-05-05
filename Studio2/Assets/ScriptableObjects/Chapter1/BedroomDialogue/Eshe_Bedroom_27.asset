@@ -16,7 +16,8 @@ MonoBehaviour:
   character: Ifa
   dialogue: "Can\u2019t say no to gold...wasn\u2019t expecting to collect royal gold
     though. "
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 5135510a98fecd04e99a145f25170d1c, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

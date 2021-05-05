@@ -15,8 +15,9 @@ MonoBehaviour:
   itemName: Romance Book
   dialogue: "<i> I mean, you\u2019ve lived here for eight years. You never stumbled
     across...er...\u201CSapphic Summer?\u201D </i>"
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: 13f674cea7b905e47b0290c537f4b4f3, type: 3}
+  mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: db1cbea7882bb954e8e84bad68f5bb55, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

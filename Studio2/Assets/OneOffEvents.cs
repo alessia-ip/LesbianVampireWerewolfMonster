@@ -44,6 +44,7 @@ public class OneOffEvents : MonoBehaviour
     public DialogueScriptableObject gardenerNewStart;
     public testing resetGrid;
     private bool initGridReset2 = false;
+    public DialogueScriptableObject ThiccNewStart;
 
     [Header("Ritual End Variables")] 
     public DialogueScriptableObject ritualEndDialogue;
@@ -59,6 +60,8 @@ public class OneOffEvents : MonoBehaviour
     public Button hubRoom;
 
     [Header("HubEnd")] 
+    public GameObject duchess;
+    public DialogueScriptableObject duchessExit;
     public DialogueScriptableObject lastLine;
     public GameObject endOfCh1Text;
 
@@ -131,6 +134,8 @@ public class OneOffEvents : MonoBehaviour
             gardener.GetComponent<CharacterDialogueSOHandler>().startBlock = gardenerNewStart;
             mxPaws.GetComponent<CharacterDialogueSOHandler>().currentBlock = mxPawsNewStart;
             gardener.GetComponent<CharacterDialogueSOHandler>().currentBlock = gardenerNewStart;
+            thiccCharacter.GetComponent<CharacterDialogueSOHandler>().startBlock = ThiccNewStart;
+            thiccCharacter.GetComponent<CharacterDialogueSOHandler>().currentBlock = ThiccNewStart;
             
             fadeToBlack.SetActive(true); //TODO ANIMATE THIS
             
@@ -179,7 +184,15 @@ public class OneOffEvents : MonoBehaviour
             hubRoom.gameObject.SetActive(true);
 
         }
-        
+
+
+        if (dialogueCheck.text == duchessExit.dialogue)
+        {
+            thiccCharacter.SetActive(true);
+            duchess.SetActive(false);
+            thiccCharacter.SetActive(false);
+            
+        }
         
         //check for last line of dialogue
         if (dialogueCheck.text == lastLine.dialogue)

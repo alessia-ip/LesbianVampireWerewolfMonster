@@ -15,8 +15,9 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: "<i>I see...I\u2019m...I\u2019m sorry.</i>"
-  characterPortrait: {fileID: 0}
-  nextLine: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
+  nextLine: {fileID: 11400000, guid: 08eb9c6d86c05d34babec5e3dede31b1, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0

@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
   m_Name: CigarLounge_VelvetChair_06
   m_EditorClassIdentifier: 
-  itemName: 
-  dialogue: 
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
-  nextLine: {fileID: 0}
+  itemName: Velvet Chair
+  dialogue: " You\u2019re a bounty hunter. I\u2019m sure you\u2019ve made plenty
+    of enemies."
+  itemSprite: {fileID: 4341257704938647759, guid: e40301f25009afa44a2712fa63b8f6f1,
+    type: 3}
+  mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
+  nextLine: {fileID: 11400000, guid: 13553c81cf55ce94ebe159f8c976f6c7, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasPickup: 0

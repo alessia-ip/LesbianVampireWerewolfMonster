@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: <i>All in a day's work.</i>
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 5bbd9d0b39b86834a81e6f314db7de11, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

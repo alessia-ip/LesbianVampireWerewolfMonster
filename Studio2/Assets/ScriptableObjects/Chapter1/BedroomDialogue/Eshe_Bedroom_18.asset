@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Duchess
   dialogue: "\u2026"
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -603414620747622545, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: e99d0f0a439b9124ba696756dbbd0981, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Guard
   dialogue: You may pass
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: 2409159706596575678, guid: fe62fd62a773d8844ada0cf757c77ca4,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 254a5b6e7b025d844b06ed5fcb2c0040, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

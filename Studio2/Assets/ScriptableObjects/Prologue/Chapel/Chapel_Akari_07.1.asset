@@ -15,7 +15,7 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: <i> Think fast! </i>
-  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 711e01d2012e7f2438c3b5cfb37f29cb, type: 2}
   isEnd: 0

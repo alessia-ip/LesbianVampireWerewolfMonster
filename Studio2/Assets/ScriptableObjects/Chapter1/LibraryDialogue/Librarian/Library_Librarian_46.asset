@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: 'I''ll have you know: I''m not very good at riddles.'
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: de4403f020eb9fd49b60a187e49dd67e, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

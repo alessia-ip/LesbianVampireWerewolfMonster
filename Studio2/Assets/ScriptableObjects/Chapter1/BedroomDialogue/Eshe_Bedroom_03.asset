@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Duchess
   dialogue: Good girl.
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -603414620747622545, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: f02baba8f42e1fa4faa140c625f2aa49, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

@@ -15,8 +15,9 @@ MonoBehaviour:
   header: 
   character: Attendant
   dialogue: But those bloody <b>catnip</b> weeds always get in the way.
-  characterPortrait: {fileID: 0}
-  nextLine: {fileID: 0}
+  characterPortrait: {fileID: -2230209616020430755, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
+  nextLine: {fileID: 11400000, guid: 4f5a49c7ade1c3c40a10bd09c3ae483d, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0

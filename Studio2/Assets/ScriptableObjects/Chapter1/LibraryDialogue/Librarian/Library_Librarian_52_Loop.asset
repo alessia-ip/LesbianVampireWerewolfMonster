@@ -15,8 +15,9 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: You read my mind.
-  characterPortrait: {fileID: 0}
-  nextLine: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
+  nextLine: {fileID: 11400000, guid: 605df1cf491b177458da4839ce2302a6, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0

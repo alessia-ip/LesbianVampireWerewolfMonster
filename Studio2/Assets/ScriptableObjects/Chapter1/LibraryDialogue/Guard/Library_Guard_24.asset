@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Guard
   dialogue: Cute.
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: 2409159706596575678, guid: fe62fd62a773d8844ada0cf757c77ca4,
+    type: 3}
   nextLine: {fileID: 11400000, guid: f142efe1129803748b8703322d87bcfc, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

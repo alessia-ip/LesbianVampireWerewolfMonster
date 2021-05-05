@@ -15,8 +15,9 @@ MonoBehaviour:
   itemName: Sad Portrait
   dialogue: 'I would very much like to be back in my own body sooner rather than
     later. '
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: c77e0655e7a9c2e4eb58a8aa2c86327f, type: 2}
+  mcSprite: {fileID: -4713435305899008172, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: c93d5868a59ed814ca5d42e374dfe712, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

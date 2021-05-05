@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: <i>Akari, listening is a virtue.</i>
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 2ccf581e5c97fbb48b73994bb84df934, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

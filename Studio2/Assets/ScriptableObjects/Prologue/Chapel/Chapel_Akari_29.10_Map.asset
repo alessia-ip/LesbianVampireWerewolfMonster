@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: I look forward to...er...returning.
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 08bf35d9e212e2c4ca4fd745dd0a1316, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

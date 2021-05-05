@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Eshe
   dialogue: Yes, grandmother.
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: 5905735770905774871, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 6290175e93febb740860e6785a351a3d, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: '"God Save The Queen."'
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 886b54e3bfbc8b74cb8af8ca50dff3a5, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

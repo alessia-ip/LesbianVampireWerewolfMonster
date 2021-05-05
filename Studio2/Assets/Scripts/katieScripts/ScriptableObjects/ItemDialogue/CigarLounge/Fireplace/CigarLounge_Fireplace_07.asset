@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Fireplace
   dialogue: Why is that?
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: 60bc20cf4babab44f91aea03b6c57774, type: 3}
+  mcSprite: {fileID: -4713435305899008172, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 7bb4e7ea137b7e8409bd4f89e51fcf29, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

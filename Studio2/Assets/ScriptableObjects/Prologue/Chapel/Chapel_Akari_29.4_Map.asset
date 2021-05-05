@@ -16,7 +16,8 @@ MonoBehaviour:
   character: Ifa
   dialogue: I need <b>ruby powder</b> and my <b>blood</b> to make the <b>lipstick</b>,
     right?
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: fcf518e12d5fe6449a1096ed558cb9c0, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

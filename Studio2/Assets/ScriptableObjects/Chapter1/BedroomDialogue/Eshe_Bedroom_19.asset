@@ -16,7 +16,8 @@ MonoBehaviour:
   character: Duchess
   dialogue: "Fine. I\u2019ll see myself out. Don\u2019t forget what we talked about,
     Lady Eshe."
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -603414620747622545, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 3d18672095a83ed45851d337adcb5861, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

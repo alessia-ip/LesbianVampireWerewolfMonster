@@ -15,7 +15,8 @@ MonoBehaviour:
   itemName: Millennium Rose
   dialogue: <i> Those thorns really hurt </i>
   itemSprite: {fileID: 21300000, guid: 3bef8d576c7d53b499197181df3208e7, type: 3}
-  mcSprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
+  mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 0}
   isEnd: 1
   nextConvo: {fileID: 11400000}

@@ -96,6 +96,11 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         {
             playerCloseEnough = true;
         }
+
+        //if (this.gameObject.name.Contains("DUO"))
+        //{
+         //   playerCloseEnough = true;
+        //}
         
         if (isTalking && playerCloseEnough)
         {
@@ -181,6 +186,7 @@ public class CharacterDialogueSOHandler : MonoBehaviour
             Debug.Log("No event");
             //otherwise we continue with the regular dialogue
             CurrentBlock = CurrentBlock.nextLine;
+            GiveItem();
         }
 
         //if you click, and you're already on the very last block of this particular dialogue section
@@ -217,6 +223,14 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         
     }
 
+    void GiveItem()
+    {
+        if (CurrentBlock.givenObject != null)
+        {
+            InventoryManager.instance.inventory.Container.Add(CurrentBlock.givenObject);
+            DisplayInventory.instance.UpdateDisplay();
+        }
+    }
     void ItemReplace()
     {
         InventoryManager.instance.inventory.Container.Remove(InventoryManager.instance.heldItem.heldItem);

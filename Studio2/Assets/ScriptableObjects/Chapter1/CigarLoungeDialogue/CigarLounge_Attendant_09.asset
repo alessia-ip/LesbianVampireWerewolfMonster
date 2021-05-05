@@ -16,7 +16,8 @@ MonoBehaviour:
   character: Attendant
   dialogue: "I\u2019m sure the guards are trying their best to make you feel right
     at home."
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -2230209616020430755, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: fd75747449bede94cae6dbf3073e721e, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

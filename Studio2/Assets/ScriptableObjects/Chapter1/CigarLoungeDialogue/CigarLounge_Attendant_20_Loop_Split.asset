@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Attendant
   dialogue: Yes?
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -2230209616020430755, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: e000db9dd77bb37429789db54cd60108, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
@@ -26,4 +27,4 @@ MonoBehaviour:
   eventItem: {fileID: 0}
   altDialogue: 
   alternativeBlock: {fileID: 0}
-  givenObject: {fileID: 0}
+  givenObject: {fileID: 11400000, guid: 6ef2d67808fee284ebb25a89388464dd, type: 2}

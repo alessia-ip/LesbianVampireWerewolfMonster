@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: Did you give me a cursed <b>ruby</b> by any chance?
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 99b3cc8aa2b812a419396b659fedc91a, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

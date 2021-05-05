@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Lamp
   dialogue: "<i>If I could, I\u2019d tie this thing to my back and take it with me.</i>"
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
+  itemSprite: {fileID: -7836547378537610585, guid: 4056fdee99794d2498b3aacf45d6acc0,
+    type: 3}
+  mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 33e2e2a9427f58b4fb676fa61183b3ed, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Romance Book
   dialogue: ...
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
+  itemSprite: {fileID: 21300000, guid: 13f674cea7b905e47b0290c537f4b4f3, type: 3}
+  mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: cdf20af069c4beb4b8e5b3edbaf7a0ed, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

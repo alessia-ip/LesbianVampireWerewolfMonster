@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: I don't know any <b>passphrases</b>.
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: edf41e562b29ead4995094c6de4a8aaa, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

@@ -15,8 +15,9 @@ MonoBehaviour:
   itemName: Mortar & Pestle
   dialogue: To make the <b>lipstick</b>, you must <b>combine</b> the <b>ruby powder</b>
     with your <b>blood</b>.
-  itemSprite: {fileID: 21300000, guid: fd6a93c7d841222429494ea5d36c6efc, type: 3}
-  mcSprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
+  itemSprite: {fileID: 21300000, guid: 8dc40c46bb38ee84592d4e9f9d15e3d5, type: 3}
+  mcSprite: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 0}
   isEnd: 1
   nextConvo: {fileID: 11400000, guid: 563d28e4611b3b84f8c7fe98367ba5f2, type: 2}

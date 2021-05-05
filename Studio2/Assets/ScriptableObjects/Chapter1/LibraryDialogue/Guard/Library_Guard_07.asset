@@ -16,7 +16,8 @@ MonoBehaviour:
   character: Ifa
   dialogue: "<i>Now that I think about it, aren\u2019t you some bigwig Captain? Why
     don\u2019t you know the <b>passphrase<b>?</i>"
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 496251970406c8c48a86c1649706861d, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

@@ -17,7 +17,7 @@ MonoBehaviour:
   dialogue: "...I\u2019m not getting back to my own body any time soon, am I?"
   characterPortrait: {fileID: -4713435305899008172, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
-  nextLine: {fileID: 11400000, guid: dac1629d431432348b6204a0c15d1a16, type: 2}
+  nextLine: {fileID: 11400000, guid: 538f98c69b3ae5c4c9b28cf3bf47131e, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0

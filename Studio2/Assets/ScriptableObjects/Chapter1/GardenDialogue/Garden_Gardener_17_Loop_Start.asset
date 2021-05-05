@@ -18,7 +18,7 @@ MonoBehaviour:
     in the <b>Cigar Lounge</b>.
   characterPortrait: {fileID: 4648334792664119862, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: 82b0c9d9a07de554c92db4d2d866714c, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0

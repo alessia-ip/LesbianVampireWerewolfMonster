@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Lamp
   dialogue: <i>This is it; this is the greatest lamp of all time.</i>
-  itemSprite: {fileID: 0}
-  mcSprite: {fileID: 0}
+  itemSprite: {fileID: -7836547378537610585, guid: 4056fdee99794d2498b3aacf45d6acc0,
+    type: 3}
+  mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: cd25e56ba7e04074e831b776ad71d0a1, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

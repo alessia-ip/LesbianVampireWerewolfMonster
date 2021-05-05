@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: <i>What can I say? I don't mind playing cupid from time to time.</i>
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: aa395454d98fae84fa872f51c643a9d0, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

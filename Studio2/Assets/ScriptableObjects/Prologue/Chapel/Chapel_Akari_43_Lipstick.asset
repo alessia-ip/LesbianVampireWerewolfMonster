@@ -15,7 +15,7 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: Oh, captain, my captain.
-  characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 5820e796f8c495142a6c7724d1172287, type: 2}
   isEnd: 0

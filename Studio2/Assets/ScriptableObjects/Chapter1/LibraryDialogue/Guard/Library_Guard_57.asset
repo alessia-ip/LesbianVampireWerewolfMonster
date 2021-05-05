@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Akari
   dialogue: The path is clear. Why do you insist upon dilly-dallying?!
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -4713435305899008172, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: 8240cb2a9bfe6cc49989be98f913d41e, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}

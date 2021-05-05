@@ -15,7 +15,8 @@ MonoBehaviour:
   header: 
   character: Ifa
   dialogue: "<i>But maybe \u201C<b>Ashe</b>\u201D might know a thing or two.</i>"
-  characterPortrait: {fileID: 0}
+  characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+    type: 3}
   nextLine: {fileID: 11400000, guid: f9b76e91a4d9ea84eb1aee7969f21950, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
