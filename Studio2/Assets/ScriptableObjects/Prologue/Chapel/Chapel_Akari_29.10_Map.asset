@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: I look forward to...er...returning.
+  dialogue: <i> I hope I look good in lipstick... </i>
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
-  nextLine: {fileID: 11400000, guid: 08bf35d9e212e2c4ca4fd745dd0a1316, type: 2}
-  isEnd: 0
-  nextConvo: {fileID: 0}
+  nextLine: {fileID: 0}
+  isEnd: 1
+  nextConvo: {fileID: 11400000, guid: 7d6941d3fd7259742b1c76df886b5c44, type: 2}
   hasReply: 0
   replies: []
   replyAnswers: []

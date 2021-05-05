@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: Is that...safe?
+  dialogue: Oh, God. Her fingers are so soft...
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 58849d33e4614054ca5f1e5d739113d9, type: 2}

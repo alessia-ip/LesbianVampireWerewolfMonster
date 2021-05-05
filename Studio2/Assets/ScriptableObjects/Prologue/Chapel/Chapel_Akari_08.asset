@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: <i> I haven't a clue what this woman's on about. </i>
+  dialogue: <i> I have no idea what's going on. </i>
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 8e78088279a7e0141a583240e0045290, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Captain Akari
-  dialogue: ...are you having second thoughts? Perhaps I can speak with-
+  dialogue: Once I've applied it to your lips, the ritual will be complete.
   characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 412afc7632745514893a779e436d6613, type: 2}

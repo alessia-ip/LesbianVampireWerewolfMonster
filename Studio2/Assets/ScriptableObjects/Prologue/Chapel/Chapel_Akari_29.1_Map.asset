@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: <i>I get to kiss her?! Well, shit, this day just got a whole lot better.</i>
+  dialogue: <i>But I'd prefer having an intimate connection with you...</i>
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: bc926d0bdf3762a4a8f8e5c1e75bcddc, type: 2}

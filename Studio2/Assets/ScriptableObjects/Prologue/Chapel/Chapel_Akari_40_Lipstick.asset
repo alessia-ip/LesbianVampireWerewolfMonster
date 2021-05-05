@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Captain Akari
-  dialogue: ...wait a moment.
+  dialogue: ...that was quite forward of you.
   characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 87f6f88909f98514ab9da15ff466e271, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: "<i>...I wouldn\u2019t go that far; just a simple case of wrong-place-wrong-time.</i>"
+  dialogue: <i>But, the kiss was genuine. I promise.</i>
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: e9a42ca0223b0f5408c302152e8d5dd7, type: 2}

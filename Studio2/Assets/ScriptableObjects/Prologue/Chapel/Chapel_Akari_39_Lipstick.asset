@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: ...so...uh...are you gonna lean in or am I?
+  dialogue: <i> What am I doing?! I came here for gold, not romance! </i>
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 25dddfed39c822649a8e162bf49eca61, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Captain Akari
-  dialogue: You're being quite forward, rookie. Don't forget that I am your captain.
+  dialogue: You may.
   characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 28bd05bc0d88f2d4db327c129bf86f60, type: 2}

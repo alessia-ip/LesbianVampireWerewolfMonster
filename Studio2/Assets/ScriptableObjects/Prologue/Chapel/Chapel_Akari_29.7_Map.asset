@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: <i>I can make time for a little detour.</i>
+  dialogue: <i>Good god she's pretty and all, but I need to get to the Library as
+    soon as possible..</i>
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 30c8dec5bbd438d4292b43057e66e0a0, type: 2}
