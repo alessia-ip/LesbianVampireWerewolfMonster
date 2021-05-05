@@ -91,6 +91,11 @@ public class CharacterDialogueSOHandler : MonoBehaviour
     private void Update()
     {
         PlayerDistance();
+
+        if (this.gameObject.name == "characterSprite_THICC")
+        {
+            playerCloseEnough = true;
+        }
         
         if (isTalking && playerCloseEnough)
         {
@@ -217,8 +222,11 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         InventoryManager.instance.inventory.Container.Remove(InventoryManager.instance.heldItem.heldItem);
         DisplayInventory.instance.UpdateDisplay();
         InventoryManager.instance.ResetHeldItemImages();
-        InventoryManager.instance.inventory.Container.Add(CurrentBlock.givenObject);
-        DisplayInventory.instance.UpdateDisplay();
+        if (CurrentBlock.givenObject != null)
+        {
+            InventoryManager.instance.inventory.Container.Add(CurrentBlock.givenObject);
+            DisplayInventory.instance.UpdateDisplay();
+        }
     }
 
     //when the dialogue is over for that particular conversation

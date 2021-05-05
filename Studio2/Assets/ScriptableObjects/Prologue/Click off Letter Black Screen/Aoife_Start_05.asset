@@ -16,7 +16,7 @@ MonoBehaviour:
   character: Ifa
   dialogue: ...
   characterPortrait: {fileID: 0}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: 5280af48febb5494d9b15a4dccf72d4e, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0

@@ -1,3 +1,5 @@
 RubyMP
-RoseVile
-RubyPowderBloodVile
+RoseVial
+RubyPowderBloodVial
+CigarFireplace
+LitCigarBlankPaper

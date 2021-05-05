@@ -31,6 +31,10 @@
             <e p="VegetationPBRBase.shader" t="Include" />
           </e>
         </e>
+        <e p="Materials" t="Include">
+          <e p="MirrorReflection.cs" t="Include" />
+          <e p="MirrorShader.shader" t="Include" />
+        </e>
         <e p="Mega Fantasy Props Pack" t="Include">
           <e p="Logs" t="Include">
             <e p="Mega Fantasy Props Pack" t="Include">

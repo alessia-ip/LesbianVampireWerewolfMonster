@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
+  m_Name: Library_BlankPaper_13_Startloopcheck
+  m_EditorClassIdentifier: 
+  itemName: Blank Paper
+  dialogue: <i> Still not entirely sure what I could possible do with <b>blank paper</b>.
+    Unless...</i>
+  itemSprite: {fileID: 0}
+  mcSprite: {fileID: 0}
+  nextLine: {fileID: 0}
+  isEnd: 0
+  nextConvo: {fileID: 0}
+  hasPickup: 0
+  nextLineWrong: {fileID: 11400000, guid: 7792c76fc6097254a8f054b5fe27f7bb, type: 2}
+  hasCombine: 1

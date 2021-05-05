@@ -41,7 +41,11 @@ public class ItemDialogueSOHandler : MonoBehaviour
     {
         //mainCam = Camera.main;
         inGameSprite = gameObject.GetComponent<SpriteRenderer>();
-        inGameSprite.sprite = item.itemSprite;
+        if (item.itemSprite != null)
+        {
+            inGameSprite.sprite = item.itemSprite;
+        }
+
         currentBlock = startBlock;
         
         canClickNext = true;
@@ -69,8 +73,6 @@ public class ItemDialogueSOHandler : MonoBehaviour
                         if (newObj.name == this.gameObject.name)
                         {
                             isTalking = true;
-                            InventoryManager.instance.mcSpriteSpot.GetComponent<Image>().sprite = currentBlock.mcSprite;
-                            InventoryManager.instance.itemSpriteSpot.GetComponent<Image>().sprite = currentBlock.itemSprite;
                             InventoryManager.instance.playerMovement.GetComponent<testing>().enabled = false;
                             InventoryManager.instance.itemDialogueCanvas.SetActive(true);
                             DialogueUpdate();
@@ -96,6 +98,16 @@ public class ItemDialogueSOHandler : MonoBehaviour
 
     public void DialogueUpdate()
     {
+        InventoryManager.instance.mcSpriteSpot.GetComponent<Image>().sprite = currentBlock.mcSprite;
+        if (currentBlock.itemSprite != null)
+        {
+            InventoryManager.instance.itemSpriteSpot.GetComponent<Image>().sprite = currentBlock.itemSprite;
+        }
+        else
+        {
+            InventoryManager.instance.itemSpriteSpot.GetComponent<Image>().sprite = null; //TODO make sure this is invisible
+        }
+
         InventoryManager.instance.dialogueText.text = currentBlock.dialogue;
         InventoryManager.instance.nameText.text = currentBlock.itemName;
 

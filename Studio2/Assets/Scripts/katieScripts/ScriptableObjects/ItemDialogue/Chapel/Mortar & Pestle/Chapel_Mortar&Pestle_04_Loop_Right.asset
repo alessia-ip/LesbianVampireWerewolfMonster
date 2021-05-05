@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Chapel_Mortar&Pestle_04_Loop_Right
   m_EditorClassIdentifier: 
   itemName: Mortar & Pestle
-  dialogue: <I> Wow, that was easier than I thought it would be </i>
+  dialogue: <i>The time has finally come to crush the thing, then kiss the fine lady.
+    </i>
   itemSprite: {fileID: 21300000, guid: fd6a93c7d841222429494ea5d36c6efc, type: 3}
   mcSprite: {fileID: 21300000, guid: 164d20cc91159f9408f780025baf26b3, type: 3}
-  nextLine: {fileID: 0}
-  isEnd: 1
-  nextConvo: {fileID: 11400000, guid: 563d28e4611b3b84f8c7fe98367ba5f2, type: 2}
+  nextLine: {fileID: 11400000, guid: 6b3f8bd5d4446c244899ce6440638981, type: 2}
+  isEnd: 0
+  nextConvo: {fileID: 0}
   hasPickup: 0
   nextLineWrong: {fileID: 0}
   hasCombine: 0

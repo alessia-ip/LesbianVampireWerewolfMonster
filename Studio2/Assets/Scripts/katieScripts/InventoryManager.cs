@@ -30,6 +30,11 @@ public class InventoryManager : MonoBehaviour
     [HideInInspector]
     public GameObject currentItemGameObj;
     
+    //[HideInInspector]
+    public List<string> correctComboList;
+    [HideInInspector]
+    public GameObject currentItemDialogue;
+    
     [Header("Repeat Info used for Items")]
     public GameObject itemDialogueCanvas;
     public GameObject mcSpriteSpot;
@@ -44,14 +49,8 @@ public class InventoryManager : MonoBehaviour
     //file stuff
     /*private const string DIR = "/Resources";
     private const string FILE_COMBOS = DIR + "/CorrectCombosFile.txt";
-    private string FILE_PATH_COMBOS;*/
-    private TextAsset FILE_COMBOS;
-    
-    
-    [HideInInspector]
-    public List<string> correctComboList;
-    [HideInInspector]
-    public GameObject currentItemDialogue;
+    private string FILE_PATH_COMBOS;
+    private TextAsset FILE_COMBOS;*/
     
     private void Awake()
     {
@@ -62,30 +61,37 @@ public class InventoryManager : MonoBehaviour
     private void Start()
     {
         //FILE_PATH_COMBOS = Application.dataPath + FILE_COMBOS;
-        FILE_COMBOS = Resources.Load<TextAsset>("CorrectCombosFile") as TextAsset;
-        SplitComboFile();
+        //FILE_COMBOS = Resources.Load<TextAsset>("CorrectCombosFile") as TextAsset;
+        SetCorrectComboList();
         inventoryCanvas.SetActive(false);
         playerMovement.SetActive(true);
     }
 
-    public void SplitComboFile()
+    public void SetCorrectComboList()
     {
-        string[] fileData = FILE_COMBOS.text.Split('\n');
+        //string[] fileData = FILE_COMBOS.text.Split('\n');
         
-        Debug.Log(fileData[1]);
-        Debug.Log(fileData[0]);
-        Debug.Log(fileData[2]);
+        //Debug.Log(fileData[1]);
+        //Debug.Log(fileData[0]);
+        //Debug.Log(fileData[2]);
         //string[] fileData = File.ReadAllLines(FILE_PATH_COMBOS);
-        for (int i = 0; i < fileData.Length; i++)
+        // for (int i = 0; i < fileData.Length; i++)
+        // {
+        //     Debug.Log("Item " + i);
+        //     correctComboList.Add(fileData[i].ToUpper());
+        // }
+
+        // correctComboList[0] = "RubyMP".ToUpper();
+        // correctComboList[1] = "RoseVial".ToUpper();
+        // correctComboList[2] = "RubyPowderBloodVial".ToUpper();
+        // correctComboList[3] = "CigarFireplace".ToUpper();
+        // correctComboList[4] = "LitCigarBlankPaper".ToUpper();
+
+        for (int i = 0; i < createdObjects.Count; i++)
         {
-            Debug.Log("Item " + i);
-            correctComboList.Add(fileData[i].ToUpper());
+            correctComboList.Add(createdObjects[i].comboParents.ToUpper());
         }
 
-        correctComboList[0] = "RubyMP".ToUpper();
-        correctComboList[1] = "RoseVile".ToUpper();
-        correctComboList[2] = "RubyPowderBloodVile".ToUpper();
-        
     }
 
     private void OnApplicationQuit()
@@ -118,8 +124,8 @@ public class InventoryManager : MonoBehaviour
     {
         if (heldItem.heldItem != null)
         {
-            string held = heldItem.heldItem.nameOfItem.ToUpper();
-            string combine = currentItem.nameOfItem.ToUpper();
+            string held = heldItem.heldItem.nameOfItemNoSpaces.ToUpper();
+            string combine = currentItem.nameOfItemNoSpaces.ToUpper();
             string heldPlusCombine = held + combine;
             string combinePlusHeld = combine + held;
             Debug.Log(heldPlusCombine);
