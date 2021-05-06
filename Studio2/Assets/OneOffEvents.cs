@@ -132,6 +132,7 @@ public class OneOffEvents : MonoBehaviour
         {
             akariCharacterInGame.GetComponent<SpriteRenderer>().enabled = false;
             akariCharacterInGame.GetComponent<Collider2D>().enabled = false;
+            akariCharacterInGame.GetComponent<BoxCollider2D>().enabled = false;
 
             mxPaws.GetComponent<CharacterDialogueSOHandler>().startBlock = mxPawsNewStart;
             gardener.GetComponent<CharacterDialogueSOHandler>().startBlock = gardenerNewStart;
