@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: "<i>Now that I think about it, aren\u2019t you some bigwig Captain? Why
+  dialogue: "<i>Now that I think about it, aren\u2019t you some bigwig captain? Why
     don\u2019t you know the <b>passphrase<b>?</i>"
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Akari
-  dialogue: "Listen, you fool. This is Lady Eshe\u2019s living quarters. We shouldn\u2019t
+  dialogue: "Listen, you fool, this is Lady Eshe\u2019s living quarters. We shouldn\u2019t
     be here. "
   characterPortrait: {fileID: -4713435305899008172, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}

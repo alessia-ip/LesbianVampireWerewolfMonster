@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Library_BlankPaper_24_End
   m_EditorClassIdentifier: 
   itemName: Blank Paper
-  dialogue: <i>I wish I was, Akari. I wish I was</i>
+  dialogue: <i>I wish I was, Akari. I wish I was.</i>
   itemSprite: {fileID: 21300000, guid: 2df90061950cc114da0f859c518fbc80, type: 3}
   mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}

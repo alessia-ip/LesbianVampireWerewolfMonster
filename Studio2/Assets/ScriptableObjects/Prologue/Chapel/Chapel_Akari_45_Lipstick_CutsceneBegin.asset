@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: ...so... are you gonna lean in, or should I?
+  dialogue: ...so...are you gonna lean in, or should I?
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: da979eae669b0fe4194e4812047d210a, type: 2}

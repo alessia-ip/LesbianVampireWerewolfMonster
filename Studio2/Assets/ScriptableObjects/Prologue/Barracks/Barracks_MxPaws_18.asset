@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Mx. Paws
-  dialogue: <b>Catnip.</b> Fetch me <b>Catnip</b>.
+  dialogue: <b>Catnip.</b> Fetch me <b>catnip</b>.
   characterPortrait: {fileID: -1440913230627174138, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 72a0032bc2826074aa3fb3a42cda3396, type: 2}

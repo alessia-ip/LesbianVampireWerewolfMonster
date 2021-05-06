@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Librarian
-  dialogue: "\u201C<b>Ashe?</b>\u201D Do I know someone named  \u201C<b>Ashe</b>?\u201D"
+  dialogue: "\u201C<b>Ashe?</b>\u201D Do I know someone named \u201C<b>Ashe</b>?\u201D"
   characterPortrait: {fileID: -616541869618017182, guid: fe62fd62a773d8844ada0cf757c77ca4,
     type: 3}
   nextLine: {fileID: 11400000, guid: 8bdb15abf847e5044b7a47795790c23b, type: 2}

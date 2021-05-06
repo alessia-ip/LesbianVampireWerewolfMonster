@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Captain Akari
-  dialogue: Your gift is on the altar, rookie. I had a <b> map </b> specially made
+  dialogue: Your gift is on the altar, rookie. I had a <b>map</b> specially made
     for you.
   characterPortrait: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}

@@ -17,7 +17,7 @@ MonoBehaviour:
     of enemies."
   itemSprite: {fileID: 4341257704938647759, guid: e40301f25009afa44a2712fa63b8f6f1,
     type: 3}
-  mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
+  mcSprite: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 13553c81cf55ce94ebe159f8c976f6c7, type: 2}
   isEnd: 0

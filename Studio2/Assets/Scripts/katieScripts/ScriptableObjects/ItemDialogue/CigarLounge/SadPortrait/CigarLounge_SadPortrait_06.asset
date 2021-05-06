@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
   m_Name: CigarLounge_SadPortrait_06
   m_EditorClassIdentifier: 
-  itemName: Sad Portrait
+  itemName: Portrait
   dialogue: "...perhaps, this woman finds comfort in smiling for someone else\u2019s
     sake. "
   itemSprite: {fileID: 21300000, guid: c77e0655e7a9c2e4eb58a8aa2c86327f, type: 2}

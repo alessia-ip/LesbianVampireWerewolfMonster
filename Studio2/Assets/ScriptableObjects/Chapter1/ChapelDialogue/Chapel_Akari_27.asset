@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: "<i>To be honest, I\u2019m not, but If you\u2019ve got a better plan,
+  dialogue: "<i>To be honest, I\u2019m not, but isf you\u2019ve got a better plan,
     I\u2019m all ears.</i>"
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}

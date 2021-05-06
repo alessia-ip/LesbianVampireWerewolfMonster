@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Akari
-  dialogue: Plan? Wisp? Library? Rookie, what in Duchess Oberforth's name is going
-    on?!
+  dialogue: Plan? Wisp? <b>Library</b>? Rookie, what in Duchess Oberforth's name
+    is going on?!
   characterPortrait: {fileID: -4713435305899008172, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 1e543eb4bd4ef5f43831e30ef6f0f5d7, type: 2}

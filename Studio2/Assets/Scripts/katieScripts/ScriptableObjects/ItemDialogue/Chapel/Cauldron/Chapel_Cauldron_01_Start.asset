@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chapel_Cauldron_01_Start
   m_EditorClassIdentifier: 
   itemName: Cauldron
-  dialogue: <i> I haven't seen a witch's cauldron since I was little </i>
+  dialogue: <i> I haven't seen a witch's cauldron since I was little. </i>
   itemSprite: {fileID: 21300000, guid: 50a26802ed972674294ce3e4a079163a, type: 3}
   mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}

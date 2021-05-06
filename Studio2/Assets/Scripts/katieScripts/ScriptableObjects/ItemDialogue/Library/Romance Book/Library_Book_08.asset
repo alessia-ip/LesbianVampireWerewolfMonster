@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
   m_Name: Library_Book_08
   m_EditorClassIdentifier: 
-  itemName: Romance Book
+  itemName: Sapphic Summer
   dialogue: "All of the Duchess\u2019 subjects are strictly forbidden from reading
     her favorite books."
   itemSprite: {fileID: 21300000, guid: 13f674cea7b905e47b0290c537f4b4f3, type: 3}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: Oh, you know, just... official guard business.
+  dialogue: Oh, you know, just...official guard business.
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 6f6aa024a9451b947b73e70049f34008, type: 2}

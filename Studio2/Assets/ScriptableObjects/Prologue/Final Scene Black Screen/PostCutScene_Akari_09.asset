@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: Wait. You can hear my thoughts? You're in my head?!
+  dialogue: <i>Wait. You can hear my thoughts? You're in my head?!</i>
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 9e11147d3cd16074eb76f505f81edc1d, type: 2}

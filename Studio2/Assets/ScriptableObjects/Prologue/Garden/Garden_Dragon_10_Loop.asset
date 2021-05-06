@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Gardener
-  dialogue: these <b>Catnip</b> weeds are relentless...I won't have time to eat lunch
+  dialogue: These <b>catnip</b> weeds are relentless...I won't have time to eat lunch
     with her today.
   characterPortrait: {fileID: 4648334792664119862, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}

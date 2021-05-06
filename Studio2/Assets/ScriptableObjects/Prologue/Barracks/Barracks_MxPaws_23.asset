@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: ... I suppose I'd better go find that <b>catnip</b>.
+  dialogue: ...I suppose I'd better go find that <b>catnip</b>.
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: a02315aebc349524aaf04cae736a44e0, type: 2}

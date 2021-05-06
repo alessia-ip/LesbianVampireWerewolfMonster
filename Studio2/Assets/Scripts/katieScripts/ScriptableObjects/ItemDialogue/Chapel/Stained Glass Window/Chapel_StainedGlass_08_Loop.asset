@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Chapel_StainedGlass_08_Loop
   m_EditorClassIdentifier: 
   itemName: Window
-  dialogue: <i>I should really look into what the tower "actually" means when I have
-    more time.</i>
+  dialogue: <i>I should really look into what the tower means when I have more time.</i>
   itemSprite: {fileID: 0}
   mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}

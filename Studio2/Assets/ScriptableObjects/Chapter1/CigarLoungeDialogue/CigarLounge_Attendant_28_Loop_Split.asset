@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Attendant
-  dialogue: Thank you for relaying the gift and the message, guard! Farewell!
+  dialogue: Thank you for relaying the gift and the message, guard! Here, have this
+    <b>cigar</b>!
   characterPortrait: {fileID: -2230209616020430755, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 5cead2bf7af99e9479699dcbc18b6519, type: 2}

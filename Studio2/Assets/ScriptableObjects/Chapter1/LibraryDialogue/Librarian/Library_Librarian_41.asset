@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Librarian
-  dialogue: "To get to \u201C<b>Ashe</b>'s\u201D bedroom, you\u2019ll need a <b>passphrase</b>."
+  dialogue: "To get to \u201C<b>Ashe</b>\u201D, you\u2019ll need a <b>passphrase</b>."
   characterPortrait: {fileID: -616541869618017182, guid: fe62fd62a773d8844ada0cf757c77ca4,
     type: 3}
   nextLine: {fileID: 11400000, guid: 882052efe55359b44b46810712c36fe5, type: 2}

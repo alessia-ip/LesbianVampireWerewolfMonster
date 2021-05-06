@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Chapel_Painting_03
   m_EditorClassIdentifier: 
   itemName: Painting
-  dialogue: <i> A sophisticated woman who likes abstract art... that's very sexy.
+  dialogue: <i> A sophisticated woman who likes abstract art...that's very sexy.
     </i>
   itemSprite: {fileID: 0}
   mcSprite: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,

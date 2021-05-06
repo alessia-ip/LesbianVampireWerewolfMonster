@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: ifa
-  dialogue: <i> Okay. Stay calm. Stay calm, and get back to the original plan. Just...ignore
+  dialogue: <i>Okay. Stay calm. Stay calm, and get back to the original plan. Just...ignore
     the floating wisp, and sprint to the <b>Library</b>. Easy.</i>
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}

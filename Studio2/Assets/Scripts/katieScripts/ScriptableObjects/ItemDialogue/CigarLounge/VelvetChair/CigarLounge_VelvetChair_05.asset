@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CigarLounge_VelvetChair_05
   m_EditorClassIdentifier: 
   itemName: Velvet Chair
-  dialogue: <i>I highly doubt it. Otherwise, they're really going out of thier way
+  dialogue: <i>I highly doubt it. Otherwise, they're really going out of their way
     to fool me.</i>
   itemSprite: {fileID: 4341257704938647759, guid: e40301f25009afa44a2712fa63b8f6f1,
     type: 3}

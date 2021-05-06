@@ -15,7 +15,7 @@ MonoBehaviour:
   header: 
   character: Librarian
   dialogue: "I don\u2019t know, but I do have a riddle that\u2019ll tell you how
-    to find the passphrase."
+    to find the <b>passphrase</b>."
   characterPortrait: {fileID: -616541869618017182, guid: fe62fd62a773d8844ada0cf757c77ca4,
     type: 3}
   nextLine: {fileID: 11400000, guid: 92d3f3786443b054d87542c58710ef5e, type: 2}

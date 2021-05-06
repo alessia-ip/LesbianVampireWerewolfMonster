@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd779c84506f3a543b80667d7a5e5f9e, type: 3}
   m_Name: CigarLounge_SadPortrait_04
   m_EditorClassIdentifier: 
-  itemName: Sad Portrait
+  itemName: Portrait
   dialogue: "That\u2019s Captain Akari to you! "
   itemSprite: {fileID: 21300000, guid: c77e0655e7a9c2e4eb58a8aa2c86327f, type: 2}
   mcSprite: {fileID: -4713435305899008172, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,

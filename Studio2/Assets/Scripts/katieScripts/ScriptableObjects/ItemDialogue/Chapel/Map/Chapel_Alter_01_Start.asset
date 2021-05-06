@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Chapel_Alter_01_Start
   m_EditorClassIdentifier: 
   itemName: Map
-  dialogue: After the ritual, you'll step into the Duchess' palace for the first
-    time. Take this map; the manor can be quite overwhelming for newcomers.
+  dialogue: After the ritual, you'll step into the Duchess' Manor for the first time.
+    Take this <b>map</b>; the Manor can be quite overwhelming for newcomers.
   itemSprite: {fileID: 21300000, guid: 01a35e46699b45f41a36750dabf0bb44, type: 3}
   mcSprite: {fileID: -1916687426862544670, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}

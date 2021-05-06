@@ -15,7 +15,7 @@ MonoBehaviour:
   header: 
   character: Librarian
   dialogue: "Precisely. The Duchess was in here reading \u201C<b>Sapphic Summer</b>\u201D
-    little more than an hour ago. "
+    a little less than an hour ago. "
   characterPortrait: {fileID: -616541869618017182, guid: fe62fd62a773d8844ada0cf757c77ca4,
     type: 3}
   nextLine: {fileID: 11400000, guid: 85e0dfa4851114f4785eae1befda1179, type: 2}
