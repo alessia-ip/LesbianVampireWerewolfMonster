@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Akari
-  dialogue: WHO?!
+  dialogue: WHOMST?!
   characterPortrait: {fileID: -4713435305899008172, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: d7d4bb6c286390d47a4004509fe6ff5b, type: 2}

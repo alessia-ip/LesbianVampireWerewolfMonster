@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Akari
-  dialogue: Rookie, did you prick yourself on the Millenium Rose to draw the <b>blood</b>?
+  dialogue: Rookie, did you prick yourself on the Millenium Rose to draw your <b>blood</b>?
   characterPortrait: {fileID: -4713435305899008172, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 488319debb533f74488add7de666ea2f, type: 2}

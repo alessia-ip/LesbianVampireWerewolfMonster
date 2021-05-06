@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Akari
-  dialogue: "This wasn\u2019t supposed to happen. I\u2019m a floating wisp, for goodness
-    sake!"
+  dialogue: How could this have happened? Was it the <b>lipstick</b>? No, that's
+    impossible. Unless...
   characterPortrait: {fileID: -4713435305899008172, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 5197a848391eb3c47910e431d158ee9e, type: 2}
