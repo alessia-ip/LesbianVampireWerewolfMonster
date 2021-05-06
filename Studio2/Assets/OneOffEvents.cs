@@ -65,6 +65,9 @@ public class OneOffEvents : MonoBehaviour
     public DialogueScriptableObject lastLine;
     public GameObject endOfCh1Text;
 
+
+    [Header("ANGER")] public DialogueScriptableObject TOTHELIB;
+    
     // Update is called once per frame
     void Update()
     {
@@ -180,14 +183,20 @@ public class OneOffEvents : MonoBehaviour
         if (dialogueCheck.text == endCH1.dialogue)
         {
             
-            mortar.GetComponent<ItemDialogueSOHandler>().enabled = true;
-            painting.GetComponent<ItemDialogueSOHandler>().enabled = true;
-            window.GetComponent<ItemDialogueSOHandler>().enabled = true;
-            cauldron.GetComponent<ItemDialogueSOHandler>().enabled = true;
+          
             
             thiccCharacter.GetComponent<SpriteRenderer>().enabled = false;
             thiccCharacter.GetComponent<Collider2D>().enabled = false;
             fadeToBlack.SetActive(false);
+        }
+
+
+        if (dialogueCheck.text == TOTHELIB.dialogue)
+        {
+            mortar.GetComponent<ItemDialogueSOHandler>().enabled = true;
+            painting.GetComponent<ItemDialogueSOHandler>().enabled = true;
+            window.GetComponent<ItemDialogueSOHandler>().enabled = true;
+            cauldron.GetComponent<ItemDialogueSOHandler>().enabled = true;
         }
         
         //check if the password is given
