@@ -60,6 +60,7 @@ public class OneOffEvents : MonoBehaviour
     public Button hubRoom;
 
     [Header("HubEnd")] 
+    public GameObject eshe;
     public GameObject duchess;
     public DialogueScriptableObject duchessExit;
     public DialogueScriptableObject lastLine;
@@ -229,6 +230,7 @@ public class OneOffEvents : MonoBehaviour
         fadeToBlack.SetActive(true);
         endOfCh1Text.SetActive(true);
         mainMenu.SetActive(false);
+        eshe.GetComponent<Collider2D>().enabled = false;
     }
     
 }

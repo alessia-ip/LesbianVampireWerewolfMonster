@@ -14923,6 +14923,7 @@ MonoBehaviour:
   endCH1: {fileID: 11400000, guid: d9dd351129cb16c448c7097bf6b46de5, type: 2}
   passwordDialogue: {fileID: 11400000, guid: 1e9452a6c436e17428284233d49c7a40, type: 2}
   hubRoom: {fileID: 15032645}
+  eshe: {fileID: 1723308809}
   duchess: {fileID: 2119784793}
   duchessExit: {fileID: 11400000, guid: e99d0f0a439b9124ba696756dbbd0981, type: 2}
   lastLine: {fileID: 11400000, guid: 538f98c69b3ae5c4c9b28cf3bf47131e, type: 2}
