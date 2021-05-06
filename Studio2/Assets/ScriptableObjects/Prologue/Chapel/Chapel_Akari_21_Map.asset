@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: <i>I mean, I don't think I need a map to know that this is a chapel.</i>
+  dialogue: <i>I mean, I don't think I need a <b>map</b> to know that this is a chapel.</i>
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: 838ff85c25540d14dabca22591c7cfed, type: 2}
