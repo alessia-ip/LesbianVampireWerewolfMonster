@@ -149,7 +149,22 @@ public class CharacterDialogueSOHandler : MonoBehaviour
             {
                 //Debug.Log("testing when this triggers");
                 DialogueUpdate();
+
             }
+
+            
+            
+            if (isTalking && !playerCloseEnough)
+            {
+                int layerMask = 1 << 9;
+                RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero, Mathf.Infinity, layerMask);
+
+                if (hit.collider == null)
+                {
+                    isTalking = false;
+                }
+            }
+            
         }
     }
 
@@ -249,7 +264,8 @@ public class CharacterDialogueSOHandler : MonoBehaviour
         isTalking = false;
         dialogueCanvas.SetActive((false));
         CurrentBlock = CurrentBlock.nextConvo;  
-
+        Debug.Log("hewwo uwu");
+        playerMove.GetComponent<testing>().path.Clear();
     }
     
     //this handles all sprites based on the sprite in the scriptable object
