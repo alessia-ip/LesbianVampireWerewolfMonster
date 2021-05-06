@@ -16,6 +16,10 @@ public class OutlineHover : MonoBehaviour
    private void OnMouseOver()
    {
     outline.SetFloat("_Thickness", 2.5f);
+    if(this.name.Contains("guardSprite"))
+    {
+        outline.SetFloat("_Thickness", 20f );
+    }
        
    }
 
