@@ -137,6 +137,13 @@ public class OneOffEvents : MonoBehaviour
             thiccCharacter.GetComponent<CharacterDialogueSOHandler>().startBlock = ThiccNewStart;
             thiccCharacter.GetComponent<CharacterDialogueSOHandler>().currentBlock = ThiccNewStart;
             
+            
+            mortar.GetComponent<ItemDialogueSOHandler>().enabled = false;
+            painting.GetComponent<ItemDialogueSOHandler>().enabled = false;
+            window.GetComponent<ItemDialogueSOHandler>().enabled = false;
+            cauldron.GetComponent<ItemDialogueSOHandler>().enabled = false;
+         
+            
             fadeToBlack.SetActive(true); //TODO ANIMATE THIS
             
             if (initGridReset2 == false)
@@ -172,6 +179,12 @@ public class OneOffEvents : MonoBehaviour
                 
         if (dialogueCheck.text == endCH1.dialogue)
         {
+            
+            mortar.GetComponent<ItemDialogueSOHandler>().enabled = true;
+            painting.GetComponent<ItemDialogueSOHandler>().enabled = true;
+            window.GetComponent<ItemDialogueSOHandler>().enabled = true;
+            cauldron.GetComponent<ItemDialogueSOHandler>().enabled = true;
+            
             thiccCharacter.GetComponent<SpriteRenderer>().enabled = false;
             thiccCharacter.GetComponent<Collider2D>().enabled = false;
             fadeToBlack.SetActive(false);
