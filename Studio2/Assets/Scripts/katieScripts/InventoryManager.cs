@@ -45,6 +45,7 @@ public class InventoryManager : MonoBehaviour
     public TextMeshProUGUI nameText;
     public GameObject player;
     public GameObject playerMovement;
+    public GameObject Akari;
     
     //file stuff
     /*private const string DIR = "/Resources";
@@ -103,12 +104,14 @@ public class InventoryManager : MonoBehaviour
     {
         inventoryCanvas.SetActive(true);
         playerMovement.SetActive(false);
+        Akari.GetComponent<Collider2D>().enabled = false;
     }
 
     public void CloseInventory()
     {
         inventoryCanvas.SetActive(false);
         playerMovement.SetActive(true);
+        Akari.GetComponent<Collider2D>().enabled = true;
     }
 
     public void PickUpButton()

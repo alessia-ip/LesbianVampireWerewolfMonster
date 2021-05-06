@@ -17,9 +17,9 @@ MonoBehaviour:
   dialogue: ' I hate everything about the things you choose to be.'
   characterPortrait: {fileID: -1440913230627174138, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: 1985d2c51e0b0ef43b0290eecfe2d94f, type: 2}
   isEnd: 0
-  nextConvo: {fileID: 11400000, guid: 1985d2c51e0b0ef43b0290eecfe2d94f, type: 2}
+  nextConvo: {fileID: 0}
   hasReply: 0
   replies: []
   replyAnswers: []

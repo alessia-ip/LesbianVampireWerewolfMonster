@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: 
   character: Ifa
-  dialogue: Yes. And out of line, I deeply-
+  dialogue: Yes, I was out of line, and I deeply-
   characterPortrait: {fileID: -7036688961560294079, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
   nextLine: {fileID: 11400000, guid: bf681af60571e9b49b1e20289d32bfed, type: 2}

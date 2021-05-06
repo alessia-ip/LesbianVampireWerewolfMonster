@@ -17,7 +17,7 @@ MonoBehaviour:
   dialogue: Indeed!
   characterPortrait: {fileID: -4713435305899008172, guid: 9baf70b4d9a025b4393aebd4b3d8cdec,
     type: 3}
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: 230bc63df47d75a4585b17a06762eadf, type: 2}
   isEnd: 0
   nextConvo: {fileID: 0}
   hasReply: 0
