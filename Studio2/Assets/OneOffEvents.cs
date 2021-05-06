@@ -131,8 +131,7 @@ public class OneOffEvents : MonoBehaviour
         if (dialogueCheck.text == akariRitualDialogue.dialogue)
         {
             akariCharacterInGame.GetComponent<SpriteRenderer>().enabled = false;
-            akariCharacterInGame.GetComponent<Collider2D>().enabled = false;
-            akariCharacterInGame.GetComponent<BoxCollider2D>().enabled = false;
+            Destroy(akariCharacterInGame.GetComponent<BoxCollider2D>());
 
             mxPaws.GetComponent<CharacterDialogueSOHandler>().startBlock = mxPawsNewStart;
             gardener.GetComponent<CharacterDialogueSOHandler>().startBlock = gardenerNewStart;
